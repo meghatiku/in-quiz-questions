@@ -1527,7 +1527,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/44467524?v=4",
       "profile": "http://www.abdulmajeedisa.com",
       "contributions": [
-        "code"
+        "code",
+        "design"
       ]
     },
     {
@@ -2173,7 +2174,8 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/29686102?v=4",
       "profile": "https://chandrikadeb7.github.io",
       "contributions": [
-        "design"
+        "design",
+        "code"
       ]
     },
     {
@@ -3401,6 +3403,93 @@
       "name": "Pieter Claerhout",
       "avatar_url": "https://avatars.githubusercontent.com/u/74731?v=4",
       "profile": "https://www.yellowduck.be",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "shivam48972",
+      "name": "Shivam Agnihotri",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53830298?v=4",
+      "profile": "https://shivam48972.github.io/portfolio/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "RanjithReddy-Narra",
+      "name": "RanjithReddy-Narra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76155807?v=4",
+      "profile": "https://github.com/RanjithReddy-Narra",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "NikkiW96",
+      "name": "Nikita Wadhwani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43293583?v=4",
+      "profile": "https://github.com/NikkiW96",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "rsholokh",
+      "name": "rsholokh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67190621?v=4",
+      "profile": "https://github.com/rsholokh",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "ayaanhossain",
+      "name": "Ayaan Hossain",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26147572?v=4",
+      "profile": "http://salislab.net",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "rajeshswarna123",
+      "name": "Rajesh Swarna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25494087?v=4",
+      "profile": "https://github.com/rajeshswarna123",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "denizetkar",
+      "name": "Deniz Etkar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25102252?v=4",
+      "profile": "https://github.com/denizetkar",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "pro335",
+      "name": "pro335",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78080037?v=4",
+      "profile": "https://github.com/pro335",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "radzikoska123",
+      "name": "Jakub Radzik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42437524?v=4",
+      "profile": "http://jakub-radzik.ovh",
       "contributions": [
         "code",
         "design"
