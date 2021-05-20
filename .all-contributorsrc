@@ -3494,6 +3494,33 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "iHamzaKhanzada",
+      "name": "Hamza Khanzada",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34980386?v=4",
+      "profile": "https://github.com/iHamzaKhanzada",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "arnonrdp",
+      "name": "ARNON",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26576201?v=4",
+      "profile": "https://github.com/arnonrdp",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "viksin19",
+      "name": "Vikram Singh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52523831?v=4",
+      "profile": "https://github.com/viksin19",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
