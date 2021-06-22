@@ -1086,7 +1086,35 @@ void std::mutex::lock(){
 - [ ] There are no destructors in C++.
 
 #### Q62. Which STL class is the best fit for implementing a phonebook? Suppose each entry contains a name and a phone number, with no duplicates, and you want to have lookup by name.
- - [] std::priority_queue
- - [x] std::map
- - [] std::vector
- - [] std::list
+
+- [] std::priority_queue
+- [x] std::map
+- [] std::vector
+- [] std::list
+
+#### Q63. What is the main difference between these two Functions?
+
+```cpp
+std::mutex::lock()
+std::mutex::try_lock()
+```
+
+- [ ] `lock()` has a higher privilege over `try_lock()`. This means that you have a better chance of acquiring a mutex `with lock()`.
+- [x] Both attempt to acquire a lock, but `lock()` blocks if the mutex is not available, whereas `try_lock()` returns whether the mutex is available or not.
+- [ ] `lock()` enforces preemption, whereas `try_lock()` suggests preemption.
+- [ ] If the mutex is not available, `try_lock()` returns with a corresponding code, whereas `lock()` snatches the mutex from the thread that currently has it.
+
+[Reference](https://en.cppreference.com/w/cpp/thread/mutex/try_lock)
+
+#### Q64. What is one benefit of declaring the parameter as a `const` reference instead of declaring it as a regular object?
+
+```cpp
+int median(const my_array& a)
+```
+
+- [ ] Actually, objects cannot be passed as regular variables, because they require a constructor call. Therefore, a `const` reference is the only way to pass class instances to functions.
+- [ ] There are no benefits because a reference and an object are treated as the same thing.
+- [x] The `const` qualifier Forbids the code to modify the argument, so the programmer can rest assured that the source object will remain unchanged.
+- [ ] The argument is passed as a reference, so the Function receives a copy that can be modified without affecting the original variable.
+
+Note: This one is similar to Q6, but focuses on the `const` keyword.

@@ -191,7 +191,7 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] as many classes as required
 - [ ] at least two classes
 
-#### Q26. if an object is passed by reference, the changes made in the function are reflected ____.
+#### Q26. if an object is passed by reference, the changes made in the function are reflected \_\_\_\_.
 
 - [x] to the main object of the caller function, too
 - [ ] on the caller function object and also the called function object
@@ -262,10 +262,12 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 
 #### Q35. What are CRC Cards?
 
-- [x] Code Responsibility Collection cards are a brainstorming tool used in the design of procedural software
-- [ ] Class responsible collaboration cards are a brainstorming tool used in the design of oop software
+- [ ] Code Responsibility Collection cards are a brainstorming tool used in the design of procedural software
+- [x] Class responsible collaboration cards are a brainstorming tool used in the design of oop software
 - [ ] Code Responsibility Correction cards are tools used for debugging
 - [ ] Code Responsibility Correction cards are tools for modeling
+
+[reference link](https://en.wikipedia.org/wiki/Class-responsibility-collaboration_card)
 
 #### Q36.1 How are contents of a composition different from those of aggregation?
 
@@ -386,7 +388,7 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] Attributes apply only to a specified object; behaviour apply to other linked objects.
 - [ ] Behaviours are vector quantities; attributes are scalars.
 
-#### Q52. The open/closed principle states that classes should be open for ____ but closed for ____.
+#### Q52. The open/closed principle states that classes should be open for \_**\_ but closed for \_\_**.
 
 - [ ] refactoring; duplication
 - [ ] modification; duplication
@@ -406,3 +408,10 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] It is a constructor that duplicates itself when requested on demand.
 - [ ] It is a common constructor for preventing the creation of a new object as a copy of an object that already exists. There will always be multiple standard constructors that can be either defined by the user or the system.
 - [ ] It is a constructor that duplicates itself on its own, based on memory available.
+
+#### Q55. What defines the catch block most accurately?
+
+- [x] The catch block that will be executed is the one that best matches the type of the exception thrown
+- [ ] Multiple catch blocks are not allowed with a single try.
+- [ ] Every catch block will run accordingly in a try.
+- [ ]
