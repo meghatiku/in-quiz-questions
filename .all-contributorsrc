@@ -2921,9 +2921,9 @@
     },
     {
       "login": "samiramaleki",
-      "name": "samiramaleki",
+      "name": "Samira Maleki",
       "avatar_url": "https://avatars.githubusercontent.com/u/76865385?v=4",
-      "profile": "https://github.com/samiramaleki",
+      "profile": "https://www.linkedin.com/in/samira-maleki/",
       "contributions": [
         "design",
         "code"
@@ -4062,6 +4062,116 @@
       "contributions": [
         "design",
         "data"
+      ]
+    },
+    {
+      "login": "DFW1N",
+      "name": "DFW1N",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45083490?v=4",
+      "profile": "https://www.linkedin.com/in/sacha-roussakis-notter-b6903095/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "sohaibayub",
+      "name": "Sohaib Ayub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3404286?v=4",
+      "profile": "https://github.com/sohaibayub",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "naveen2593kumar",
+      "name": "Navvy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25560921?v=4",
+      "profile": "https://github.com/naveen2593kumar",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "bloodiator2",
+      "name": "bloodiator2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86468614?v=4",
+      "profile": "https://github.com/bloodiator2",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "hans-min",
+      "name": "Hanji",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47271600?v=4",
+      "profile": "https://github.com/hans-min",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "arthur74",
+      "name": "arthur74",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7101278?v=4",
+      "profile": "https://github.com/arthur74",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Subathra19",
+      "name": "Sri Subathra Devi B",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55084520?v=4",
+      "profile": "https://www.linkedin.com/in/sri-subathra-devi-b-50735280/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "makifay",
+      "name": "Akif Aydogmus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6209605?v=4",
+      "profile": "https://github.com/makifay",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Umer-Javaid",
+      "name": "Umer Javaid",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5458744?v=4",
+      "profile": "https://github.com/Umer-Javaid",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "norioumata",
+      "name": "Norio Umata",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49550016?v=4",
+      "profile": "https://github.com/norioumata",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "gazihasanrahman",
+      "name": "Gazi Hasan Rahman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32906826?v=4",
+      "profile": "https://github.com/gazihasanrahman",
+      "contributions": [
+        "design",
+        "code"
       ]
     }
   ],

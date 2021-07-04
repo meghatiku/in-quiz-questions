@@ -347,3 +347,24 @@ Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .po
 - [ ] Rehearse Timings
 - [x] Custom Slide Show
 - [ ] Hide Slide
+
+#### Q45. When working with a mapchart, which options can be drawn?
+
+- [ ] Postal code
+- [ ] State
+- [ ] Country
+- [x] All of these answers
+
+#### Q46.You receive feedback from two clients on your presentation. Each person sent you an edited file. What's the best way to review their changes?
+
+- [ ] Review > Accept
+- [ ] Review > Smart Lookup
+- [x] Review > Compare
+- [ ] Review > Show Comments
+
+#### Q46.How do you promote subbullets to top-level bullets?
+
+- [x] Press Shift+Tab.
+- [ ] Right-click the bulleted text and select Promote.
+- [ ] Press the Esc key.
+- [ ] Press the Spacebar.
