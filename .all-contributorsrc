@@ -4173,6 +4173,36 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "ecigar13",
+      "name": "Keith Nguyen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5679700?v=4",
+      "profile": "https://www.linkedin.com/in/ktn0047/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "drmegalomaniac",
+      "name": "Megalomaniac",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4312997?v=4",
+      "profile": "https://megalomaniacslair.co.uk",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "ShankS3",
+      "name": "ShankS3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19852114?v=4",
+      "profile": "https://github.com/ShankS3",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
