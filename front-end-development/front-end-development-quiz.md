@@ -427,3 +427,45 @@ console.log(currencies);
 - [ ] `<input type="radio" value="vanilla" check>`
 - [ ] `<input type="radio" value="vanilla" selected>`
 - [ ] `<input type="radio" value="vanilla" on>`
+
+#### Q45. **\_** moves an element completely out of the page's normal layout flow, like it is sitting on its own separate layer. From there, you can fix it in a position relative to the edges of the page's `<html>` element (or its nearest positioned ancestor element)?
+
+- [ ] Sticky positioning
+- [x] Absolute positioning
+- [ ] Relative positioning
+- [ ] Fixed positioning
+
+[Source: W3Schools](https://www.w3schools.com/css/css_positioning.asp)
+
+**position: absolute;**
+`An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.`
+
+#### Q46. You have created a box that has a height set with CSS. Which line of CSS would add scroll bars if the content is taller than the box, but leave no visible scroll bars if the content fits into the box?
+
+- [ ] .box { overflow: scroll; }
+- [ ] .box { overflow: scroll-x; }
+- [x] .box { overflow: auto; }
+- [ ] .box { overflow: none; }
+
+#### Q47. Which array method should you apply to run a function for every item within an array, returning an array of all items for which the function is true?
+
+- [ ] every()
+- [ ] map()
+- [ ] forEach()
+- [x] filter()
+
+#### Q48. The image below has float: left applied. Text wraps the float on the right and bottom. How would you force the second paragraph to start underneath the float, leaving a gap after the preceding paragraph?
+
+![CSS clear](images/Q48.png?raw=true)
+
+- [ ] Apply `float: left` to the second paragraph.
+- [ ] Apply `clear: right` to the floated item.
+- [ ] Apply `clear: left` to the second paragraph.
+- [ ] Apply `clear: left` to the floated item.
+
+#### Q49. Which choice is not a result of invoking strict mode in JavaScript?
+
+- [x] It forces the writing of valid HTML and CSS.It forces the writing of valid HTML and CSS.
+- [ ] It prohibits some syntax likely to be defined in future versions of ECMAScript.
+- [ ] It eliminates some JavaScript silent errors by changing them to throw errors.
+- [ ] It fixes mistakes that make it difficult for JavaScript engines to perform optimizations.

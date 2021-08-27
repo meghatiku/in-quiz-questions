@@ -471,6 +471,7 @@ export class ToolsComponent {
 [Reference (angular.io)](https://angular.io/api/router/Router#navigate)
 
 #### Q33. When a service is provided for root and is also added to the provider's configuration for a lazy-loaded module, what instance of that service does the
+
 injector provide to constructors in the lazy-loaded module?
 
 - [ ] A new instance of that service is created when the module is lazy loaded.
@@ -481,18 +482,18 @@ injector provide to constructors in the lazy-loaded module?
 #### Q34. What is the HostBinding decorator doing in this directive?
 
 ```javascript
-@Directive ({
- selector: ' [appHighlight] '
+@Directive({
+  selector: ' [appHighlight] ',
 })
 export class HighlightDirective {
- @HostBinding('class.highlighted') highlight = true;
+  @HostBinding('class.highlighted') highlight = true;
 }
 ```
 
 - [ ] It is adding the CSS class named highlighted to any DOM element that has the appHighlight directive on it.
 - [ ] HostBinding does not do anything on directives, only on components.
 - [ ] It is specifying if the host element gets the highlighted class added to its class attribute, then the directive class field highlight will get set to
-  true; and if it is not added on the host it will get set to false.
+      true; and if it is not added on the host it will get set to false.
 - [ ] It is creating an inline style on the host element with a CSS property named highlight set to true.
 
 #### Q35. In reactive forms, what Angular form class type is used on the native DOM <form> element to wire it up?
@@ -503,6 +504,7 @@ export class HighlightDirective {
 - [ ] `all of these answers`
 
 #### Q36. Assuming the username FormControl has been configured with a minLength validator, how can you set up an error display in the following reactive
+
 forms markup for the username field?
 
 ```html
@@ -512,34 +514,34 @@ forms markup for the username field?
 </form>
 ```
 
-- []      
+- [ ]
 
 ```javascript
     <span *ngIf="username.minLength.invalid"›
         Username length is not valid
     </span>
-``` 
+```
 
 - [ ]
-  
+
 ```javascript
 <input type="text" formControlName="username" [showMinLength]="true"›
 ```
 
 - [ ]
-  
+
 ```javascript
-    <span *ngIf="form.get('username').getError('minLength') as minLengthError"> 
-      Username must be at least {{ minLengthError.requiredLength }} characters. 
+    <span *ngIf="form.get('username').getError('minLength') as minLengthError">
+      Username must be at least {{ minLengthError.requiredLength }} characters.
     </span>
 ```
 
-- [ ]
+- [x]
 
 ```javascript
 <input type="text" formControlName="username" #userName="ngModer>
     <span *ngIf="userName.errors.minlength"›
-      Username must be at least {{ userName.errors.minlength.requiredLength }} characters. 
+      Username must be at least {{ userName.errors.minlength.requiredLength }} characters.
     </span>
 ```
 
@@ -554,7 +556,7 @@ forms markup for the username field?
 
 ```javascript
 TestBed.configureTestingModule({
- declarations: [ UserCardComponent ]
+  declarations: [UserCardComponent],
 });
 let fixture = TestBed.createComponent(UserCardComponent);
 ```
@@ -562,8 +564,7 @@ let fixture = TestBed.createComponent(UserCardComponent);
 - [ ] `fixture.componentTemplate`
 - [ ] `fixture.getComponentHtml()`
 - [ ] `fixture.nativeElement`
-- [ ] `fixture.componentInstance.template
-  `
+- [ ] `fixture.componentInstance.template `
 
 #### Q39. Given these two components, what will get rendered to the DOM based on the markup usage?
 
@@ -584,28 +585,28 @@ export class BioComponent { }
 <app-card><app-bio>Been around for four years.</app-bio></app-card>
 ```
 
-- [ ] 
-  
+- [ ]
+
 ```javascript
  <app-card>
   <h1>Data Card</hl>
   <app-bio>
    Been around for four years.
-  </app-bio> 
+  </app-bio>
  </app-card>
 ```
 
 - [ ]
-  
+
 ```javascript
 <h1>Data Card</h1>
  <app-bio>
-  Been around for four years. 
+  Been around for four years.
  </app-bio>
 ```
 
 - [ ]
-  
+
 ```javascript
 <app-card>
   <h1>Data Card</hl>
@@ -613,7 +614,7 @@ export class BioComponent { }
   <app-bio>
    Been around for four years.
    <ng-content></ng-content>
-  </app-bio> 
+  </app-bio>
 </app-card>
 ```
 
@@ -621,7 +622,7 @@ export class BioComponent { }
 
 ```javascript
 <app-card>
-  <h1>Data Card</hl> 
+  <h1>Data Card</hl>
 </app-card>
 ```
 
@@ -634,45 +635,46 @@ export class BioComponent { }
 })
 
 @Component({
-   selector: 'app-title-card', 
+   selector: 'app-title-card',
    template: '<h1>User Data</hl>'
 })
 
-// usage of user card component in parent component html 
+// usage of user card component in parent component html
 <app-user-card></app-user-card>
 ```
 
-- [ ] 
+- [x]
 
 ```javascript
 <app-user-card>
-    <app-title-card>
-     <h1>User Data</h1> 
-    </app-title-card> 
-    <p>genny Smith</p>
+  <app-title-card>
+    <h1>User Data</h1>
+  </app-title-card>
+  <p>genny Smith</p>
 </app-user-card>
 ```
+
 - [ ]
 
 ```javascript
-<h1>User Data</h1> 
+<h1>User Data</h1>
 <p>Jenny Smith<p>
-```  
+```
 
 - [ ]
 
 ```javascript
 <app-user-card>
-    <app-title-card></app-title-card> 
+  <app-title-card></app-title-card>
 </app-user-card>
-```  
+```
 
 - [ ]
 
 ```javascript
 <div app-user-card>
-    <h1 app-title-card>User Data</h1> 
-    <p>Jenny Smith</p>
+  <h1 app-title-card>User Data</h1>
+  <p>Jenny Smith</p>
 </div>
 ```
 
@@ -682,26 +684,22 @@ export class BioComponent { }
 constructor(@Inject('Logger') private logger) { }
 ```
 
-- [ ] 
-  
+- [ ]
+
 ```javascript
-providers: [ 
-    Logger
-]
+providers: [Logger];
 ```
 
 - [ ]
-  
+
 ```javascript
-providers: [
-    { provide: 'Logger', useClass: Logger }
-]
+providers: [{ provide: 'Logger', useClass: Logger }];
 ```
 
 - [ ]
-  
+
 ```javascript
-@Injectable({ 
+@Injectable({
     providedln: 'root'
 })
 ```
@@ -709,15 +707,13 @@ providers: [
 - [ ]
 
 ```javascript
-providers: [
-    { provide: 'Logger' }
-]
+providers: [{ provide: 'Logger' }];
 ```
 
 #### Q42. Which choice best describes the following usage of the HttpClient . get method in the getsettings class method?
 
 ```javascript
-export class SettingsService {  
+export class SettingsService {
     constructor(private httpClient: HttpClient) { }
     ...
 
@@ -730,9 +726,217 @@ getSettings()
 }}
 ```
 
-- [ ] The RxJs pipe method is an alias for the subscribe method, so a call to `getSettings` will execute the get query. The retry operator is used to tell  
-  the pipe call to retry the get query three times.
+- [ ] The RxJs pipe method is an alias for the subscribe method, so a call to `getSettings` will execute the get query. The retry operator is used to tell the pipe call to retry the get query three times.
 - [ ] It will produce an error at runtime because the pipe method is not available off of the `Httpclient.get` call.
-- [ ] Every single call to the getSettings method will result in the Httpclient making three total get requests to the settingsUrl, which is not ideal  
-  because there will always be two extra calls that are not needed. The retry operator should not be used in this manner.
+- [ ] Every single call to the getSettings method will result in the Httpclient making three total get requests to the settingsUrl, which is not ideal because there will always be two extra calls that are not needed. The retry operator should not be used in this manner.
 - [ ] When the result of the getSettings method is subscribed to, the HTTP GET call will be made; if it fails, it will be retried up to three times before it gives up and returns an error.
+
+#### Q43. When a service requires some setup to initialize its default state through a method, how can you make sure that said method is invoked before the service gets injected anywhere?
+
+- [ ] Put the logic of that service method into the service constructor instead.
+- [ ] Use a factory provider at the root AppModule level that depends on the service to call that service method.
+- [ ] it is not possible to do it at application start; you can do it only at a component level.
+- [ ] Instantiate an instance of the service at the global level (window scope) and then call that method.
+
+#### Q44. What statement best describes this usage of the TestBed?
+
+```javascript
+const spy = jasmine.createSpyObj('DataService', ['getUsersFromApi']);
+TestBed.configureTestingModule({
+  providers: [UserService, { provide: DataService, useValue: spy }],
+});
+const userService = TestBed.get(UserService);
+```
+
+- [ ] The TestBed is required anytime you want to make use of a spy object in a unit test for an Angular provider.
+- [ ] The TestBed is being used to test a component's view.
+- [ ] The TestBed scaffolds an NgModule with two providers and handles any dependeny injection. If any Angular class requests the DataService in its constructor, the TestBed will inject spy in that constructor.
+- [ ] The TestBed is configuring the test runner to tell it to only execute tests for the two providers listed in its providers array.
+- `All other tests be ignored, including tests that assert results against one of these providers and a non-defined provider.`
+  `Although it will work when multiple providers in this configuration are asserted against in a single test.`
+
+#### Q45. What is the primary difference between a component and a directive?
+
+- [ ] A component uses a selector metadata property and a directive does not.
+- [ ] A directive can be used for adding custom events to the DOM and a component cannot.
+- [ ] A component has a template and a directive does not.
+- [ ] A directive can target only native DOM elements.
+
+#### Q46. What could you add to this directive class to allow the truncate length to be set during directive usage in markup?
+
+```
+@Directive({
+    selector: '[appTruncate]'
+})
+export class TruncateDirective {
+    . . .
+}
+
+// example of desired usage:
+<p [appTruncate]="10">Some very long text here</p>
+```
+
+- [ ] `@Input() appTruncate: number;`
+- [ ] `@Output() appTruncate;`
+- [ ] `constructor(maxLength: number) { }`
+- [ ] `Nothing. The directive selector cannot be used to pass in values to the directive.`
+
+#### Q47. How can you pass query parameters to this `HttpClient.get` request?
+
+```
+export class OrderService {
+    constructor(private httpClient: HttpClient) { }
+
+    getOrdersByYear(year: number): Observable<Order[]> {
+      return this.httpClient.get<Order[]>(this.ordersUrl);
+    }
+}
+```
+
+- [ ] `return this.httpClient.get<Order[]>(this.ordersUrl, {'year': year})`
+- [ ] `return this.httpClient.get<Order[]>(this.ordersUrl, year)`
+- [ ]
+
+```
+const options = {params: new HttpParams().set('year', year) };
+return this.httpClient.get<Order[]>(this.ordersUrl, options);
+```
+
+- [ ]
+
+```angularjs
+getOrdersByYear(year: number): Observable<Order[]> {
+    return this.httpClient.addParam('year', year).get<Order[]>(this.ordersUrl, year);
+}
+```
+
+#### Q48. Assuming the `DataService` has been registered in the providers for the application, which answer best describes what happens based on this component's constructor?
+
+```
+@Component({
+    ...
+})
+export class OrderHistoryComponent {
+    constructor(private dataService: DataService) {}
+    ...
+}
+```
+
+- [ ] It is declaring that the `OrderHistoryComponent` will have its own version of a `DataService` and that it should never use any existing instances. The `DataService` would need to be instantiated within the class as a private field for this code to be complete and working.
+- [ ] When Angular creates a new instance of the `OrderHistoryComponent`, the injector will provide an instance of a `DataService` class to the component constructor's first argument. The constructor's `dataService` parameter will be used to set a private instance field with the same name on the instance.
+- [ ] It provides a way to do component testing only; the constructor has no usage in the actual run of the Angular application.
+- [ ] It enables the custom element that the component targets to have a custom property named `dataService` that can be used to bind an existing `DataService` instance to.
+
+#### Q49. Finish this markup using the `ngIf` directive to implement an else case that will display the text "User is not active":
+
+```angular2html
+<div *ngIf="userIsActive; else inactive">
+  Currently active!
+</div>
+```
+
+- [ ]
+
+```angular2html
+<div #inactive>
+  User is not active.
+</div>
+```
+
+- [ ]
+
+```angular2html
+<div *ngIf="inactive">
+  User is not active.
+</div>
+```
+
+- [ ]
+
+```angular2html
+<ng-template #else="inactive">
+  <div>User is not active.</div>
+</ng-template>
+```
+
+- [ ]
+
+```angular2html
+<ng-template #inactive>
+  <div>User is not active.</div>
+</ng-template>
+```
+
+#### Q50. What is the correct syntax for a route definition to lazy load a feature module?
+
+- [ ]
+
+```
+{
+    path: 'users',
+    lazy: './users/users.module#UsersModule'
+}
+```
+
+- [ ]
+
+```
+{
+    path: 'users',
+    loadChildren: () => import('./users/users.module').then(m => m.UserModule)
+}
+```
+
+- [ ]
+
+```
+{
+    path: 'users',
+    loadChildren: './users/users.module#UsersModule'
+}
+```
+
+- [ ]
+
+```
+{
+    path: 'users',
+    module: UsersModule
+}
+```
+
+#### Q51. Describe how the validation is set up and configured in this reactive forms example:
+
+```
+export class UserFormControl implements OnInit {
+    ...
+    ngOnInit() {
+        this.form = this.formBuilder.group({
+            username: this.formBuilder.control('',
+                [Validators.required, Validators.minLength(5), this.unique]),
+        )};
+    }
+    unique(control: FormControl) {
+        return control.value !== 'admin' ? null: {notUnique: true};
+    }
+}
+```
+
+- [ ] The `FormControl` for `username` is getting configured to exclude three validators from the validators that it is allowed to use.
+- [ ] The `FormControl` for `username` is getting configured to allow three possible validators to be used: `required, maxLength`, and a custom one named `unique`. To enable these `validators`, a validator directive would need to be put on the form fields in the markup.
+- [ ] Validation cannot be set up this way in reactive forms.
+- [ ] The `FormControl` for `username` is getting configured with three validators: the `required` and `minLength` validators that come from Angular, and a custom validator function named `unique` that checks for the value not equal to the string `admin`.
+
+#### Q52. What does the Injectable decorator do on this service class?
+
+```
+@Injectable({
+    providedIn: 'root'
+)}
+export class DataService { }
+```
+
+- [ ] It registers a provider for the service that is available only at the root module level, not to any children modules.
+- [ ] It registers a provider for the service in the root application injector, making a single instance of it available throughout the application.
+- [ ] It makes it so the service can be injected only in the bootstrapped component for the application.
+- [ ] It sets up a compile time rule that allows you to put the service type only in the providers metadata property of the root NgModule.
