@@ -452,7 +452,7 @@ class Huggable extends React.Component {
 - [ ] `<button onClick={(name) => this.hug(name)}>Hug Button</button>`
 - [ ] `<button onClick={this.hug(e, name)}>Hug Button</button>`
 - [ ] `<button onClick={(e) => hug(e, name)}>Hug Button</button>`
-- [x] `<button onClick={() => this.hug(name)}>Hug Button</button>`
+- [ ] `<button onClick={(e) => this.hug(name,e)}>Hug Button</button>`
 
 #### Q47. Currently, `handleClick` is being called instead of passed as a reference. How do you fix this?
 
@@ -860,3 +860,40 @@ const [count, setCount] = useState(0);
 
 **Reference:**
 From official docs: [Hooks-State](https://reactjs.org/docs/hooks-state.html#:~:text=If%20we%20want%20to%20update%20the%20current)
+
+#### Q75. What is the use of map function below?
+
+```javascript
+const database = [user1:{},user2:{},user3:{}];
+database.map((user)=><h1>user.data</h1>);
+```
+
+- [ ] gives a map of all the entries in database
+- [x] returns a heading tag for every entry in the database containing it's data
+- [ ] returns one heading tag for all the entries in database
+- [ ] checks which entry in the database is suitable for heading tag
+
+#### Q76. Describe what is happening in this code?
+
+```javascript
+const { name: firstName } = person;
+```
+
+- [ ] It is creating a new object that contains the same name property as the person object.
+- [x] It is assigning the value of the person object's firstName property to a constant called name.
+- [ ] It is retrieving the value of person.name.firstName.
+- [x] It is assigning the value of the person object's name property to a constant called firstName.
+
+#### Q77. What is wrong with this code?
+
+```javascript
+const MyComponent = ({ names }) => (
+  <h1>Hello</h1>
+  <p>Hello again</p>
+);
+```
+
+- [ ] React components cannot be defined using functions.
+- [x] React does not allow components to return more than one element.
+- [ ] The component needs to use the return keyword.
+- [ ] String literals must be surrounded by quotes.

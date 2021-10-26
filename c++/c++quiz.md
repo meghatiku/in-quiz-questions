@@ -1130,24 +1130,75 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
 
 - [x]
 
-```public:
-       Sprite();
+```cpp
+public:
+    Sprite();
 ```
 
 - [ ]
 
-```private:
-       void Sprite();
+```cpp
+private:
+    void Sprite();
 ```
 
 - [ ]
 
-```public:
-      void Sprite();
+```cpp
+public:
+    void Sprite();
 ```
 
 - [ ]
 
-```private:
-       Sprite();
+```cpp
+private:
+    Sprite();
 ```
+
+#### Q67. What is the purpose of this line in a header file?
+
+```cpp
+#pragma once
+```
+
+- [ ] to restrict the use of its contents to only one source file
+- [ ] to tell the compiler that only one variable can be instantiated from the classes or types contained in this header file
+- [ ] to help the compiler finish faster by assuring that only one compiler pass is neccessary for the code included in this header file
+- [x] to make the compiler parse that header file only once, even if it is included multiple times in the source
+
+[reference here](https://en.cppreference.com/w/cpp/preprocessor/impl)
+
+#### Q68. What is a variable of type double?
+
+- [ ] a 2-tuple
+- [ ] an integer number
+- [x] a floating point number
+- [ ] a string with more than 255 characters
+
+[Reference](https://www.educba.com/c-plus-plus-double/)
+
+#### Q69. Consider this function declaration of is_even, which takes in an integer and returns true if the argument is an even number and false otherwise. Which declarations are correct for overloaded versions of that function to support floating point numbers and string representations of numbers?
+
+```cpp
+bool is_even(int);
+```
+
+- [x] bool is_even(float f); bool is_even(char \*str);
+- [ ] bool is_even(float f); bool is_even(char str);
+- [ ] bool is_even_float(float f); bool is_even_str(char \*str);
+- [ ] float is_even(float f); char *is_even(char *str);
+
+#### Q70. what is class template ?
+
+- [x] It is a class written with the generic programming paradigm, specifying behavior in terms of type parameters rather than specific types.
+- [ ] It is a class that consists only of member variables, with no constructor, destructor, or member functions.
+- [ ] It is a blank superclass intended for inheritance and polymorphism.
+- [ ] It is a skeleton source code for a class where the programmer has to fill in specific parts to define the data types and algorithms used.
+
+#### Q71. Other than shifting bits to the left, what is the << oprator used for ?
+
+- [ ] shifting characters to the left in a string.
+- [x] inserting characters into an output stream like std::cout.
+- [ ] comparing floating point numbers as less-than.
+- [ ] assigning a variable to a reference.

@@ -865,8 +865,8 @@ xml
 
 #### Q54. what is not a benefit of externalizing app resources such as image and string from a code?
 
-- [x] It allows Android to choose the appropriate resource based on the current configuration during runtime.
-- [ ] It allows you to have more performant applications because the code and resources are separated.
+- [ ] It allows Android to choose the appropriate resource based on the current configuration during runtime.
+- [x] It allows you to have more performant applications because the code and resources are separated.
 - [ ] It allows you to provide a different Ul experience based on the user's language settings.
 - [ ] It allows you to provide a different Ul experience based on the user's device size.
 
@@ -920,3 +920,40 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [x] Intent(this, AboutActivity::class).also { intent ->
       startActivity(intent)
       }
+
+#### Q59. What is the use of AndroidManifest.xml file?
+
+- [ ] It describes the component ofthe application
+- [ ] It declares the minimum level of the android API that the application requires
+- [ ] It facilitates to provide a uinque name for the application by specifying package name
+- [x] All of the above
+
+#### Q60. Which attribute of the element <uses-sdk> is used to specify the minimum API Level required for the application to run?
+
+- [ ] android:targetSdkVersion
+- [x] android:minSdkVersion
+- [ ] android:maxSdkVersion
+- [ ] None of the above
+
+#### Q61. To shrink your code in release builds, what tool does Android Studio use?
+
+- [x] R8
+- [ ] ProGuard
+- [ ] Shrinker
+- [ ] D8
+
+[Reference](https://developer.android.com/studio/build/shrink-code)
+
+#### Q62. Which layout hierarchy is likely to be drawn the most quickly?
+
+- [ ] A
+      ![img](https://i.imgur.com/mT08jag.png)
+
+- [ ] B
+      ![img](https://i.imgur.com/rz9eKYc.png)
+
+- [ ] C
+      ![img](https://i.imgur.com/ETaHhaS.png)
+
+- [ ] D
+      ![img](https://i.imgur.com/1QBrTwR.png)

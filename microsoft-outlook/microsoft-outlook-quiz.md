@@ -88,7 +88,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 #### Q12. What appears on your screen whenever a new email arrives?
 
 - [ ] an emoji
-- [ ] an alert
+- [x] an alert
 - [ ] a notice
 - [ ] a bell icon
 
@@ -104,12 +104,12 @@ C. Read receipts are expensive, so some organizations turn them off.
 - [ ] Filter
 - [ ] Junk Mail
 - [ ] The Delete Key
-- [ ] Clean Up Conversation
+- [x] Clean Up Conversation
 
 #### Q15. You have sent several emails to a customer and have not received a response. What option do you set to know whether the customer receives your messages?
 
 - [x] Delivery receipt
-- [] All of these answers
+- [ ] All of these answers
 - [ ] Read receipt
 - [ ] Tracking
 
@@ -153,7 +153,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 - [ ] Sort the messages by size then filter by Has: Attachments
 - [ ] Sort the messages by sender
 - [ ] Sort the messages by Has: Attachments and then filter by Is: Large
-- [ ] Sort the messages by Has: Attachments and then by size
+- [x] Sort the messages by Has: Attachments and then by size
 
 #### Q22. What is not a built-in search filter for message folder?
 
@@ -173,7 +173,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 - [ ] Search based on sender then filter by Has Attachments
 - [ ] Search for "has:attachments" and then filter by Bonnie Bradford
-- [ ] All of these answers
+- [x] All of these answers
 - [ ] Enter "Bonnie Bradford attachment" in the search box
 
 #### Q25. Each category must have a unique \_
@@ -362,7 +362,9 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] none of these answers
 - [ ] your People list
 - [ ] your Outlook Favorites
-- [ ] the global address book
+- [x] the global address book
+
+[official docs](https://support.microsoft.com/en-us/office/find-people-and-contacts-f868749b-31a4-4fba-a936-b778cbb8f1cb)
 
 #### Q50. What do you call an appointment or meeting that happens on a regular basis?
 
@@ -404,7 +406,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] Right-click the meeting in the Calendar and select Reminders Window.
 - [ ] Close and reopen Outlook
 - [ ] On Windows, on the Home tab, click Schedule View. On Mac, click View > Switch to Other.
-- [ ] On Windows, on the View tab, click Reminders Window. On Mac, click Windows > Reminders.
+- [x] On Windows, on the View tab, click Reminders Window. On Mac, click Windows > Reminders.
 
 #### Q56. You received an email from someone and want to find other emails from this person. Witch method is not a way to see those emails across all folders?
 
@@ -418,7 +420,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] Flag yourself as unavailable to specific coworkers.
 - [ ] Route all future emails from a user directly to the Deleted Items folder.
 - [ ] Skip all misspellings of a specific word.
-- [ ] Turn off all reminders and notifications.
+- [x] Turn off all reminders and notifications.
 
 #### Q58. When you flag an email for follow-up, you are assigning the email a(n) \_ .
 
@@ -467,7 +469,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] Words found in the message itself.
 - [ ] Who sent the email.
 - [ ] Attachments.
-- [ ] Where the email was sent from.
+- [x] Where the email was sent from.
 
 #### Q65. You have 15 folders, one of each of your projects. How can you make your most frequently used folders more accessible?
 
@@ -479,7 +481,7 @@ D. Because you cannot create a search folder for a subfolder
 #### Q66. You accidentally delete an email from your inbox. How can you retrieve the deleted email?
 
 - [ ] You cannot retrieve a deleted email.
-- [ ] Open the Deleted Items folder.
+- [x] Open the Deleted Items folder.
 - [ ] Open your computer's Recycle Bin (Windows) or Trash (Mac).
 - [ ] Click the Undo button.
 
@@ -494,7 +496,7 @@ D. Because you cannot create a search folder for a subfolder
 
 #### Q69. Which Outlook function allows you to filter your emails?
 
-- [ ] Find
+- [x] Find
 - [ ] Move
 - [ ] Tag
 - [ ] Quick Steps

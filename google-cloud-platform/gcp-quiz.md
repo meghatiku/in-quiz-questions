@@ -230,7 +230,7 @@ Note: Free trial doesn't have the organizations.
 
 - [ ] group
 - [ ] folder
-- [ ] project
+- [x] project
 - [ ] organization
 
 #### Q35. What is needed to access GCP APIs in your project?
@@ -338,3 +338,21 @@ Note: Free trial doesn't have the organizations.
 - [ ] Analyze machine usage to verify that machines will be on for more that 25% of the time, and verify that sustained use discounts have been automatically applied to your bill.
 - [ ] Analyze machine usage to verify that machines will be on for more than 25% of the time and purchase contained use discounts.
 - [ ] Analyze machine usage to verify that machines will be on for more than 25% of the time and purchase sustained use discounts.
+
+#### Q46. You are designing a GCP replacement for your on-premises data warehouse. Which service do you select?
+
+- [ ] Cloud SQL
+- [ ] Bigtable
+- [ ] Cloud Spanner
+- [x] BigQuery
+
+[Source: LinkedIn Assessment Practice mode](https://i.imgur.com/mOCQVug.png)
+
+#### Q47. How can you quickly back up a persistent disk on Compute Engine?
+
+- [x] Take a snapshot
+- [ ] Create an instance group
+- [ ] Create an instance template
+- [ ] Create an image
+
+[Source: LinkedIn Assessment Practice mode](https://i.imgur.com/9rNe5MV.png)
