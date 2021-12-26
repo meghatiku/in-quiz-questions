@@ -880,7 +880,7 @@ const { name: firstName } = person;
 ```
 
 - [ ] It is creating a new object that contains the same name property as the person object.
-- [x] It is assigning the value of the person object's firstName property to a constant called name.
+- [ ] It is assigning the value of the person object's firstName property to a constant called name.
 - [ ] It is retrieving the value of person.name.firstName.
 - [x] It is assigning the value of the person object's name property to a constant called firstName.
 
@@ -897,3 +897,120 @@ const MyComponent = ({ names }) => (
 - [x] React does not allow components to return more than one element.
 - [ ] The component needs to use the return keyword.
 - [ ] String literals must be surrounded by quotes.
+
+#### Q78. When using a portal, what is the second argument?
+
+```javascript
+ReactDOM.createPortal(x, y);
+```
+
+- [ ] the App component
+- [ ] the page
+- [ ] the current state
+- [x] the DOM element that exists outside of the parent component
+
+#### Q79. Given this code, what will be printed in the `<h1>` tag?
+
+```javascript
+const MyComponent = ({ children }) => (
+  <h1>{children.length}</h1>
+);
+...
+<MyComponent>
+<p>Hello</p>
+<p>Goodbye</p>
+</MyComponent>
+```
+
+- [ ] It will produce an error saying "cannot read property "length" of undefined."
+- [ ] 1
+- [ ] undefined
+- [x] 2
+
+#### Q80. What is this pattern called?
+
+```javascript
+const [count, setCount] = useState(0);
+```
+
+- [ ] object destructuring
+- [x] array destructuring
+- [ ] spread operating
+- [ ] code pushing
+
+#### Q81. What is the first file loaded by the browser in a basic React project?
+
+- [ ] src/App.js
+- [ ] src/index.js
+- [ ] public/manifest.json
+- [x] public/index.html
+
+#### Q82. The code below is rendering nothing, and there is an error that says "ReactDOM is not defined." How do you fix this issue?
+
+```javascript
+import React from 'react';
+import { render } from 'react-dom';
+
+const element = <h1>Hi</h1>;
+
+ReactDOM.render(element, document.getElementById('root'));
+```
+
+- [x] `render(element, document.getElementById("root"));`
+- [ ] `ReactDOM(element, document.getElementById("root"));`
+- [ ] `renderDOM(element, document.getElementById("root"));`
+- [ ] `DOM(element, document.getElementById("root"));`
+
+#### Q83. In this component, how do you display whether the user was logged in or not?
+
+```javascript
+render() {
+  const isLoggedIn = this.state.isLoggedIn;
+  return (
+    <div>
+      The user is:
+    </div>
+  );
+}
+```
+
+- [ ] `The user is loggedIn ? logged in : not logged in.`
+- [ ] Write a function to check the login status.
+- [ ] `The user is {isLoggedIn = "no"}.`
+- [x] `The user is {isLoggedIn ? "logged in." : "not logged in"}.`
+
+#### Q84. You are rendering a list with React when this warning appears in the console: "Warning: Each child in a list should have a unique 'key' prop." How do you fix this issue?
+
+- [ ] Pass the name of each item as its key.
+- [ ] Add a key prop with the same value to each item the list.
+- [ ] Clear the console warnings.
+- [x] When iterating over the list items, add a unique property to each list item.
+
+#### Q85. How would you generate the boilerplate code for a new app that you are building to collect underpants?
+
+- [ ] npm create-react-app collect-underpants
+- [ ] npx start-app collect-underpants
+- [ ] react new collect-underpants
+- [x] npx create-react-app collect-underpants
+
+[Source: React Docs](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
+
+#### Q86. Add the code that will fire the photon torpedoes when the button is clicked.
+
+```javascript
+class StarTrekkin extends React.Component {
+  firePhotonTorpedoes(e) {
+    console.log('pew pew');
+  }
+  render() {
+    return; // Missing code
+  }
+}
+```
+
+- [ ] `<button onClick={firePhotonTorpedoes()}>Pew Pew</button>`
+- [ ] `<button onClick={firePhotonTorpedoes}>Pew Pew</button>`
+- [ ] `<button onClick={this.firePhotonTorpedoes()}>Pew Pew</button>`
+- [x] `<button onClick={this.firePhotonTorpedoes}>Pew Pew</button>`
+
+[Source: React Docs](https://reactjs.org/docs/handling-events.html)

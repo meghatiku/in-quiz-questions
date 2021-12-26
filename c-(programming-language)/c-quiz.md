@@ -244,7 +244,6 @@ main(){
 - [x] main() { }
 - [ ] main() { ; }
 
-
 [Reference](https://www.beningo.com/150-the-wolrds-shortest-c-program/)
 
 #### Q14. What is optional in a function declaration?
@@ -536,3 +535,10 @@ main(){
 - [ ] Compiler
 - [ ] Linker
 - [ ] Editor
+
+#### Q39. The main loop structures in C programming are the for loop, the while loop, and which other loop?
+
+- [x] do...while
+- [ ] for...in
+- [ ] repeat...until
+- [ ] do...until

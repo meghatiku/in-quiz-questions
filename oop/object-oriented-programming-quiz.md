@@ -65,8 +65,8 @@
 
 #### Q9. Which code creates a new object from the Employee class?
 
-- [ ] Employee current Employee = Employee.Create();
-- [x] Employee current Employee = new Employee();
+- [ ] Employee currentEmployee = Employee.Create();
+- [x] Employee currentEmployee = new Employee();
 - [ ] Employee currentEmployee;
 - [ ] Employee currentEmployee = Employee.New();
 
@@ -253,7 +253,7 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [x] method overloading, because it allows the creation of several methods with the same name, wich differ by the type of input via parameter
 - [ ] method overriding, because it display the same method name, different parameters, and same return type
 
-#### Q34. What is the purpose os static constructor?
+#### Q34. What is the purpose of static constructor?
 
 - [x] to initialize all the members with static value
 - [ ] to delete the static members when not required
@@ -263,7 +263,7 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 #### Q35. What are CRC Cards?
 
 - [ ] Code Responsibility Collection cards are a brainstorming tool used in the design of procedural software
-- [x] Class responsible collaboration cards are a brainstorming tool used in the design of oop software
+- [x] Class Responsibility collaboration cards are a brainstorming tool used in the design of oop software
 - [ ] Code Responsibility Correction cards are tools used for debugging
 - [ ] Code Responsibility Correction cards are tools for modeling
 
@@ -461,12 +461,7 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 - [x] No, changes will be automatically reflected in the calling function.
 - [ ] Yes, the object must be the same in the caller function.
 
-#### Q62. Why is inheritance ?
-
-- [ ] Yes, the caller function needs to reflect the changes.
-- [ ] No, you should use a global variable instead.
-- [ ] No, changes will be automatically reflected in the calling function.
-- [ ] Yes, the object must be the same in the caller function.
+#### Q62. Why is inheritance?
 
 #### Q63. What is the best example of a superclass and subclass relationship?
 
@@ -483,3 +478,65 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 - [ ] Memento defers the exact steps of an algorithm to a subclass. Observer defines a new operation to a class without change.
 - [ ] Memento alters an object's behavior when its state changes. Observer encapsulates an algorithm inside a class.
 - [x] Memento captures and restores an object's internal state. Observer notifies multiple classes of changes.
+
+#### Q65. What does the value (0.5,0.5,0.5) indicate in the class diagram specification position: Coordinate = (0.5,0.5,0.5)?
+
+- [ ] a default value of the Coordinate attribute
+- [ ] the size of the position array
+- [ ] an increment of the position attribute value
+- [x] a default value of the position attribute
+
+#### Q66. What is the most accurate example of the Liskov substitution principle?
+
+- [ ]
+
+```
+public class Car{
+}
+public class FlyingCars extends Car{
+   public void fly(){}
+}
+public class Tesla FlyingCar{}
+public class Honda Car{}
+```
+
+- [ ]
+
+```
+public class Car{
+   public void fly(){}
+}
+public class Tesla extends Car{}
+public class Honda extends Car{}
+```
+
+- [ ]
+
+```
+public class Car{
+public void fly(){}
+}
+public class Tesla Car{}
+public class Honda Car{}
+```
+
+- [x]
+
+```
+public class Car{
+}
+public class FlyingCars extends Car{
+   public void fly(){}
+}
+public class Tesla extends FlyingCar{}
+public class Honda extends Car{}
+```
+
+[reference link](https://stackoverflow.com/a/44913313/1573267)
+
+#### Q67. What is the difference between a parameter and an argument?
+
+- [ ] An argument can have many values while a parameter can have only one value.
+- [ ] An argument is the variable used for input values in a method. A parameter is the specific input value passed to the method.
+- [x] A parameter is a variable in the declaration of a function. An argument is the value of this variable that gets passed to the function.
+- [ ] Parameters and arguments are the same

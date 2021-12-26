@@ -501,6 +501,10 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] `<kdb>`, `<mark>`
 - [x] `<code>`, `<pre>`
 
+[Source: MDN Web Docs code](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
+
+[Source: MDN Web Docs pre](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre)
+
 #### Q32. What does the `<label>` tag do?
 
 - [ ] It labels webpages with important information.
@@ -911,15 +915,11 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 #### Q59. Review the code below. How do you include subnavigation for Link 2 that includes a link?
 
 ```markdown
-<ul>
-  <li><!a href="#">Link 1</a></li>
-  <li><!a href="#">Link 2</a>
-    <ul>
-      <li><!a href="#">Link 2a</a></li>
-    </ul>
-  </li>
-  <li><!a href="#">Link 3</a></li>
-</ul>
+<nav><ul>
+  <li><a href="#">Link 1</a></li>
+  <li><a href="#">Link 2</a></li>
+  <li><a href="#">Link 3</a></li> 
+</ul></nav>
 ```
 
 - [ ] A
@@ -1372,10 +1372,14 @@ As Steve Krug once said, happy talk must die.
 
 #### Q86. What is the difference between the _readonly_ and _disabled_ attributes for the `<textarea>` element?
 
-- [ ] _readonly_ allows clicking in the `<textarea>` element. _disabled_ prevents all interaction with the control.
+- [x] _readonly_ allows clicking in the `<textarea>` element. _disabled_ prevents all interaction with the control.
 - [ ] _readonly_ is invalid attribute for `<textarea>`, while _disabled_ is a valid attribute.
 - [ ] _disabled_ allows clicking in the `<textarea>` element. _readonly_ prevents all interaction with the control.
 - [ ] _disabled_ is invalid attribute for `<textarea>`, while _readonly_ is a valid attribute.
+
+[Source: readonly](https://www.w3schools.com/tags/att_readonly.asp)
+
+[Source: disabled](https://www.w3schools.com/tags/att_disabled.asp)
 
 #### Q87. In this code, what is _target_?
 
@@ -1469,3 +1473,53 @@ x<y&z>w
 - [x] `<p lang="es">canci&oacuten</p>`
 - [ ] `<p lang="es">cancio'n</p>`
 - [ ] `<p lang="es">canci'on</p>`
+
+#### Q94. What is the purpose of `<caption>`?
+
+- [ ] `<caption>` provides captions for `<audio>`,`<video>`,`<img>`, and `<table>`.
+- [x] `<caption>` provides captions to `<table>`.
+- [ ] `<caption>` provides captions for `<audio>`, `<video>`, and `<table>`.
+- [ ] `<caption>` provides captions for `<img>`, `<audio>`, and `<video>`.
+
+#### Q95. The value attribute is associated with which set of tags ?
+
+- [x] A
+
+```HTML
+<li>
+<input>
+<option>
+```
+
+- [ ] B
+
+```HTML
+<input>
+<option>
+<textarea>
+```
+
+- [ ] C
+
+```HTML
+<button>
+<input>
+<form>
+```
+
+- [ ] D
+
+```HTML
+<input>
+<label>
+<meter>
+```
+
+#### Q96. What is wrong with this code?
+
+`<img src="https://source.unsplash.com/random">`
+
+- [ ] `<img>` should be paired with a `<caption>` tag.
+- [x] The `<img>` element is missing an alt attribute.
+- [ ] `<img>` is not a valid HTML element. Instead, use `<image src="..."/>`.
+- [ ] `<img>` should be nested within a `<figure>` tag.

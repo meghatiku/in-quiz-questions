@@ -126,8 +126,10 @@
 
 - [ ] `application/json`
 - [ ] `application/json_version2`
-- [x] `text/html`
-- [ ] `application/vnd.myapp.v2+json`
+- [ ] `text/html`
+- [x] `application/vnd.myapp.v2+json`
+
+[Reference](https://blog.allegro.tech/2015/01/Content-headers-or-how-to-version-api.html)
 
 #### Q18. What is one benefit that OAuth provides over an API key approach?
 
@@ -421,3 +423,19 @@
 - [ ] Cacheable
 - [ ] Layered System
 - [ ] Uniform Interface
+
+#### Q57. Which HTTP verb is used to delete a resource?
+
+- [ ] FLUSH
+- [x] DELETE
+- [ ] CLEAR
+- [ ] DESTROY
+
+#### Q58. Which verb is _not_ considered idempotent?
+
+- [ ] DELETE
+- [ ] GET
+- [ ] PUT
+- [x] POST
+
+**Explanation:** [Idempotency](https://restfulapi.net/idempotent-rest-apis/)

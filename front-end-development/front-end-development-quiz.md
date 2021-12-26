@@ -467,3 +467,77 @@ console.log(currencies);
 
 **clear: left;**
 `When we use the float property, and we want the next element below (not on right or left), we will have to use the clear property. When clearing floats, you should match the clear to the float: If an element is floated to the left, then you should clear to the left. Your floated element will continue to float, but the cleared element will appear below it on the web page.`
+
+#### Q49. You want to create striped table rows using CSS without adding a class to any element. Which CSS would correctly apply the background color to every odd row in your table?
+
+- [ ] `tr:nth-child(2) { background-color: #ccc; }`
+- [x] `tr:nth-child(2n+1) { background-color: #ccc; }`
+- [ ] `tr:nth-child(2+1) { background-color: #ccc; }`
+- [ ] `tr:nth-child(2n) { background-color: #ccc; }`
+
+[Source: W3Schools](https://www.w3schools.com/cssref/sel_nth-child.asp)
+
+#### Q50. You are designing a site and creating a navigation bar linking to the main sections. Which HTML element should you use to indicate that this is the main navigation?
+
+- [x] `<nav>`
+- [ ] `<navigation>`
+- [ ] `<main>`
+- [ ] `<ul>`
+
+[Source: W3Schools](https://www.w3schools.com/tags/tag_nav.asp)
+
+#### Q51. You discover that CSS is being loaded on a website using the following code. Why might a web developer have done this?
+
+`<link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="style.css"></noscript>`
+
+- [x] The CSS is being loaded asynchronously in order to prevent render blocking.
+- [ ] This will stop the CSS being loaded for old browsers that do not support the techniques in use.
+- [ ] This is part of a stylesheet-switching script to load different themes for the site.
+- [ ] This will stop the CCS being loaded on slow data connections.
+
+[Source: StackOverflow](https://stackoverflow.com/a/46750893)
+
+#### Q52. The flex property is often applied to flex items with a value of 1. Using flex: 1 is a shorthand - what does it unpack to?
+
+- [ ] flex: 0 0 100;
+- [x] flex: 1 0 0;
+- [ ] flex: 0 0 auto;
+- [ ] flex: 1 1 auto;
+
+[Source: stackoverflow](https://stackoverflow.com/questions/37386244/what-does-flex-1-mean)
+
+#### Q53. What does the term "tree shaking" mean with regard to JavaScript performance?
+
+- [ ] only using code that is supported by the newest browsers, and serving the site without JavaScript to old browsers
+- [x] removing unused code from the JavaScript files
+- [ ] splitting code into various bundles so that decisions can be made on loading priority
+- [ ] allowing the browser to ignore code it believes will perform badly
+
+[Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking)
+
+#### Q54. What is WebP?
+
+- [ ] a method of auditing performance that gives your site a score, which is then used for Google ranking
+- [x] a next-generation image format offering a smaller file size than equivalent PNG or JPEG images
+- [ ] a new font format that allows a single font to display at different styles and weights
+- [ ] a next-generation PDF format that offers a smaller file size and better accessibility than standard PDF documents
+
+[Source: Google Developers](https://developers.google.com/speed/webp)
+
+#### Q55. Your website uses CSS Grid Layout extensively, and a visitor who navigates using the keyboard tells you that they seem to jump erratically all over the screen when navigating. What is the most likely problem?
+
+- [ ] The visitor's browser does not have full support for CSS Grid Layout.
+- [x] Items have been positioned in such a way that they are in a different order to the source.
+- [ ] The browser has a keyboard navigation bug.
+- [ ] You need to add the tabindex attribute to elements.
+
+[Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/CSS_Grid_Layout_and_Accessibility)
+
+#### Q56. What is the definition of the phrase “Time to Interactive”?
+
+- [ ] when the browser displays the first bit of content from the DOM
+- [x] when the user can consistently interact with all of the page elements
+- [ ] when HTML has loaded, but not necessarily JavaScript, CSS, or images
+- [ ] when the user can see the webpage on the screen
+
+[Source: MDN Docs](https://web.dev/interactive/)

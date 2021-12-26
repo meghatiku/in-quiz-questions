@@ -367,9 +367,11 @@
 ![Which option do you use with the Dodge and Burn tools to prevent unwanted color changes like those shown in the image?](images/001.png?raw=true)
 
 - [ ] Sample All Layers
-- [ ] Protect Tones
+- [x] Protect Tones
 - [ ] Use Pressure for Size
-- [x] Protect Colors
+- [ ] Protect Colors
+
+[Reference](https://helpx.adobe.com/photoshop/using/dodge-burn-image-areas.html)
 
 #### Q48. Which command in the **Smart Objects** submenu would you see to save the original file for the selected layer?
 
@@ -443,3 +445,12 @@
 - [ ] Click `File > Browse in Lightroom Classic CC.`
 - [ ] Use the Creative Cloud application.
 - [ ] Click `File > Browse in Lightroom CC`.
+
+#### Q57. Which command allows you to combine multiple channels into a new selection channel?
+
+- [ ] Flatten
+- [x] Calculations
+- [ ] Multiply
+- [ ] Merge
+
+[Answer found at:](https://helpx.adobe.com/photoshop/using/channel-calculations.html)

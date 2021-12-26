@@ -20,7 +20,7 @@
 
 - [ ] Click New Items > New Appointment.
 - [ ] Click Calendar > New Meeting, and then copy and paste information as needed.
-- [ ] with the email open, click Meeting on the Home ribbon or Message tab.
+- [x] with the email open, click Meeting on the Home ribbon or Message tab.
 - [ ] Click Reply All.
 
 #### Q4. You are running low on Outlook storage space. How might you address this problem?
@@ -115,7 +115,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 #### Q16. A message on your summary list appears with a paper clip icon and an arrow pointing to the left. What does this indicate?
 
-- [ ] The message has been replied to and contains an attachment
+- [x] The message has been replied to and contains an attachment
 - [ ] The message has been flagged and contains an attachment
 - [ ] None of these answers
 - [ ] The message has been forwarded and contains an attachment
@@ -136,7 +136,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 #### Q19. There are two types of Outlook rules. One is server-based rules, which run for Exchange Server. What are the other kind, which in part or in whole cannot run on Exchange Server, and when do the execute?
 
-- [ ] client-only rules; when Outlook is running
+- [x] client-only rules; when Outlook is running
 - [ ] Outlook-based rules; when Outlook is running
 - [ ] None of these answers
 - [ ] Outlook-only rules; when Outlook is offline
@@ -180,15 +180,17 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 - [ ] color
 - [ ] folder
-- [ ] name
+- [x] name
 - [ ] name and color
 
 #### Q26. Outlook autocompletes email addresses you have used previously, including addresses that you mistyped. How can you remove an incorrect autocomplete suggestion?
 
 - [ ] Search the autocomplete library, select the incorrect suggestion, and then click Delete
 - [ ] Close Outlook, reboot your computer, and restart Outlook
-- [ ] Wait until the suggestion appears again, then highlight it and press the Delete key
+- [x] Wait until the suggestion appears again, then highlight it and press the Delete key
 - [ ] Delete the corresponding contact
+
+[Reference](https://support.microsoft.com/en-us/office/manage-suggested-recipients-in-the-to-cc-and-bcc-boxes-with-auto-complete-dbe46e31-c098-4881-8cf7-66b037bce23e)
 
 #### Q27. What is the key difference between an appointment and a meeting?
 
@@ -206,7 +208,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 #### Q29. You are viewing a date three months in the future, in Month view. You switch to check an email in the same window. When you switch back to the calendar, what will Outlook display?
 
-- [ ] the current month
+- [x] the current month
 - [ ] the Month view for a date three months in the future
 - [ ] the current date in Day view
 - [ ] the current date in Week view
@@ -214,7 +216,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 #### Q30. When you @mention a colleague in an email message, what does not happen?
 
 - [ ] Your colleague's name is highlighted in the message
-- [ ] The colleague is automatically added to the To line
+- [x] The colleague is automatically added to the To line
 - [ ] @ appears next to the message in your colleague's Inbox
 - [ ] @ appears next to the email in your Sent items folder (Sent folder in Outlook for Mac)
 
@@ -229,7 +231,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 - [ ] Asking your supervisor to prioritize a list of tasks
 - [ ] Sending customers a three-question survey about a recent service experience
-- [ ] Asking your colleagues to choose their favorite lunch spot from a list
+- [x] Asking your colleagues to choose their favorite lunch spot from a list
 - [ ] All of these answers
 
 #### Q33. You created a meeting for next Tuesday at 2 PM, and several invitees have accepted. How do you change the meeting so it will begin at 1 PM and last for one hour?
@@ -248,13 +250,13 @@ C. Some people have already accepted, so you must cancel this meeting and create
 #### Q34. What permission allows your delegates to read, create, change, and delete items that they create, but not items that you created?
 
 - [ ] Reader
-- [ ] Author
+- [x] Author
 - [ ] Reviewer
 - [ ] Editor
 
 #### Q35. Why might you create an additional contacts folder?
 
-- [ ] To store contacts to share with colleagues
+- [x] To store contacts to share with colleagues
 - [ ] To avoid exceeding 500 contacts per folder limit
 - [ ] To make it faster to search for your contacts
 - [ ] All of these answers
@@ -269,7 +271,7 @@ C. Some people have already accepted, so you must cancel this meeting and create
 #### Q37. When accepting a meeting invitation, what happens if you click "Do not send a response"?
 
 - [ ] Outlook will send an email to the meeting organizer on your behalf
-- [ ] The meeting organizer will not receive an email with your response, and your response will be recorded
+- [x] The meeting organizer will not receive an email with your response, and your response will be recorded
 - [ ] The meeting organizer will not receive an email with your response, and your response will not be recorded
 - [ ] None of these answers
 
@@ -278,21 +280,23 @@ C. Some people have already accepted, so you must cancel this meeting and create
 - [ ] You set time constraints for looking events
 - [ ] You automatically switch to list view
 - [ ] You change the time zone that your calendar uses
-- [ ] You change the number of hours visible on the grid
+- [x] You change the number of hours visible on the grid
 
 #### Q39. Which is not a good reason to create a new calendar?
 
 - [ ] To keep track of personal events in a work setting
 - [ ] To use a shared calendar with colleagues
 - [ ] To isolate meetings and important dates for a project team
-- [ ] To have a different view of your calendar
+- [x] To have a different view of your calendar
 
 #### Q40. Under what conditions can you successfully recall a message?
 
-- [ ] Only when the recipient is also using Outlook
+- [x] Only when the recipient is also using Outlook
 - [ ] Only if the email is plain text without attachments
 - [ ] If the email si still in your outbox
 - [ ] If the email was sent within the past 24 hours
+
+[Reference](https://support.microsoft.com/en-us/office/recall-or-replace-an-email-message-that-you-sent-35027f88-d655-4554-b4f8-6c0729a723a0)
 
 #### Q41. What rule can you create in View Settings to color code messages from a particular senderm such as your manager?
 
@@ -485,7 +489,12 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] Open your computer's Recycle Bin (Windows) or Trash (Mac).
 - [ ] Click the Undo button.
 
-#### Q67. You are viewing your calendar in work week view and see a thin horizonatal line running IEWING YOUR CALENDAR IN WORK WEEK VIEW AND SEE A THIN HORIZONTAL LINE RUNNING ACROSS ALL DAYS AT THE 2:30 P.M. POSITION. WHAT DOES THIS TELL YOU?
+#### Q67. You are viewing your calendar in Work Week view and see a thin horizontal line running across all days at the 2:30 p.m. position. What does this tell you?
+
+- [ ] Your next appointment is at 2:30 p.m.
+- [ ] You have a recurring appointment at 2:30 p.m.on each day of the week.
+- [ ] Your calendar is free from 2:30 p.m. on.
+- [x] The current time is 2:30 p.m.
 
 #### Q68. You have a message in your Inbox that has a blue down arrow. What does it mean?
 
@@ -555,11 +564,13 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] a subfolder
 - [ ] a compressed file
 - [ ] a file system folder
-- [ ] an archive
+- [x] an archive
+
+[Reference](https://www.extendoffice.com/documents/outlook/5238-outlook-move-items-older-than.html)
 
 #### Q77. What happens when you delete a folder that contains emails in Outlook?
 
 - [ ] The folder is emptied and then moved to Deleted Items.
 - [ ] You cannot delete a folder until its contents are deleted first.
 - [ ] The contents are moved to Deleted Items, and then the empty folder is moved to Deleted Items.
-- [ ] The folder and its contents are moved to Deleted Items at the same time.
+- [x] The folder and its contents are moved to Deleted Items at the same time.

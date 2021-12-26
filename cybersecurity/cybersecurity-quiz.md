@@ -166,7 +166,7 @@
 - [x] next generation firewall (NGFW)
 - [ ] Cloud App Security Broker (CASB)
 
-#### Q23. Which is _not_ a threat modelling methodology?
+#### Q23. Which is _not_ a threat modeling methodology?
 
 - [ ] TRIKE
 - [x] TOGAF
@@ -198,7 +198,7 @@
 
 **Explaintion**: The formula for asymmetric encryption is `2n`; where `n` is the number of communicating parties.
 
-#### Q27. Two cometeing online retailers process credit card transactions for customers in countries on every continent. One organization is based in the United States. The other is based in the Netherlands. With which regulation must both countries comply while ensuring the security of these transactions?
+#### Q27. Two competing online retailers process credit card transactions for customers in countries on every continent. One organization is based in the United States. The other is based in the Netherlands. With which regulation must both countries comply while ensuring the security of these transactions?
 
 - [ ] Federal Information Security Managment Act (FISMA)
 - [x] Payment Card Industry Data Security Standard (PCI-DSS)
@@ -291,3 +291,148 @@
 - [ ] black box testing
 - [ ] dynamic analysis
 - [ ] penetration testing
+
+#### Q38. Which option is an open-source solution to scanning a network for active hosts and open ports?
+
+- [ ] Autopsy
+- [ ] Snort
+- [x] Nmap
+- [ ] Wireshark
+
+nmap is a port scanner [https://en.wikipedia.org/wiki/Nmap](https://en.wikipedia.org/wiki/Nmap)
+wireshark is a traffic analyzer
+snort is an IDS
+autopsy is for forensic analysis
+
+#### Q39. When implementing a data loss prevention (DLP) strategy, what is the first step in the process?
+
+- [x] Evaluate the features of available DLP products to determine which best meet your organizations's needs.
+- [ ] Examine the flow of sensitive data in your organization to better understand usage patterns.
+- [ ] Conduct an inventory of all the data in your organization to establish classifications based on sensitivity.
+- [ ] Conduct a risk assessment to determine the best data labeling strategy for your organization.
+
+#### Q40. Which malware changes an operating system and conceals its tracks?
+
+- [ ] virus
+- [ ] worm
+- [x] rootkit
+- [ ] Trojan horse
+
+#### Q41. Virtual Private Networks (VPNs) use **\_** to create a secure connection between two networks.
+
+- [x] encryption
+- [ ] a metropolitan area network
+- [ ] a virtual local area network
+- [ ] a wide area network
+
+#### Q42. What is the process of challenging a user to prove their identity?
+
+- [x] authentication
+- [ ] Single Sign-On
+- [ ] authorization
+- [ ] Role-Based Access Control (RBAC)
+
+#### Q43. Which cyberattack aims to exhaust an application's resources, making the application unavailable to legitimate users?
+
+- [ ] SQL injection
+- [ ] dictionary attack
+- [x] Distributed Denial of Service (DDoS)
+- [ ] rainbow table attack
+
+#### Q44. You are a recent cybersecurity hire, and your first assignment is to present on the possible threats to your organization. Which of the following best describes the task?
+
+- [ ] risk mitigation
+- [ ] threat assessment
+- [x] risk management
+- [ ] enumeration
+
+#### Q45. You are at a coffee shop and connect to a public wireless access point (WAP). What a type of cybersecurity attack are you most likely to experience?
+
+- [x] man-in-the-middle attack
+- [ ] back door
+- [ ] logic bomb
+- [ ] virus
+
+#### Q46. You have been tasked with recommending a solution to centrally manage mobile devices used throughout your organization. Which technology would best meet this need?
+
+- [ ] Extended Detection and Responde (XDR)
+- [ ] Security Information Event Management (SIEM)
+- [ ] Intrusion Detection and Prevention System (IDPS)
+- [x] Mobile Device Management (MDM)
+
+#### Q47. Which type of vulnerability cannot be discovered in the course of a typical vulnerability assessment?
+
+- [ ] file permissions
+- [ ] buffer overflow
+- [x] zero-day vulnerability
+- [ ] cross-site scripting
+
+#### Q48. The DLP project team is about to classify your organization's data. Whats is the primary purpose of classifying data?
+
+- [ ] It identifies regulatory compliance requirements.
+- [ ] It prioritizes IT budget expenditures.
+- [x] It quantifies the potential cost of a data breach.
+- [ ] It establishes the value of data to the organization.
+
+#### Q49. You are responsible for managing security of your organization's public cloud infrastructure. You need to implement security to protect the data and applications running in a variety of IaaS and PaaS services, including a new Kubernetes cluster. What type of solution is best suited to this requirement?
+
+- [ ] Cloud Workload Protection Platforms (CWPP)
+- [ ] Cloud Security Posture Management (CSPM)
+- [x] Cloud Access Security Brokers (CASBs)
+- [ ] Intrusion Detection and Prevention System (IDPS)
+
+#### Q50. Sharing account credentials violates the **\_** aspect of access control.
+
+- [ ] identification
+- [x] authorization
+- [ ] accounting
+- [ ] authentication
+
+#### Q51. You have recovered a server that was compromised in a malware attack to its previous state. What is the final step in the incident response process?
+
+- [x] Eradication / Remediation
+- [ ] Certification
+- [ ] Reporting
+- [ ] Lessons Learned
+
+#### Q52. Which type of security assessment requires access to source code?
+
+- [ ] dynamic analysis
+- [x] static analysis
+- [ ] penetration testing
+- [ ] black box testing
+
+#### Q53. Which encryption type uses a public and private key pair for encrypting and decrypting data?
+
+- [x] asymmetric
+- [ ] symmetric
+- [ ] hashing
+- [ ] all of these answers
+
+#### Q54. You have just identified and mitigated an active malware attack on a user's computer, in which command and control was established. What is the next step in the process?
+
+- [ ] Reporting
+- [ ] Recovery
+- [ ] Eradiction / Remediation
+- [ ] Lessons Learned
+
+#### Q55. Which programming language is most susceptible to buffer overflow attacks?
+
+- [x] C
+- [ ] Java
+- [ ] Ruby
+- [ ] Python
+
+#### Q56. Which list correctly describes risk management techniques?
+
+- [ ] risk acceptance, risk mitigation, risk containment, and risk qualification
+- [ ] risk avoidance, risk transference, risk containment, and risk quantification
+- [ ] risk avoidance, risk mitigation, risk containment, and risk acceptance
+- [x] risk avoidance, risk transference, risk mitigation, and risk acceptance
+
+### Q57. To implement encryption in transit, such as with the HTTPS protocol for secure web browsing, which type(s) of encryption is/are used?
+
+- [ ] asymmetric
+- [x] both symmetric and asymmetric
+- [ ] neither symmetric or asymmetric
+- [ ] symmetric

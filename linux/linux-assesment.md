@@ -246,28 +246,28 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 
 #### Q33. Which choice will not print "Hello World" in the terminal?
 
-- [ ]
+- [ ] A
 
 ```bash
 myVar = 5
 [[ $myVar -lt 10 ]] && echo " Hello World"
 ```
 
-- [x]
+- [x] B
 
 ```bash
 myVar = 5
 [[ $myVar -lt 10 ]] || echo " Hello World"
 ```
 
-- [x]
+- [x] C
 
 ```bash
 myVar = 5
 [[ $myVar -gt 10 ]] && echo " Hello World"
 ```
 
-- [ ]
+- [ ] D
 
 ```bash
 myVar = 5
@@ -500,10 +500,12 @@ fi
 
 #### Q61. What issue might a user have when they mount a filesystem by partition path such as /dev/sdal in the /etc/fstab file?
 
-- [ ] The device order may change on boot, resulting in a system that will not boot properly.
+- [x] The device order may change on boot, resulting in a system that will not boot properly.
 - [ ] The user may run out of device letters.
 - [ ] There are no issues with referring to partitions by their partition path.
 - [ ] It is more difficult identifying mounted devices by partition path.
+
+isse letter drift problem, mentionned here https://access.redhat.com/discussions/6004221
 
 #### Q62. Which option would you choose to force grep to use a basic regular expression (BRE)?
 
@@ -529,3 +531,75 @@ fi
 - [ ] ip
 - [ ] Onmtui
 - [x] nm-connection-editor
+
+#### Q65. What will not happen if you run the make command without parameters?
+
+- [x] It will clean up all previously generated binaries and perform a new build.
+- [ ] It will run rules of compilation and building.
+- [ ] It will look for a file called makefile in your current directory.
+- [ ] It will build only programs that need to be rebuilt.
+
+#### Q66. Most commands that support SELinux use which option to display SELinux security context?
+
+- [ ] -S
+- [ ] --selinux
+- [ ] --MAC
+- [x] -Z
+
+#### Q67. What is the difference between the whoami and logname commands?
+
+- [ ] whoami and logname provide the same information.
+- [x] whoami tells who are you currently, and logname tells who you were when you logged in initially.
+- [ ] logname specifies the name of the login log file, and whoami prints the logged in username.
+- [ ] whoami shows you who logged in as initially, and logname shows who are you currently.
+
+#### Q68. What is the command to create an associative array in Bash?
+
+- [ ] declare -a
+- [ ] aarray
+- [ ] array -a
+- [x] declare -A
+
+#### Q69. What tool Should you use to replace a physical volum in LVM?
+
+- [ ] lvcopy
+- [ ] tar
+- [x] pvmove
+- [ ] cp
+
+#### Q70. What is the difference the `==` and `=~` comparison operators when used in BASH double square bracket `if` conditionals?
+
+- [x] The `==` operator performs a string comparison; `=~` performs a regex comparison.
+- [ ] The `==` operator performs a string comparison; `=~` performs a glob pattern comparison.
+- [ ] The `=~` operator performs a string comparison; `==` performs a regex comparison.
+- [ ] There is no `=~` operator in BASH `if` conditionals.
+
+#### Q71. What is the difference between these two lines of code?
+
+```shell
+   echo "data" | tee -a file.txt
+   echo "data" >> file.txt
+```
+
+- [ ] The first line will append the word `data` to file.txt and output it on the screen. The second line will append the word `data` only to file.txt.
+- [ ] They are the same.
+- [ ] The first line will append the word `data` to file.txt and there will be no output on the screen. The second line will output the word `data` on the screen and append it to `file.txt`
+- [ ] Both lines will overwrite file.txt with the word data.
+
+#### Q72. Using backreferences in a POSIX regular expression, which word would this pattern match?
+
+```shell
+(ss).*\1
+```
+
+- [ ] addressee
+- [x] possess
+- [ ] barrenness
+- [ ] successfully
+
+### Q73. What is the purpose of a Mail Transport Agent (MTA)?
+
+- [ ] It transports the mail from user's computer to the mail server.
+- [ ] It accepts mail and adds it to the mail queue for further processing.
+- [ ] It stores the mail in a mail queue waiting for the MUA to download it.
+- [x] It transports mail from one mail server to another.

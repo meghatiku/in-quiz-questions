@@ -277,8 +277,10 @@
 
 - [ ] `db.vehicle.distinct("category")`
 - [ ] `db.vehicle.unique("category")`
-- [x] `db.vehicle.distinct("category").count()`
-- [ ] `db.vehicle.distinct("category").length`
+- [ ] `db.vehicle.distinct("category").count()`
+- [x] `db.vehicle.distinct("category").length`
+
+Note: count() works with find(...) but length works with distinct
 
 #### Q41. From the MongoDB shell, how do you create a new document in the customers collection?
 
@@ -491,3 +493,19 @@
 - [ ] row number
 
 [Reference](https://docs.mongodb.com/manual/reference/operator/aggregation/project/#definition)
+
+#### Q71. After installing MongoDB on your machine, what must you do before launching Mongo?
+
+- [ ] Create a user account.
+- [ ] Register online.
+- [ ] Create a data directory.
+- [x] Establish security credentials.
+      Source: [mongodb site](https://docs.mongodb.com/manual/tutorial/verify-mongodb-packages/#verify-integrity-of-mongodb-packages)
+
+#### Q72. How does a --jsonArray file need to be structured?
+
+- [x] as a properly formatted JSON array
+- [ ] as YAML
+- [ ] as plain text
+- [ ] as a BSON object
+      Source: [Section blog](https://www.section.io/engineering-education/handling-json-in-mongodb/)
