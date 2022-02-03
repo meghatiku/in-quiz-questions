@@ -540,4 +540,31 @@ console.log(currencies);
 - [ ] when HTML has loaded, but not necessarily JavaScript, CSS, or images
 - [ ] when the user can see the webpage on the screen
 
-[Source: MDN Docs](https://web.dev/interactive/)
+[Source: Web.dev](https://web.dev/interactive/)
+
+#### Q57. What is yarn?
+
+- [ ] a JavaScript framework that is leaner than React
+- [ ] a JavaScript bundler
+- [ ] a testing framework
+- [x] a JavaScript package manager
+
+[Source: Yarn Docs](https://yarnpkg.com/)
+
+#### Q58. What is the name of the event that occurs when the mouse pointer hovers over an element?
+
+- [ ] load
+- [x] mouseover
+- [ ] hover
+- [ ] focus
+
+[Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseover_event)
+
+#### Q59. What is meant by the term "polyfill" when used in web development?
+
+- [x] It is a piece of code that provides modern functionality in browsers that do not support it.
+- [ ] It is a piece of code that hides broken content from old browsers.
+- [ ] It is a term for languages such as Saas that compliles to CSS.
+- [ ] It is a script that runs to add vendor prefixes to modern CSS.
+
+[Source: Polyfill](https://developer.mozilla.org/en-US/docs/Glossary/Polyfill)

@@ -5,9 +5,11 @@
 `echo 76 <=> '76 trombones';`
 
 - [ ] 1
-- [x] -1
+- [ ] -1
 - [ ] a parser error
-- [ ] 0
+- [x] 0
+
+**_Both sides of the "spaceship" are equal, so the answer is 0. PHP will convert '76 trombones' to 76 in this context, as the string starts with '76'. Try it!_**
 
 ##### Q2. Which is the most secure way to avoid storing a password in clear text in database?
 
@@ -147,7 +149,7 @@ if ($email === false) {
 
 - [x] all of these answers
 - [ ] #This is a comment
-- [ ] /_ This is a comment _/
+- [ ] `/* This is a comment */`
 - [ ] // This is a comment
 
 ##### Q17. PHP supports multiple types of loops. If you wanted to loop through a block of code if and as long a specified condition is true, which type of loop would you use?
@@ -209,7 +211,7 @@ if ($email === false) {
   4 echo 'Winter is almost over!'."\n";
   5 }
   6 }
-  7 \$userclass = new MyClass;
+  7 $userclass = new MyClass;
   ```
 - [ ]
   ```php
@@ -229,7 +231,7 @@ if ($email === false) {
   4 echo 'Winter is almost over!.."\n";
   5 }
   6 }
-  7 \$userclass = new MyClass;
+  7 $userclass = new MyClass;
   ```
 - [ ]
   ```php
@@ -667,38 +669,34 @@ Dog
 Dog
 ```
 
-- [ ] 
-  ```php
-  $name = "Cat";
-  $name = "Dog";
-  echo $name . "<br/>";
-  echo $$name . "<br/>";
-  echo $Dog;
-  ```
-- [ ] 
-  ```php
-  $name = "Cat";
-  $$name = "Dog";
-  echo $name . "<br/>";
-  echo $$name . "<br/>";
-  echo $Dog;
-  ``` 
-- [x] 
-  ```php
-  $name = "Cat";
-  $$name = "Dog";
-  echo $name . "<br/>";
-  echo $$name . "<br/>";
-  echo $Cat;
-  ```
-- [ ] 
-  ```php
-  $name = "Cat";
-  $$name = "Dog";
-  echo $name . "<br/>";
-  echo $name . "<br/>";
-  echo $Cat;
-  ```
+- [ ] ```php
+      $name = "Cat";
+      $name = "Dog";
+      echo $name . "<br/>";
+      echo $$name . "<br/>";
+      echo $Dog;
+      ```
+- [ ] ```php
+      $name = "Cat";
+      $$name = "Dog";
+      echo $name . "<br/>";
+      echo $$name . "<br/>";
+      echo $Dog;
+      ```
+- [x] ```php
+      $name = "Cat";
+      $$name = "Dog";
+      echo $name . "<br/>";
+      echo $$name . "<br/>";
+      echo $Cat;
+      ```
+- [ ] ```php
+      $name = "Cat";
+      $$name = "Dog";
+      echo $name . "<br/>";
+      echo $name . "<br/>";
+      echo $Cat;
+      ```
 
 ##### Q59. Imagine a web application, built following a MVC architecture, that contains a quiz and a button to score it, When the user presses the Score button, which component should handle the request?
 
@@ -709,69 +707,61 @@ Dog
 
 ##### Q60. Which script might be used to continue a user's search for music, across different webpages?
 
-- [ ] 
-  ```php
-    1 <?php
-    2 start_session();
-    3 $music = $_SESSION['music'];
-    4 ?>
-  ```
-- [ ] 
-  ```php
-    1 <?php
-    2    session_start();
-    3    $music = $SESSION['music'];
-    4 ?>
-  ``` 
-- [ ] 
-  ```php
-    1 <?php
-    2   start_session();
-    3   $music =$session['music'];
-    4 ?>
-  ```
-- [x] 
-  ```php
-    1 <?php
-    2  session_start();
-    3  $music = $_SESSION['music'];
-    4 ?>
-  ```
-  
+- [ ] ```php
+        1 <?php
+        2 start_session();
+        3 $music = $_SESSION['music'];
+        4 ?>
+      ```
+- [ ] ```php
+        1 <?php
+        2    session_start();
+        3    $music = $SESSION['music'];
+        4 ?>
+      ```
+- [ ] ```php
+        1 <?php
+        2   start_session();
+        3   $music =$session['music'];
+        4 ?>
+      ```
+- [x] ```php
+        1 <?php
+        2  session_start();
+        3  $music = $_SESSION['music'];
+        4 ?>
+      ```
+
 ##### Q61. Which PHP script finds the earliest and latest dates from an array?
 
-- [x] 
-  ```php
-    1 <?php
-    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
-    3 echo "Latest Date: ". max($dates)."\n";
-    4 echo "Earliest Date: ". min($dates)."\n";
-    5 ?>
-  ```
-- [ ] 
-  ```php
-    1 <?php
-    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
-    3 echo "Latest Date: ". min($dates)."\n";
-    4 echo "Earliest Date: ". max($dates)."\n";
-    5 ?>
-  ``` 
-- [ ] 
-  ```php
-    1 <?php
-    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
-    3 echo "Latest Date: ". ($dates)."\n";
-    4 echo "Earliest Date: ". ($dates)."\n";
-    5 ?>
-  ```
-- [ ] 
-  ```php
-    1 <?php
-    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
-    3 echo "Latest Date: " max($dates)."\n";
-    4 echo "Earliest Date: " min($dates)."\n";
-    5 ?>
-  ```
+- [x] ```php
+        1 <?php
+        2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+        3 echo "Latest Date: ". max($dates)."\n";
+        4 echo "Earliest Date: ". min($dates)."\n";
+        5 ?>
+      ```
+- [ ] ```php
+        1 <?php
+        2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+        3 echo "Latest Date: ". min($dates)."\n";
+        4 echo "Earliest Date: ". max($dates)."\n";
+        5 ?>
+      ```
+- [ ] ```php
+        1 <?php
+        2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+        3 echo "Latest Date: ". ($dates)."\n";
+        4 echo "Earliest Date: ". ($dates)."\n";
+        5 ?>
+      ```
+- [ ] ```php
+        1 <?php
+        2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+        3 echo "Latest Date: " max($dates)."\n";
+        4 echo "Earliest Date: " min($dates)."\n";
+        5 ?>
+      ```
 
 ##### Q62. What is the resulting output of this for statement?
 
@@ -784,30 +774,27 @@ Dog
 6  }
 ```
 
-- [x] 
-  ```php
-    1 kilometers = 0.6214 miles.
-    2 kilometers = 1.2428 miles.
-    3 kilometers = 1.8642 miles.
-    4 kilometers = 2.4856 miles.
-    5 kilometers = 3.107 miles.
-  ```
-- [ ] 
-  ```php
-    1 kilometers = 0.6214 miles.
-    2 kilometers = 1.2428 miles.
-    3 kilometers = 1.8642 miles
-    4 kilometers = 2.4856 miles.
-    5 kilometers = 3.107 miles.
-    6 kilometers = 3.7284 miles.
-  ``` 
-- [ ] 
-  ```php
-    2 kilometers = 1.2428 miles.
-    3 kilometers = 1.8642 miles.
-    4 kilometers = 2.4856 miles.
-    5 kilometers = 3.107 miles.
-  ```
+- [x] ```php
+        1 kilometers = 0.6214 miles.
+        2 kilometers = 1.2428 miles.
+        3 kilometers = 1.8642 miles.
+        4 kilometers = 2.4856 miles.
+        5 kilometers = 3.107 miles.
+      ```
+- [ ] ```php
+        1 kilometers = 0.6214 miles.
+        2 kilometers = 1.2428 miles.
+        3 kilometers = 1.8642 miles
+        4 kilometers = 2.4856 miles.
+        5 kilometers = 3.107 miles.
+        6 kilometers = 3.7284 miles.
+      ```
+- [ ] ```php
+        2 kilometers = 1.2428 miles.
+        3 kilometers = 1.8642 miles.
+        4 kilometers = 2.4856 miles.
+        5 kilometers = 3.107 miles.
+      ```
 - [ ] FATAL ERROR syntax error, unexpected ')', expecting ';' on line number 2
 
 ##### Q63. In PHP 7, What is the correct way to import multiple classes from namespace in a single declaration ?!
@@ -852,27 +839,31 @@ Dog
 - [ ] It displays: "Paris is the capital of France."
 - [ ] It displays: " is the capital of France."
 - [ ] It triggers a syntax error because the array keys on line 1 are in quotes.
-- [ ] It triggers a syntax error because the array key on line 2 is in quotes.
+- [x] It triggers a syntax error because the array key on line 2 is in quotes.
+
+**_Also, 'france' key must be capitalized!_**
 
 #### Q68. DRY (Don't Repeat Yourself) is a principle of software development aimed at reducing repetition of software patterns. Which choice is not a way to write DRYer code with PHP?
 
 - [ ] inheritance
 - [ ] classes
-- [ ] namespacing
+- [x] namespacing
 - [ ] dependency injection
 
 #### Q69. Which code will return the IP address of the client?
 
 - [ ] `$HTTP_SERVER_VARS("REMOTE_IP")`
-- [ ] `$_SESSION["REMOTE_ADDR"];`
+- [x] `$_SESSION["REMOTE_ADDR"];`
 - [ ] `$_SERVER["HTTP_X_FORWARDED_FOR"]`
-- [ ] `getenv("REMOTE_ADDR")`
+- [x] `getenv("REMOTE_ADDR")`
+
+**_Both 2 and 4 are correct!_**
 
 #### Q70. Your site must allow uploading of large files. What might you need to do?
 
 - [ ] Make sure the user has the proper permissions.
 - [ ] Keep a count of upload file sizes and log them.
-- [ ] Change the `upload_max_filesize` configuration parameter.
+- [x] Change the `upload_max_filesize` configuration parameter.
 - [ ] Be sure to use chunked transfer encoding.
 
 #### Q71. What is the output of this script?
@@ -899,7 +890,7 @@ Dog
 
 #### Q73. What are some of the main types of errors in PHP?
 
-- [ ] notices, warnings, fatal
+- [x] notices, warnings, fatal
 - [ ] runtime, logical, compile
 - [ ] semantic, logical, syntax
 - [ ] warnings, syntax, compile
@@ -908,25 +899,25 @@ Dog
 
 - [ ] `<!-- include file="gravy.php"; -->`
 - [ ] `<?php include gravy.php; ?>`
-- [ ] `<?php include "gravy.php"; ?>`
+- [x] `<?php include "gravy.php"; ?>`
 - [ ] `<?php include file="gravy.php"; ?>`
 
 #### Q75. Which two functions can sanitize text and validate text formats?
 
 - [ ] `session_start()` and `filter_input()`
-- [ ] `filter_var()` and `filter_input()`
+- [x] `filter_var()` and `filter_input()`
 - [ ] `preg_match()` and `strstr()`
 
 #### Q76. Why is it not recommended to make all of a class's variables public?
 
 - [ ] Doing so makes your code tightly coupled.
 - [ ] The attribute may be accessed only by the class that defines the member.
-- [ ] You will have no control over which values the attribute can take. Any external code will be able to change it without any constraint.
+- [x] You will have no control over which values the attribute can take. Any external code will be able to change it without any constraint.
 - [ ] You can then access the attribute only within the class itself, and by inheriting and parent classes.
 
 #### Q77. You want to use wildcard characters when searching for records in a MySQL/MariaDB database using a PDO prepared statement. Which code should you use?
 
-- [ ] `$statement->bindValue(':name', '%' . $_GET['name'] . '%');`
+- [x] `$statement->bindValue(':name', '%' . $_GET['name'] . '%');`
 - [ ] `$statement->bindValue('%' . $_GET['name'] . '%', ':name');`
 - [ ] `$statement->bindParam(':name', '%' . $_GET['name'] . '%');`
 - [ ] `$statement->bindParam('%' . $_GET['name'] . '%', ':name');`
@@ -936,10 +927,10 @@ Dog
 `$array1 = ['country', 'capital', 'language'];`
 `$array2 = ['France', 'Paris', 'French'];`
 
-- [x] `$array3 = array_merge($array1, $array2);`
+- [ ] `$array3 = array_merge($array1, $array2);`
 - [ ] `$array3 = array_union($array1, $array2);`
 - [ ] `$array3 = array_keys($array1, $array2);`
-- [ ] `$array3 = array_combine($array1, $array2);`
+- [x] `$array3 = array_combine($array1, $array2);`
 
 #### Q79. Assume that `$r` is 255, and `$g` and `$b` are both 0. What is the correct code to output `"#ff0000"`?
 
@@ -951,35 +942,37 @@ Dog
 #### Q80. You want to find out what day Twelfth Night falls on after Christmas 2018. Which code should you use?
 
 - [ ] `$xmas = new DateTime('Dec 25, 2018');`
-      `$twelfth_night = $xmas-&gt;add(new DateInterval('P12D'));`
-      `echo $twelfth_night-&gt;format('l');`
+      `$twelfth_night = $xmas->add(new DateInterval('P12D'));`
+      `echo $twelfth_night->format('l');`
 - [ ] `$twelfth_night = strtotime('December 25, 2018 + 12 days');`
       `echo date('d', $twelfth_night);`
 
-- [ ] `$twelfth_night = strtotime('December 25, 2018 + 12 days');`
+- [x] `$twelfth_night = strtotime('December 25, 2018 + 12 days');`
       `echo strftime('%d', $twelfth_night);`
 
 - [ ] `$xmas = new DateTime('Dec 25, 2018');`
       `$twelfth_night = $xmas->add(strtotime('12 days'));`
       `echo $twelfth_night->format('D');`
 
+**_1 seems correct, but the question asks for "day", not day of the week. Twelfth Night is the "06" day of January, 2019._**
+
 #### Q81. Which loop displays all numbers from 1 to 10 inclusive?
 
 - [ ] `$i = 1;`
       `while ($i < 10) {`
-      `echo $i++ . '<br>';`
+      `echo $i++ . '<br/>';`
       `}`
 
-- [ ] ` $i = 0;`
-      ` while ($i <= 10) {`
-      ` echo $i++ . '<br>';`
-      ` }`
+- [ ] `$i = 0;`
+      `while ($i <= 10) {`
+      ` echo $i++ . '<br/>';`
+      `}`
 
 - [ ] `while ($i &lt;= 10) {`
-      ` echo ++$i . '&lt;br&gt;';`
+      ` echo ++$i . '<br/>';`
       `}`
 
 - [x] `$i = 0;`
       `while ($i < 10) {`
-      ` echo ++$i . '<br>';`
+      ` echo ++$i . '<br/>';`
       `}`

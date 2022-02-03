@@ -244,7 +244,7 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 - [x] -b
 - [ ] -x
 
-#### Q33. Which choice will not print "Hello World" in the terminal?
+#### Q33. Which choice will *not* print "Hello World" in the terminal?
 
 - [ ] A
 
@@ -260,11 +260,11 @@ myVar = 5
 [[ $myVar -lt 10 ]] || echo " Hello World"
 ```
 
-- [x] C
+- [ ] C
 
 ```bash
 myVar = 5
-[[ $myVar -gt 10 ]] && echo " Hello World"
+[[ ! $myVar -gt 10 ]] && echo " Hello World"
 ```
 
 - [ ] D
@@ -482,11 +482,9 @@ fi
 ```
 
 - [ ] The code snippet cannot be improved, this is a valid way of checking for the existence of a file.
-- [ ] Use Bash's built-in `[[ ]]` test conditions instead of the ls command.
-- [x] The redirect to `/dev/null` will silence the return code invalidating the conditional. Removing the redirect will solve this.
+- [x] Use Bash's built-in `[[ ]]` test conditions instead of the ls command.
+- [ ] The redirect to `/dev/null` will silence the return code invalidating the conditional. Removing the redirect will solve this.
 - [ ] The ls command will output the name of the file to the screen. Running ls in quiet mode will improve the code snippet.
-
-**Note:** Not confident about answer. If someone knows the exact answer please contribute in this repository and mark correct answer.
 
 #### Q60. Using a systemd-based distribution, you want to restrict the cron service from running either automatically or manually. Which command would you run?
 
@@ -509,12 +507,12 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
 
 #### Q62. Which option would you choose to force grep to use a basic regular expression (BRE)?
 
-- [x] grep -E
+- [ ] grep -E
 - [ ] grep -B
 - [ ] grep -e
-- [ ] grep -G
+- [x] grep -G
 
-[Reference](https://linuxize.com/post/regular-expressions-in-grep/)
+[Reference] Man page of grep command.
 
 #### Q63. An rsyslogd filter determines which items in a log file to act on. What is it made up of?
 
@@ -581,7 +579,7 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
    echo "data" >> file.txt
 ```
 
-- [ ] The first line will append the word `data` to file.txt and output it on the screen. The second line will append the word `data` only to file.txt.
+- [x] The first line will append the word `data` to file.txt and output it on the screen. The second line will append the word `data` only to file.txt.
 - [ ] They are the same.
 - [ ] The first line will append the word `data` to file.txt and there will be no output on the screen. The second line will output the word `data` on the screen and append it to `file.txt`
 - [ ] Both lines will overwrite file.txt with the word data.
@@ -597,9 +595,71 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
 - [ ] barrenness
 - [ ] successfully
 
-### Q73. What is the purpose of a Mail Transport Agent (MTA)?
+#### Q73. To run CGI scripts with Apache, you need to _____.
+
+- [ ] compile the script with a CGI compiler
+- [ ] make the script executable
+- [x] make the script executable and set the ```httpd_enable_cgi``` SELinux boolean
+- [ ] change the ownership of the script to Apache
+
+[reference here](https://selinuxproject.org/page/ApacheRecipes#Allow_the_Apache_HTTP_Server_to_run_CGI_scripts)
+
+#### Q74. To permanently add NAT to the default zone using firewalld, you would use which command string?
+
+- [ ] ```firewall-cmd --permanent --add-nat```
+- [x] ```firewall-cmd --permanent --add-masquerade```
+- [ ] ```firewall-cmd --zone=default --add-nat```
+- [ ] ```firewall-cmd --zone=default --add-masquerade```
+
+[reference here](https://www.rootusers.com/how-to-use-firewalld-rich-rules-and-zones-for-filtering-and-nat)
+
+#### Q75. What is the difference between using ```=``` and ```==``` in a BASH double square bracket ```if``` conditional?
+
+```
+if [[ $FILE == $GLOB ]] ;then
+
+```
+
+- [ ] The single equal sign (```=```) is an assignment operator; the double equal sign (```==```) checks equality.
+- [x] There is no difference.
+- [ ] The single equal sign (```=```) checks equality; the double equal sign (```==```) checks string equality.
+- [ ] The double equal sign (```==```) is an assignment operator; the single equal sign (```=```) checks equality.
+
+[reference here](https://stackoverflow.com/a/12948608)
+
+#### 76. ```journald``` differs from traditional logging services such as ```rsyslogd``` and ```syslogd``` because its logs are _____ by default.
+
+- [ ] stored remotely
+- [ ] text
+- [x] persistent
+- [ ] not persistent
+
+[reference here](https://sematext.com/blog/journald-logging-tutorial/#toc-journald-storage-4)
+
+### Q77. What is the purpose of a Mail Transport Agent (MTA)?
 
 - [ ] It transports the mail from user's computer to the mail server.
 - [ ] It accepts mail and adds it to the mail queue for further processing.
 - [ ] It stores the mail in a mail queue waiting for the MUA to download it.
 - [x] It transports mail from one mail server to another.
+
+### Q78. What do you need to do before you can perform SSH passwordless logins?
+
+- [ ] Genetare RSA or DSA key pairs using ssh-keygen.
+- [ ] Change the remote user's password.
+- [ ] Create a local SSL certificate.
+- [ ] Change the remote SSH configure to allow it.
+
+### Q79. When installing a downloaded package on the RedHat-based distribution manual using RPM, what may you have to do first?
+
+- [ ] Compile the package source code.
+- [ ] Download all dependencies and install them before installing the desired package.
+- [ ] Agree to an end-user license agreement.
+- [ ] provide the --resolve option so RPM resolves all packages dependency.
+
+### Q80. With GNU tools such as a GNU grep, awk, and sed, what is the difference between basic regular expressions (BREs) and extended regular expressions (EREs)?
+
+- [ ] EREs can match the groups.
+- [ ] EREs support occurrence operators.
+- [ ] ERE's support alternation.
+- [ ] only the syntax differs.

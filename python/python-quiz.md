@@ -193,7 +193,7 @@ return list(enumerate(college_years, 2019))
 - [x] `class Game(LogicGame): pass`
 - [ ] `def Game.LogicGame(): pass`
 
-`repeated but labels will be different`
+_Duplicate of question 10._
 
 #### Q16. What is the purpose of the "self" keyword when defining or calling instance methods?
 
@@ -907,7 +907,7 @@ def calculate_sales_tax(subtotal):
 - [ ] a stacks adds items to the top and removes items from anywhere in the stack.
 - [ ] a stacks adds items to either end and removes items from either end.
 
-**Explanation** Stack uses the _first in first out_ approach
+**Explanation** Stack uses the _last in first out_ approach
 
 #### Q66. What is a base case in a recursive function?
 
@@ -1026,6 +1026,10 @@ def self.get_next_card(self):
 - [ ] `// This is a comment`
 
 #### Q78. What is the correct syntax for replacing the string apple in the list with the string orange?
+
+```
+my_list = ['kiwi', 'apple', 'banana']
+```
 
 - [ ] orange = my_list[1]
 - [x] my_list[1] = 'orange'
@@ -1176,7 +1180,7 @@ def count_recursive(n=1):
         return
     print(n)
 
-count_recursive(n + 1)
+    count_recursive(n + 1)
 ```
 
 - [ ]
@@ -1282,6 +1286,8 @@ num_list[len(num_list)//2]
 - [x] A class method can modify the state of the class, but it cannot directly modify the state of an instance that inherits from that class.
 - [ ] A class method is a regular function that belongs to a class, but it must return None
 - [ ] A class method is similar to a regular function, but a class method does not take any arguments.
+
+_Duplicate version of Question 50._
 
 #### Q94. What file is imported to use dates in python?
 
@@ -1393,37 +1399,58 @@ num_list.remove(2)
 [10,9,8,7,6,5,4,3,2,1]
 
 - [ ] reversed(list(range(1,11)))
-- [x] list(reversed(range(1,10)))
+- [ ] list(reversed(range(1,10)))
 - [ ] list(range(10,1,-1))
-- [ ] list(reversed(range(1,11)))
+- [x] list(reversed(range(1,11)))
 
 #### Q104. Which syntax correctly creates a variable that is bound to a tuple?
+
 - [ ] my_tuple = [2, 'apple', 3.5]
 - [ ] my_tuple = [2, 'apple', 3.5].tuple()
 - [ ] my_tuple = tup(2, 'apple', 3.5)
 - [x] my_tuple = (2, 'apple', 3.5)
 
 [Reference](https://www.w3schools.com/python/python_tuples.asp)
+
 #### Q105. Which fragment of code will print exactly the same output as this fragment?
+
 ```
 import math
 print(math.pow(2,10)) # prints 2 elevated to the 10th power
 ```
 
-- [ ] print(2^10)
-- [x] print(2**10)
-- [ ] y = [x*2 for x in range(1,10)]
-      print(y)
-- [ ] y = 1
-      
-      for i in range(1,10):
-          y = y * 2
-    
-      print(y)
+- [ ]
+
+```
+print(2^10)
+```
+
+- [x]
+
+```
+print(2**10)
+```
+
+- [ ]
+
+```
+y = [x*2 for x in range(1,10)]
+print(y)
+```
+
+- [ ]
+
+```
+y = 1
+for i in range(1,10):
+    y = y * 2
+print(y)
+```
 
 [Reference](https://www.digitalocean.com/community/tutorials/how-to-do-math-in-python-3-with-operators#:~:text=The%20**%20operator%20in%20Python,multiplied%20by%20itself%203%20times.)
 
-#### Q106. Elements surrounded by [] are _____, {} are _____, and () are _____.
+#### Q106. Elements surrounded by [] are **\_**, {} are **\_**, and () are **\_**.
+
 - [ ] sets only; lists or dictionaries; tuples
 - [ ] lists; sets only; tuples
 - [ ] tuples; sets or lists; dictionaries
@@ -1431,9 +1458,8 @@ print(math.pow(2,10)) # prints 2 elevated to the 10th power
 
 [Reference](https://www.geeksforgeeks.org/differences-and-applications-of-list-tuple-set-and-dictionary-in-python/)
 
-
-
 #### Q107. What is the output of this code? (NumPy has been imported as np.)
+
 ```
 table = np.array([
     [1,3],
@@ -1442,19 +1468,20 @@ print(table.max(axis=1))
 ```
 
 - [ ] `[2, 4]`
-- [X] `[3, 4]`
+- [x] `[3, 4]`
 - [ ] `[4]`
 - [ ] `[1,2]`
 
 [Reference](https://colab.research.google.com/drive/1PRGf7Wgcr_gQk7snnxxuc5rL9O1ky9Xg?usp=sharing)
 
 #### Q108. What will this code print?
+
 ```
 number = 3
 print (f"The number is {number}")
 ```
 
-- [X] `The number is 3`
+- [x] `The number is 3`
 - [ ] `the number is 3`
 - [ ] `THE NUMBER IS 3`
 - [ ] It throws a TypeError because the integer must be cast to a string.
@@ -1462,11 +1489,119 @@ print (f"The number is {number}")
 [Reference](https://colab.research.google.com/drive/1PRGf7Wgcr_gQk7snnxxuc5rL9O1ky9Xg?usp=sharing)
 
 #### Q109. Which syntax correctly creates a variable that is bound to a tuple?
+
 - [ ] `my_tuple tup(2, 'apple', 3.5) %D`
 - [ ] `my_tuple [2, 'apple', 3.5].tuple() %D`
-- [X] `my_tuple = (2, 'apple', 3.5)`
+- [x] `my_tuple = (2, 'apple', 3.5)`
 - [ ] `my_tuple = [2, 'apple', 3.5]`
 
 [Reference](https://beginnersbook.com/2018/02/python-tuple/)
 
+#### Q110. Which mode is _not_ a valid way to access a file from within a Python script?
 
+- [ ] write('w')
+- [ ] scan('s')
+- [x] append('a')
+- [ ] read('r')
+
+[Reference](https://www.guru99.com/reading-and-writing-files-in-python.html)
+
+[Reference](https://www.w3schools.com/python/ref_list_append.asp)
+
+#### Q111. Which command will create a list from 10 down to 1? Example:
+
+```
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+```
+
+- [ ] reversed(list(range(1,11)))
+- [ ] list(reversed(range(1,10)))
+- [ ] list(range(10, 1, -1))
+- [x] list(reversed(range(1,11)))
+
+[Reference](https://www.programiz.com/python-programming/methods/built-in/reversed)
+
+#### Q112. Suppose you have a variable named `vector` of type `np.array` with 10.000 elements. How can you turn `vector` into a variable named `matrix` with dimensions 100x100?: _[ANSWER NEEDED]_
+
+- [ ] matrix = matrix(vector,100,100)
+- [ ] matrix = vector.to_matrix(100,100)
+- [ ] matrix = (vector.shape = (100,100))
+- [x] matrix = vector.reshape(100,100)
+
+**example**
+
+```python
+import numpy as np
+vector = np.random.rand(10000)
+matrix = a.reshape(100, 100)
+print(matrix.shape)
+(100, 100)
+```
+
+#### Q113. NumPy allows you to multiply two arrays without a for loop. This is an example of \_.
+
+- [x] vectorization
+- [ ] attributions
+- [ ] accelaration
+- [ ] functional programming
+
+#### Q114. What built-in Python data type can be used as a hash table?
+
+- [ ] `set`
+- [ ] `list`
+- [ ] `tuple`
+- [x] `dictionary`
+
+#### Q115. Which Python function allows you to execute Linux shell commands in Python?
+
+- [ ] `sys.exc_info()`
+- [x] `os.system()`
+- [ ] `os.getcwd()`
+- [ ] `sys.executable`
+
+#### Q116. Suppose you have the following code snippet and want to extract a list with only the letters. Which fragment of code will _not_ achieve that goal?
+
+```
+my_dictionary = {
+    'A': 1,
+    'B': 2,
+    'C': 3,
+    'D': 4,
+    'E': 5
+}
+```
+
+- [x]
+
+```
+letters = []
+
+for letter in my_dictionary.values():
+    letters.append(letter)
+```
+
+- [ ]
+
+```
+letters = my_dictionary.keys()
+```
+
+- [ ]
+
+```
+letters = [letter for (letter, number) in my_dictionary.items()]
+```
+
+- [ ]
+
+```
+letters4 = list(my_dictionary)
+```
+**Explanation:** The first one (the correct option) returns the list of the values (the letters). The rest of the options return a list of the keys.
+
+#### Q117. THen an array is large, NumPy will not print the entire array when given the built-in `print` function. What function can you use within NumPy to force it to print the entire array?
+
+- [ ] `set_printparams`
+- [x] `set_printoptions`
+- [ ] `set_fullprint`
+- [ ] `setp_printwhole`
