@@ -1526,17 +1526,16 @@ x<y&z>w
 - [ ] `<img>` is not a valid HTML element. Instead, use `<image src="..."/>`.
 - [ ] `<img>` should be nested within a `<figure>` tag.
 
-
 #### Q97. Which choice is the most semantically correct markup for specifying the first definition of a term?
 
-- [ ]  <p>The <dl>focal length</dl> of a lens gives the distance from the lens to the image sensor.</p>
-- [x]  <p>The <dfn>focal length<dfn> of a lens gives the distance from the lens to the image sensor.</p>
-- [ ]  <p>The <dt>focal length</dt> of a lens gives the distance from the lens to the image sensor.</p>
-- [ ]  <p>The <dd>focal length</dd> of a lens gives the distance from the lens to the image sensor.</p>
+- [ ] `<p>`The `<dl>`focal length`</dl>` of a lens gives the distance from the lens to the image sensor.`</p>`
+- [x] `<p>`The `<dfn>`focal length`<dfn>` of a lens gives the distance from the lens to the image sensor.`</p>`
+- [ ] `<p>`The `<dt>`focal length`</dt>` of a lens gives the distance from the lens to the image sensor.`</p>`
+- [ ] `<p>`The `<dd>`focal length`</dd>` of a lens gives the distance from the lens to the image sensor.`</p>`
 
-`The <dfn> HTML element is used to indicate the term being defined within the context of a definition phrase or sentence. The <p> element, the <dt>/<dd> pairing, or the <section> element which is the nearest ancestor of the <dfn> is considered to be the definition of the term.` 
-  
- [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn)
+`**Definition element => The <dfn> HTML element is used to indicate the term being defined within the context of a definition phrase or sentence. `<br>`**Description Term element => The <dt> HTML element specifies a term in a description or definition list, and as such must be used inside a <dl> element.`<br>` **Description Details element =>The <dd> HTML element provides the description, definition, or value for the preceding term (<dt>) in a description list (<dl>).`
+
+[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn)
 
 #### Q98. Which choice is the best way to code three choices within a form so that the user can select multiple items?
 
@@ -1557,26 +1556,86 @@ x<y&z>w
       <label><input type="radio" name="example"> Choice 3</label>
 
 `<input> elements of type checkbox are rendered by default as boxes that are checked (ticked) when activated, like you might see in an official government paper form. The exact appearance depends upon the operating system configuration under which the browser is running. Generally this is a square but it may have rounded corners.`
-  
- [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
 
-#### Q99. How would you mark up a piece of ASCII art (an emotion) in an accessible way?
+[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
 
-- [x] `<pre role="emotion" aria-label="ASCII emotion of a shrug">¯\_(ツ)_/¯</pre>`
+#### Q99. How would you mark up a piece of ASCII art (an emoticon) in an accessible way?
 
-- [ ] `<pre role="img" aria-label="ASCII emotion of a shrug">¯\_(ツ)_/¯</pre>`
-
-- [ ] `<dfn title="ASCII emotion of a shrug">¯\_(ツ)_/¯</dfn>`
-
-- [ ] `<label for="art">ASCII emotion of a shrug</label><pre role="img" id="art">¯\_(ツ)_/¯</pre>`
+- [x] `<pre role="emoticon" aria-label="ASCII emoticon of a shrug">¯\_(ツ)_/¯</pre>`
+- [ ] `<pre role="img" aria-label="ASCII emoticon of a shrug">¯\_(ツ)_/¯</pre>`
+- [ ] `<dfn title="ASCII emoticon of a shrug">¯\_(ツ)_/¯</dfn>`
+- [ ] `<label for="art">ASCII emoticon of a shrug</label><pre role="img" id="art">¯\_(ツ)_/¯</pre>`
 
 #### Q100. Which example is a standard way in HTML5 for adding author metadata to a page?
 
 - [ ] `<metadata name="author" content="Author Name">`
-
 - [ ] `<meta name="author">Author Name</meta>`
-
 - [ ] `<meta name="creator" content="Author Name">`
-
 - [x] `<meta name="author" content="Author Name">`
 
+#### Q101. Given the following requirements, select the correct `input` configuration: An `input` that allows the user to select from a range of integer values between 0 and 100 (inclusive) in increments of 5.
+
+- [ ] `<input type="range" min="0" max="100" by="5" />`
+- [x] `<input type="range" min="0" max="100" step="5" />`
+- [ ] `<input type="number" min="0" max="100" step="5" />`
+- [ ] `<input type="number" min="0" max="100" by="5" />`
+
+`<input> elements of type range let the user specify a numeric value which must be no less than a given value, and no more than another given value. The step attribute is a number that specifies the granularity that the value must adhere to.`
+
+[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input/range)
+
+#### Q102. Which choice is valid markup for a `<head>` element?
+
+- [ ] `<head class="Page Section Information" id="head"><title>Page Title</title></head>`
+- [ ] `<head><title>Page Title</title> <img src="favicon.icon" alt=""></head>`
+- [x] `<head><title>Page Title</title> <data value="email">email@example.com</data></head>`
+- [ ] `<head><title>Page Title</title><address>email@example.com</address></head>`
+
+`The <head> HTML element contains machine-readable information (metadata) about the document, like its title.The <data> tag is used to add a machine-readable translation of a given content.`
+[Source 1](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)/
+[Source 2](https://www.w3schools.com/tags/tag_data.asp)
+
+#### Q103. You need to add comments to the company blog. What is the most semantic markup for a list of comments?
+
+- [x] A
+
+```HTML
+<aside>
+  <h3>Comments</h3>
+  <article> First comment.</article>
+  <article> Second comment.</article>
+</aside>
+```
+
+- [ ] B
+
+```HTML
+<div aria="dpub-comments">
+  <h3>Comments</h3>
+  <div aria="dpub-comment"> First comment.</div>
+  <div aria="dpub-comment"> Second comment.</div>
+</div>
+```
+
+- [ ] C
+
+```HTML
+<aside>
+  <h3>Comments</h3>
+  <aside> First comment.</aside>
+  <aside> Second comment.</aside>
+</aside>
+```
+
+- [ ] D
+
+```HTML
+<div typeof="comments">
+  <h3>Comments</h3>
+  <div typeof="comment"> First comment.</div>
+  <div typeof="comment"> Second comment.</div>
+</div>
+```
+
+`The <article> HTML element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Example:a user-submitted comment.`
+[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)

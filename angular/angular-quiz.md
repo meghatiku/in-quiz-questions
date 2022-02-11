@@ -1046,7 +1046,7 @@ export const APP_SETTINGS = new Injection<AppSettings>('app.settings');
 </form>
 ```
 
-- [ ] submit(form.value)
+- [x] submit(form.value)
 - [ ] submit($event)
 - [ ] submit(ngForm.value)
 - [ ] submit(FirstName, lastName)
@@ -1074,7 +1074,7 @@ RouterModule.forRoot (
 ```
 
 - [ ] title="userName"
-- [ ] title="{{ userName }}"
+- [x] title="{{ userName }}"
 - [ ] title="{{ 'userName' }}"
 - [ ] The only way to do it is by using the square brackets.
 
