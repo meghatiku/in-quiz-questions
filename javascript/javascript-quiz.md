@@ -143,8 +143,8 @@ for (var j = 1; j <= 4; j++) {
 }
 ```
 
-[Reference setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
-[Reference immediately invoked anonymous functions](https://www.javascripttutorial.net/javascript-anonymous-functions/)
+1. [Reference setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
+2. [Reference immediately invoked anonymous functions](https://www.javascripttutorial.net/javascript-anonymous-functions/)
 
 #### Q9. How does a function create a closure?
 
@@ -221,8 +221,8 @@ NOTE: The first three are all partially correct and will match digits, but the *
 
 **More resources:**
 
-- [Repeating characters](https://regexone.com/lesson/repeating_characters)
-- [Kleene operators](https://regexone.com/lesson/kleene_operators)
+1. [Repeating characters](https://regexone.com/lesson/repeating_characters)
+2. [Kleene operators](https://regexone.com/lesson/kleene_operators)
 
 #### Q13. What is the result in the console of running this code?
 
@@ -1033,8 +1033,8 @@ const foo = {
 - [ ] Functions cannot be declared as properties of objects.
 - [x] Nothing, there are no errors.
 
-[Reference functions in javascript](https://www.w3schools.com/js/js_functions.asp)
-[Reference working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+1. [Reference functions in javascript](https://www.w3schools.com/js/js_functions.asp)
+2. [Reference working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 
 #### Q82. What will be logged to the console?
 
@@ -1111,8 +1111,8 @@ const foo = {
 - [x] The map() methods returns a new array with a transformation applied on each item in the original array, wheras the `forEach()` method iterates through an array with noreturn value.
 - [ ] The `forEach()` methods returns a new array with a transformation applied on each item in the original array, wheras the `map()` method iterates through an array with noreturn value.
 
-[Reference map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
-[Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
+1. [Reference map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+2. [Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
 
 #### Q86. Which concept does this code illustrate?
 
@@ -1379,9 +1379,9 @@ function roar() {
 - [x] `roar.apply(bear);`
 - [ ] `bear[roar]();`
 
-[Reference Apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
-[Reference this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
-[Reference bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
+1. [Reference Apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
+2. [Reference this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+3. [Reference bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
 
 #### Q104. Which choice is a valid example of an arrow function, assuming c is defined in the outer scope?
 
@@ -1504,8 +1504,8 @@ document.querySelectorAll('div').forEach((e) => {
 - [ ] C
 - [ ] A B C
 
-[Reference query selector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
-[Reference events](https://developer.mozilla.org/en-US/docs/Web/Events)
+1. [Reference query selector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+2. [Reference events](https://developer.mozilla.org/en-US/docs/Web/Events)
 
 #### Q113. What will this code log to the console?
 
@@ -1588,15 +1588,17 @@ for (let value of cipherText) {
 }
 ```
 
-[Reference MDN JavaScript Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
-[Reference MDN JavaScript Array entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)
-[Reference MDN JavaScript Remainder/Modulo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder)
+1. [Reference MDN JavaScript Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+2. [Reference MDN JavaScript Array entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)
+3. [Reference MDN JavaScript Remainder/Modulo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder)
 
 #### Q116. What will this code log to the console?
 
+```js
 const foo = [1, 2, 3];
 const [n] = foo;
 console.log(n);
+```
 
 - [ ] undefined
 - [x] 1
@@ -1605,9 +1607,11 @@ console.log(n);
 
 #### Q117. Which Pokemon will be logged to the console?
 
-var pokedex = ["Snorlax", "Jigglypuff", "Charmander", "Squirtle"];
+```js
+var pokedex = ['Snorlax', 'Jigglypuff', 'Charmander', 'Squirtle'];
 pokedex.pop();
 console.log(pokedex.pop());
+```
 
 - [x] Charmander
 - [ ] Jigglypuff
@@ -1644,7 +1648,87 @@ if(/* Snippet goes here */){
 </div>
 ```
 
-    - [ ] document.querySelector("div.content")
-    - [X] document.querySelector("span.content")
-    - [ ] document.querySelector(".content")
-    - [ ] document.querySelector("div.span")
+- [ ] document.querySelector("div.content")
+- [x] document.querySelector("span.content")
+- [ ] document.querySelector(".content")
+- [ ] document.querySelector("div.span")
+
+#### Q120. Which value is not falsey?
+
+- [x] `[]`
+- [ ] `undefined`
+- [ ] `0`
+- [ ] `null`
+
+[Falsy - MDN Web Docs Glossary: Definitions of Web-related terms | MDN](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
+
+#### Q121. What line of code causes this code segment to throw an error?
+
+```js
+const lion = 1;
+let tiger = 2;
+var bear;
+
+++lion;
+bear += lion + tiger;
+tiger++;
+```
+
+- [x] `line 5, because lion cannot be reassigned a value`
+- [ ] `line 6, because the += operator cannot be used with the undefined variable bear`
+- [ ] `line 5, because the prefix (++) operator does not exist in JavaScript`
+- [ ] `line 3, because the variable bear is left undefined`
+
+1. [const - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
+2. [TypeError: invalid assignment to const "x" - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_const_assignment)
+
+#### Q122. What will be the value of `result` after running this code?
+
+```js
+const person = { name: 'Dave', age: 40, hairColor: 'blue' };
+const result = Object.keys(person).map((x) => x.toUpperCase());
+```
+
+- [ ] It will throw a TypeError.
+- [ ] `["Name", "Age", "HairColor"]`
+- [ ] `["DAVE", 40, "BLUE"]`
+- [x] `["NAME", "AGE", "HAIRCOLOR"]`
+
+1. [Object.keys() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
+2. [Array.prototype.map() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+3. [String.prototype.toUpperCase() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
+
+#### Q123. What will be logged to the console?
+
+```js
+console.log("I");
+
+setTimeout(() => {
+  console.log("love")
+}, 0);
+
+console.log("JavaScript!");
+```
+
+- [x] The output may change with each execution of the code and cannot be determined.
+- [ ]
+  ```txt
+  I
+  love
+  JavaScript!
+  ```
+- [ ]
+  ```txt
+  I
+  JavaScript!
+  love
+  ```
+- [ ]
+  ```txt
+  love
+  I
+  JavaScript!
+  ```
+
+[MDN Web Docs: `setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
+- If the `delay` parameter is omitted, a value of 0 is used, meaning execute "immediately", or more accurately, the next event cycle. Note that in either case, the actual delay may be longer than intended; see [Reasons for delays longer than specified](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout#reasons_for_delays_longer_than_specified) below.

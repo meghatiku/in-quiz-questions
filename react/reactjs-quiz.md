@@ -1088,10 +1088,10 @@ class Huggable extends React.Component {
 }
 ```
 
-- [ ] `<button onClick={(name) => this.hub(name)}>Hug Button`
-- [ ] `<button onClick={this.hug(e, name)}>Hug Button`
-- [ ] `<button onClick={(e) => this.hug(name, e)}>Hug Button`
-- [ ] `<button onClick={(e) => this.hug(name, e)}>Hug Button`
+- [ ] `<button onClick={(name) => this.hug(name)}>Hug Button</button>;`
+- [ ] `<button onClick={this.hug(e, name)}>Hug Button</button>;`
+- [ ] `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>;`
+- [ ] `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>;`
 
 #### Q96. What syntax do you use to create a component in React?
 
@@ -1101,3 +1101,27 @@ class Huggable extends React.Component {
 - [ ] a tag
 
 `React Components are like functions that return HTML elements. Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML. Components come in two types, Class components and Function components.` [(Source)](https://reactjs.org/docs/components-and-props.html)
+
+#### Q97. You want to disable a button so that it does not emit any events onClick. Which prop do you use to acomplish this?
+
+- [ ] onBlur
+- [ ] onPress
+- [ ] defaultValue
+- [ ] disabled
+
+#### Q98. In this function, which is the best way to describe the Dish component?
+
+````
+function Dish() {
+  return (
+    <>
+      <Ingredient />
+      <Ingredient />
+    </>
+  );
+}
+````
+- [ ] child component
+- [x] parent component
+- [ ] nested component
+- [ ] sibling component
