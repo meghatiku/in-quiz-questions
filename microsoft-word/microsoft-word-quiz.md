@@ -530,6 +530,8 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 
 #### Q67. What is the difference between a footnote and an endnote?
 
+Duplicated with Q33.
+
 - [ ] An endnote always appears on the bottom of the same page that it references
 - [ ] Footnote use Arabic numerals and endnotes use letters.
 - [x] A footnote is placed at the bottom of the page, and an endnote is placed at the end of the document
@@ -610,6 +612,8 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] Insert Table of Figures
 
 #### Q78. In this image, what do the red lines next to the text indicate?
+
+Duplicated with Q50.
 
 ![image](https://i.imgur.com/JUbaoyO.png)
 

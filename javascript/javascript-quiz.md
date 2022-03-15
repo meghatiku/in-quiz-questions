@@ -217,7 +217,7 @@ console.log(bob.precip);
 - [ ] `/[0-9]+:[0-9]+:[0-9]+/`
 - [ ] `/ : : /`
 
-NOTE: The first three are all partially correct and will match digits, but the **second option is the most correct** because it will **only** match **2 digit** time values (12:00:32). The first option would have worked if the repitions range looked like `[0-9]{2}`, however because of the **comma** `[0-9]{2,}` it will select 2 **or more** digits (120:000:321). The third option will any range of time digits, single _and_ multiple (meaning `1:2:3` will also match).
+NOTE: The first three are all partially correct and will match digits, but the **second option is the most correct** because it will **only** match **2 digit** time values (12:00:32). The first option would have worked if the repetitions range looked like `[0-9]{2}`, however because of the **comma** `[0-9]{2,}` it will select 2 **or more** digits (120:000:321). The third option will any range of time digits, single _and_ multiple (meaning `1:2:3` will also match).
 
 **More resources:**
 
@@ -397,7 +397,7 @@ dessert.type = 'pudding';
 - [ ] `Student.prototype = Person;`
 - [ ] `Student.prototype = Person();`
 
-[Reference protoype object js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+[Reference prototype object js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 
 #### Q28. Why would you include a "use strict" statement in a JavaScript file?
 
@@ -524,7 +524,7 @@ let diff = function (x, y) {
 
 [Reference arrays in js are objects](https://stackoverflow.com/questions/30820611/why-doesnt-equality-check-work-with-arrays)
 
-#### Q39. What is the name of a function whose execution can be suspended and resumed at a later point? What type of function can have its execution suspended and then resumed at a later point?
+#### Q39. What type of function can have its execution suspended and then resumed at a later point?
 
 - [x] Generator function
 - [ ] Arrow function
@@ -914,7 +914,7 @@ button.addEventListener(
 - [x] `Document.querySelectorAll('img')`
 - [ ] `Document.querySelector('<img>')`
 
-[Reference query selctor](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+[Reference query selector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 
 #### Q73. Why would you choose an asynchronous structure for your code?
 
@@ -1046,9 +1046,9 @@ setTimeout(() => {
 console.log('Javascript!');
 ```
 
-- [x]
+- [ ]
 
-```
+```plaintext
 I
 Javascript!
 love
@@ -1056,13 +1056,13 @@ love
 
 - [ ]
 
-```
+```plaintext
 love
 I
 Javascript!
 ```
 
-- [ ] The output may change with each execution of code and cannot be determined.
+- [x] The output may change with each execution of code and cannot be determined.
 
 - [ ]
 
@@ -1072,7 +1072,8 @@ love
 Javascript!
 ```
 
-[Reference call stack in js](https://www.javascripttutorial.net/javascript-call-stack/)
+**Reference**
+https://developer.mozilla.org/en-US/docs/Web/API/setTimeout#reasons_for_delays_longer_than_specified especially see the 'late timeouts' section.
 
 #### Q83. What will this code log to the console?
 
@@ -1104,12 +1105,12 @@ const foo = {
 
 [Reference working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 
-#### Q85. What is the difference between the map() and the forEach() methods on the Array prototype?
+#### Q85. What is the difference between the `map()` and the `forEach()` methods on the Array prototype?
 
 - [ ] There is no difference.
-- [ ] The `forEach()` method returns a single output value, wheras the `map()` method performs operation on each value in the array.
-- [x] The map() methods returns a new array with a transformation applied on each item in the original array, wheras the `forEach()` method iterates through an array with noreturn value.
-- [ ] The `forEach()` methods returns a new array with a transformation applied on each item in the original array, wheras the `map()` method iterates through an array with noreturn value.
+- [ ] The `forEach()` method returns a single output value, whereas the `map()` method performs operation on each value in the array.
+- [x] The map() methods returns a new array with a transformation applied on each item in the original array, whereas the `forEach()` method iterates through an array with no return value.
+- [ ] The `forEach()` methods returns a new array with a transformation applied on each item in the original array, whereas the `map()` method iterates through an array with no return value.
 
 1. [Reference map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 2. [Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
@@ -1158,7 +1159,7 @@ for (var i = 0; i < 5; i++) {
 
 [Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
 
-#### Q89. What is the value of dessert.type after executing this code?
+#### Q89. What is the value of `dessert.type` after executing this code?
 
 ```js
 const dessert = { type: 'pie' };
@@ -1204,8 +1205,8 @@ new logThis();
 
 #### Q92. Which statement is applicable to the defer attribute of the HTML \<script\> tag?
 
-- [ ] defer causes the script ta be loaded from the backup content delivery network (CDN).
-- [x] defer allows the browser ta continue processing the page while the script loads in the background.
+- [ ] defer causes the script to be loaded from the backup content delivery network (CDN).
+- [x] defer allows the browser to continue processing the page while the script loads in the background.
 - [ ] defer blacks the browser from processing HTML below the tag until the script is completely loaded.
 - [ ] defer lazy loads the script, causing it to download only when it is called by another script on the page.
 
@@ -1264,7 +1265,7 @@ console.log(obj2.a, obj2.b);
 
 [Reference spread syntax es6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 
-### Q96. Which line could you add to this code to print "jaguar" to the console?
+#### Q96. Which line could you add to this code to print "jaguar" to the console?
 
 ```js
 let animals = ['jaguar', 'eagle'];
@@ -1362,13 +1363,11 @@ console.log(x);
 
 [Reference switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 
-### Q103. Which statement prints "roar" to the console?
+#### Q103. Which statement prints "roar" to the console?
 
 ```js
 var sound = 'grunt';
-var bear = {
-  sound: 'roar',
-};
+var bear = { sound: 'roar' };
 function roar() {
   console.log(this.sound);
 }
@@ -1618,7 +1617,9 @@ console.log(pokedex.pop());
 - [ ] Snorlax
 - [ ] Squirtle
 
-`The pop() method removes the last element from an array and returns that element. This method changes the length of the array.` [(Source)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+**Explanation**: The pop() method removes the last element from an array and returns that element. This method changes the length of the array.
+
+[Reference Array.pop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
 
 #### Q118. Which snippet allows the `acresOfRainForest` variable to increase?
 
@@ -1637,7 +1638,7 @@ if(/* Snippet goes here */){
 - [x] `conservation && !deforestation`
 - [ ] `!conservation || deforestation`
 
-[if...else statements reference](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#if...else_statements)
+[Reference if...else statements](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#if...else_statements)
 
 #### Q119. Which statement can be used to select the element from the DOM containing the text "The LinkedIn Learning library has great JavaScript courses" from this markup?
 
@@ -1660,7 +1661,7 @@ if(/* Snippet goes here */){
 - [ ] `0`
 - [ ] `null`
 
-[Falsy - MDN Web Docs Glossary: Definitions of Web-related terms | MDN](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
+[Reference Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
 
 #### Q121. What line of code causes this code segment to throw an error?
 
@@ -1679,8 +1680,8 @@ tiger++;
 - [ ] `line 5, because the prefix (++) operator does not exist in JavaScript`
 - [ ] `line 3, because the variable bear is left undefined`
 
-1. [const - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
-2. [TypeError: invalid assignment to const "x" - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_const_assignment)
+1. [Reference const in js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
+2. [Reference TypeError: invalid assignment to const "x"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_const_assignment)
 
 #### Q122. What will be the value of `result` after running this code?
 
@@ -1694,41 +1695,56 @@ const result = Object.keys(person).map((x) => x.toUpperCase());
 - [ ] `["DAVE", 40, "BLUE"]`
 - [x] `["NAME", "AGE", "HAIRCOLOR"]`
 
-1. [Object.keys() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
-2. [Array.prototype.map() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-3. [String.prototype.toUpperCase() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
+1. [Reference Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
+2. [Reference Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+3. [Reference String.prototype.toUpperCase()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
 
-#### Q123. What will be logged to the console?
+#### Q123. Which snippet could you insert to this code to print "swim" to the console?
 
 ```js
-console.log("I");
+let animals = ["eagle", "osprey", "salmon"];
+let key = animal => animal === "salmon";
 
-setTimeout(() => {
-  console.log("love")
-}, 0);
-
-console.log("JavaScript!");
+if(/* Insert Snippet Here */){
+  console.log("swim");
+}
 ```
 
-- [x] The output may change with each execution of the code and cannot be determined.
-- [ ]
-  ```txt
-  I
-  love
-  JavaScript!
-  ```
-- [ ]
-  ```txt
-  I
-  JavaScript!
-  love
-  ```
-- [ ]
-  ```txt
-  love
-  I
-  JavaScript!
-  ```
+- [ ] `animals.every(key)`
+- [ ] `animals.some(key).length === 1`
+- [ ] `animals.filter(key) === true`
+- [x] `animals.some(key)`
 
-[MDN Web Docs: `setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
-- If the `delay` parameter is omitted, a value of 0 is used, meaning execute "immediately", or more accurately, the next event cycle. Note that in either case, the actual delay may be longer than intended; see [Reasons for delays longer than specified](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout#reasons_for_delays_longer_than_specified) below.
+[Reference Array.prototype.some](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
+
+#### Q124. What is the output of this code?
+
+```js
+class RainForest {
+  static minimumRainFall = 60;
+}
+
+let congo = new RainForest();
+RainForest.minimumRainFall = 80;
+console.log(congo.minimumRainFall);
+```
+
+- [x] `undefined`
+- [ ] `None of these answers, as static is not a feature in Javascript.`
+- [ ] `60`
+- [ ] `80`
+
+[Reference Classes static](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
+
+#### Q125. How can you attempt to access the property `a.b` on `obj` without throwing an error if a is undefined?
+
+```js
+let obj = {};
+```
+
+- [ ] `obj?.a.b`
+- [x] `obj.a?.b`
+- [ ] `obj[a][b]`
+- [ ] `obj.?a.?b`
+
+[Reference Optional chaining (?.)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)

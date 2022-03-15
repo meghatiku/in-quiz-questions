@@ -1225,8 +1225,8 @@ num_list[len(num_list)//2]
 #### Q93. What is the correct syntax for calling an instance method on a class named Game?
 
 - [ ] my_game = Game(self) self.my_game.roll_dice()
-- [x] my_game = Game() self.my_game.roll_dice()
-- [ ] my_game = Game() my_game.roll_dice()
+- [ ] my_game = Game() self.my_game.roll_dice()
+- [x] my_game = Game() my_game.roll_dice()
 - [ ] my_game = Game(self) my_game.roll_dice(self)
 
 #### Q94. What is the output of this code? (NumPy has been imported as np.)?
@@ -1394,8 +1394,8 @@ print (f"The number is {number}")
 #### Q104. Which mode is not a valid way to access a file from within a Python script?
 
 - [ ] write('w')
-- [ ] scan('s')
-- [x] append('a')
+- [x] scan('s')
+- [ ] append('a')
 - [ ] read('r')
 
 [Reference](https://docs.python.org/3/library/functions.html#open)
@@ -1461,23 +1461,9 @@ for letter in my_dictionary.values():
     letters.append(letter)
 ```
 
-- [ ]
-
-```
-letters = my_dictionary.keys()
-```
-
-- [ ]
-
-```
-letters = [letter for (letter, number) in my_dictionary.items()]
-```
-
-- [ ]
-
-```
-letters4 = list(my_dictionary)
-```
+- [ ] `letters = my_dictionary.keys()`
+- [ ] `letters = [letter for (letter, number) in my_dictionary.items()]`
+- [ ] `letters4 = list(my_dictionary)`
 
 **Explanation:** The first one (the correct option) returns the list of the values (the letters). The rest of the options return a list of the keys.
 
@@ -1510,3 +1496,25 @@ letters4 = list(my_dictionary)
 - [ ] traceback
 - [x] warnings
 - [ ] exceptions
+
+#### Q114. What will be the value of x after running this code?
+
+```python
+x = {1,2,3,4,5}
+x.add(5)
+x.add(6)
+```
+
+- [ ] `{1, 2, 3, 4, 5, 5, 6}`
+- [ ] `{5, 6, 1, 2, 3, 4, 5, 6}`
+- [ ] `{6, 1, 2, 3, 4, 5}`
+- [x] `{1, 2, 3, 4, 5, 6}`
+
+**Explanation:** The `.add()` method adds the element to the set only if it doesnt exist.
+
+#### Q115. If you do not explicitly return a value from a function, what happens?
+
+- [ ] The function will enter an infinite loop because it will not know when to stop executing its code.
+- [ ] If `return` keyword is absent, the function will return `True`.
+- [x] If `return` keyword is absent, the function will return `None`.
+- [ ] The function will return a `RuntimeError` if you do not return a value.
