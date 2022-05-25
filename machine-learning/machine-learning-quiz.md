@@ -356,12 +356,14 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] multiclass classification
 - [x] k-nearest neighbour
 
-#### Q48. The supervisor asks to create a machine learning system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?
+#### Q48. Naive Bayes looks at each **\_** predictor and creates a probability that belongs in each class.
 
-- [ ] deep learning artificial neural network that relies on petabytes of data
-- [ ] unsupervised machine learning system that clusters together the best candidates
-- [ ] Not recommend machine learning for this project
-- [x] supervised machine learning system that classifies applicants into existing groups // we do not need to classify best candidates we just need to classify job applicants in to existing categories
+- [ ] conditional
+- [ ] multiclass
+- [x] independent
+- [ ] binary
+
+[Reference](https://towardsdatascience.com/all-about-naive-bayes-8e13cef044cf)
 
 #### Q49. Someone of your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?
 
@@ -377,7 +379,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] big data test set
 - [ ] data cluster
 
-#### Q51. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their foto: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of fotos without them. What is the problem?
+#### Q51. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their foto: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of photos without them. What is the problem?
 
 - [ ] You are overfitting the model to the data
 - [ ] You need a smaller training set
@@ -651,7 +653,7 @@ Note: there are centres of clusters (C0, C1, C2).
 
 [Reference](https://venturebeat.com/2016/03/16/heres-what-alphagos-historic-win-means-for-the-enterprise/)
 
-#### Q85. You are working with your machine learning algorithm on something called class preditor probability. What algorithm are you most likely using?
+#### Q85. You are working with your machine learning algorithm on something called class predictor probability. What algorithm are you most likely using?
 
 - [ ] multiclass binary classification
 - [x] naive Bayes
@@ -669,7 +671,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] Use reinforcement learning
 - [x] Add more predictors
 
-#### Q87.Your data science team is often criticized for creating reports that are boring or too obvious. What could you do to help improve the team?
+#### Q87. Your data science team is often criticized for creating reports that are boring or too obvious. What could you do to help improve the team?
 
 - [x] Suggest that the team is probably underfitting the model to the data.
 - [ ] Suggest that unsupervised learning will lead to more interesting results.
@@ -704,11 +706,51 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] the probability that, based on certain conditions, something will always be incorrect
 - [ ] the probability of something being the correct answer
 
-#### Q92. Naive Bayes looks at each **\_** predictor and creates a probability that belongs in each class.
+#### Q92. K-means clustering is what type of machine learning algorithm?
 
-- [ ] conditional
-- [ ] multiclass
-- [x] independent
-- [ ] binary
+- [ ] reinforcement
+- [ ] supervised
+- [x] unsupervised
+- [ ] classification
 
-[Reference](https://towardsdatascience.com/all-about-naive-bayes-8e13cef044cf)
+#### Q93. What is ensemble modeling?
+
+- [ ] when you create an ensemble of your training and test data set
+- [ ] when you create an ensemble of different servers to run the algorithms
+- [ ] when you find the one best algorithm for your ensemble
+- [x] when you use several ensembles of machine learning algorithms
+
+#### Q94. What is the best definition for bias in your data model?
+
+- [ ] Bias is when your predicted values are scattered.
+- [x] Bias is the gap between your predicted value and the outcome.
+- [ ] Bias is when your data is wrong for differnet reasons.
+- [ ] Bias is when your values are always off by the same percentage.
+
+#### Q95. Which project might be best suited for supervised machine learning?
+
+- [ ] data scrubbing
+- [x] predicting a risk score
+- [ ] tax filing software
+- [ ] spreadsheet consolidation
+
+#### Q96. When is a decision tree most commonly used?
+
+- [ ] with big data products
+- [x] for supervised machine learning binary classification challenges
+- [ ] to find thd best data cluster
+- [ ] to determine "Q" in Q-learning reinforcement learning
+
+#### Q97. An organisation that owns dozens of shopping malls wants to create a machine learning product that will use facial recognition to identify customers. What is the main challenge of developing such a model?
+
+- [ ] most machine learning models are not designed for video
+- [x] it might be unethical for the business to identify people without their consent
+- [ ] it will be difficult to decide between supervised and unsupervised learning
+- [ ] the image in the video would not be high quality enough to identify individuals
+
+#### Q98. Someone in your datascience team recommends that you use a decision tree, naive bayes, and k-nearest neighbor, all at the same time, on the same training data and average the results. What is this an example of?
+
+- [ ] high variance
+- [ ] unsupervised learning
+- [ ] regression analysis
+- [x] ensemble modeling

@@ -1,6 +1,6 @@
 ## C (Programming Language)
 
-##### Q1. Which Code sample will eventually cause the computer to run out of memory?
+#### Q1. Which Code sample will eventually cause the computer to run out of memory?
 
 - [x]
 
@@ -269,7 +269,7 @@ main(){
 
 [Reference](http://www.it.uc3m.es/pbasanta/asng/course_notes/dynamic_memory_heap_en.html#:~:text=The%20dynamic%20memory%20that%20is,reads%20a%20set%20of%20words.)
 
-#### Q17. Which of the following do you use to deallocate memory?
+#### Q17. Which function do you use to deallocate memory?
 
 - [ ] dalloc()
 - [ ] dealloc()
@@ -303,7 +303,7 @@ main(){
 
 - [ ] Objects; Structure
 - [ ] Variables; Declaration
-- [x] Data types; Memory location
+- [x] Data types; Memory space
 - [ ] Arrays; Header file
 
 #### Q22. What is the output of this program?
@@ -796,3 +796,99 @@ int main()
 - [ ] `for(i=1; i=10; i++);`
 - [x] `for(i=1; i==10; i++);`
 - [ ] `for(i=10; i>=1; i--);`
+
+#### Q50. What is the value of variable c at the end of this program?
+
+```
+1 main() {
+2   int a, b, c;
+3   a=10; b=50;
+4   c=a * b % a;
+5 }
+```
+
+- [ ] 50
+- [ ] 5
+- [x] 0
+- [ ] 500
+
+#### Q51. What is _not_ one of the basic data types in C
+
+- [ ] long double
+- [ ] unsigned char
+- [x] array
+- [ ] float
+
+#### Q52. What is the member access operator for a structure?
+
+- [ ] ,
+- [ ] []
+- [x] .
+- [ ] :
+
+#### Q53. What standard data type provides the smallest storage size and can be used in computations?
+
+- [x] char
+- [ ] float
+- [ ] int
+- [ ] short
+
+#### Q54. what does the ctype tolower() function do?
+
+- [ ] It returns TRUE for lowercase letters of the alphabet.
+- [ ] It ensures that text output uses only ASCII values (0 through 127).
+- [ ] It returns FALSE for lowercase letters of the alphabet.
+- [x] It converts an uppercase letter of the alphabet to lowercase.
+
+#### Q55. Void pointer _vptr_ is assigned the address of float variable _g_. What is a valid way to dereference _vptr_ to assign its pointed value to a float variable named _f_ later in the program?
+
+```c
+float g;
+void *vptr=&g;
+```
+
+- [ ] f=(float \*)vptr;
+- [x] f=_(float _)vptr;
+- [ ] f=\*(float)vptr;
+- [ ] f=(float)\*vptr;
+
+#### Q56. Using a _for_ loop, how would you write C code to count down from 10 to 1 and display each number on its own line?
+
+- [ ]
+
+```c
+for(int i=10;1>0;) {
+    printf("%d\n", i);
+    i--;
+}
+```
+
+- [x]
+
+```c
+for (int i=10; i>0; i--)
+    printf("%d\n", i);
+```
+
+- [ ]
+
+```c
+for (int i=1; i<=10; i++)
+    printf("%d", i);
+```
+
+- [ ]
+
+```c
+for (int i=10; i>=0; i--)
+    printf("%d\n", i);
+```
+
+#### Q56. The dynamic memory allocation functions are defined in which system header file ?
+
+- [ ] stdio.h
+- [x] stdlib.h
+- [ ] limits.h
+- [ ] stddef.h
+
+[Reference](https://devdocs.io/c/memory)

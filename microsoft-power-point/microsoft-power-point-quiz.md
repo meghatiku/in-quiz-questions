@@ -473,7 +473,9 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] Protect Presentation
 - [ ] Inspect Document
 - [ ] Check Compatibility
-- [ ] Check Accessibility
+- [x] Check Accessibility
+
+[Reference](https://support.microsoft.com/en-us/office/make-your-powerpoint-presentations-accessible-to-people-with-disabilities-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25#bkmk_testwin)
 
 #### Q62. How can you filter the series and/or categories in a chart?
 
@@ -519,12 +521,12 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 #### Q68. The picture on the left is the original image. The image on the right is smaller, but the flowers are the same size and part of the picture has been removed. What method was used to format this picture?
 
-![image](https://user-images.githubusercontent.com/33814760/154321708-f9d81898-9c39-4495-87c9-861197a67bad.png)
+![images](images/Q68.png)
 
 - [ ] changing the width and height with aspect ration locked
 - [ ] drapping a corner sizing handle
 - [ ] using the **Crop to Shape** tool
-- [ ] using the **Crop** tool
+- [x] using the **Crop** tool
 
 #### Q69. Which view allows you to see additional information on a second monitor when delivering a presentation?
 
@@ -546,3 +548,108 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [x] The slide show ends and you return to your previous view.
 - [ ] The next slide appears.
 - [ ] Nothing happens.
+
+#### Q72. When you save a presentation with a `.potx` file extension, which type of Powerpoint file is created?
+
+- [ ] macro-eanbled presentation
+- [x] template
+- [ ] show
+- [ ] theme
+
+[Reference](https://docs.fileformat.com/presentation/potx/)
+
+#### Q73. You are presenting with two monitors. Which view displays a preview of next slide and speaker notes on the second monitor?
+
+- [x] Presenter view
+- [ ] Master view
+- [ ] Normal view
+- [ ] Reading view
+
+[Reference](https://support.microsoft.com/en-us/office/use-presenter-view-in-powerpoint-fe7638e4-76fb-4349-8d81-5eb6679f49d7#:~:text=PowerPoint%20Presenter%20View%20shows%20you,Select)
+
+#### Q74. Which effect can a presenter use to add motion to an object on a slide?
+
+- [ ] Add-in
+- [ ] Zoom
+- [x] Animation
+- [ ] Transition
+
+[Reference](https://support.microsoft.com/en-us/office/animate-text-or-objects-305a1c94-83b1-4778-8df5-fcf7a9b7b7c6)
+
+#### Q75. When you copy data from an Excel worksheet into a slide to create a table, which Paste option will allow you to edit the table data in Excel?
+
+- [ ] Keep Formatting
+- [x] Embed
+- [ ] Keep Text Only
+- [ ] Picture
+
+[Reference](https://support.microsoft.com/en-us/office/insert-excel-data-in-powerpoint-19767daf-672c-43bc-bda1-330b242c57c9)
+
+#### Q76. You created a photo album with transitions and want to send it to friends, but the file size is too large for email. How can you use one command to fix this?
+
+- [ ] Click **Export** in Backstage view and embed the presentation in an email.
+- [ ] Compress all the pictures to the **Email (96 ppi) resolution**.
+- [ ] Use the Share feature in Backstage view and petty email to automatically compress the pictures.
+- [ ] Use the Share feature in Backstage view to create a pdf to send as an attachment.
+
+#### Q77. In a presentation about voter turnout, you are illustrating various data with charts. Which type of information would you present in a pie chart?
+
+- [ ] the decline of voter turnout by county
+- [ ] trends in voter turnout over the part 10 years
+- [ ] what percentage of the whole population voted
+- [ ] how many people voted in various geographic regions on a map
+
+#### Q78. A few lines of text are overflowing the placeholder on your slide. How can you fix it on your slide?
+
+![Q79](images/Q79.png)
+
+- [ ] Delete the overflowing text.
+- [ ] Select **Stop Fitting Text to This Placeholder**.
+- [x] Select **Autofit Text to Placeholder**.
+- [ ] Click **Collapse**.
+
+#### Q79. If you want to create an organizational chart that illustrates the reporting relationships within the organization, which SmartArt category would you use?
+
+- [x] Hierarchy
+- [ ] Matrix
+- [ ] Pyramid
+- [ ] Relationship
+
+#### Q80. What do the labels Introduction and ProjectsByMonth indicate?
+
+![Q81](images/Q81.png)
+
+- [x] selection names
+- [ ] layouts
+- [ ] hidden slides
+- [ ] links to the next slide
+
+[Reference](https://support.microsoft.com/en-us/office/organize-your-powerpoint-slides-into-sections-de4bf162-e9cc-4f58-b64a-7ab09443b9f8#:~:text=Right%2Dclick%20between%20slides%20and,next%20to%20the%20section%20name.)
+
+#### Q81. There are objects and text hidden behind an image on your slide. With the image selected, what could you adjust to make the objects and text appear "through" the image?
+
+- [ ] Compress Picture
+- [ ] Transparency
+- [ ] Corrections
+- [ ] Artistic Effects
+
+#### Q82. How can you create a new presentation that includes prebuild layouts, colors, fonts, background styles, and content?
+
+- [ ] Use a theme.
+- [ ] Use a design.
+- [ ] Use a template.
+- [ ] Use a style.
+
+#### Q83. How can you reorder the levels of shapes in a SmartArt diagram?
+
+- [ ] Promote or demote the shapes.
+- [ ] Move the shapes up and down.
+- [ ] Change shapes from left to right.
+- [ ] Retype the text.
+
+#### Q84. When you insert a new slide in a presentation, where is it placed in relation to the exsisting slides?
+
+- [ ] as the first slide.
+- [ ] before the current slide.
+- [ ] at the end of the exsisting slide.
+- [x] after the currently selected slide.

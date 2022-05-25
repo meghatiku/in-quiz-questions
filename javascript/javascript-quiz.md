@@ -55,8 +55,8 @@ function addTax(total) {
 
 ```js
 let modal = document.querySelector('#result');
-setTimeout(function(){
-    modal.classList.remove('hidden);
+setTimeout(function () {
+  modal.classList.remove('hidden');
 }, 10000);
 console.log('Results shown');
 ```
@@ -68,7 +68,7 @@ console.log('Results shown');
 
 [Reference Javascript is synchronous and single threaded](https://stackoverflow.com/a/2035662/15067394)
 
-### Q7. Which snippet could you add to this code to print "food" to the console?
+#### Q7. Which snippet could you add to this code to print "food" to the console?
 
 ```javascript
 class Animal {
@@ -1207,7 +1207,7 @@ new logThis();
 
 - [ ] defer causes the script to be loaded from the backup content delivery network (CDN).
 - [x] defer allows the browser to continue processing the page while the script loads in the background.
-- [ ] defer blacks the browser from processing HTML below the tag until the script is completely loaded.
+- [ ] defer blocks the browser from processing HTML below the tag until the script is completely loaded.
 - [ ] defer lazy loads the script, causing it to download only when it is called by another script on the page.
 
 **Explanation:** If the defer attribute is set, it specifies that the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing. [HTML \<script\> defer Attribute](https://www.w3schools.com/tags/att_script_defer.asp)
@@ -1241,7 +1241,7 @@ const numbers = [1, 2, 3, 4, 5];
 
 [Reference array destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
-#### Q95.
+#### Q95. What will this code print?
 
 ```js
 const obj = {
@@ -1274,7 +1274,7 @@ console.log(animals.pop()); //Prints jaguar
 ```
 
 - [ ] `animals.filter(e => e === "jaguar");`
-- [ ] `animals.reverse();`
+- [x] `animals.reverse();`
 - [ ] `animals.shift();`
 - [x] `animals.pop();`
 
@@ -1748,3 +1748,175 @@ let obj = {};
 - [ ] `obj.?a.?b`
 
 [Reference Optional chaining (?.)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
+
+#### Q126. What happens when you run this code?
+
+```js
+if (true) {
+  var x = 5;
+  const y = 6;
+  let z = 7;
+}
+console.log(x + y + z);
+```
+
+- [ ] It will throw a `ReferenceError` about `x`.
+- [ ] It will print `18`.
+- [ ] It will print `undefined`.
+- [x] It will throw a `ReferenceError` about `y`.
+
+[Reference let statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+
+#### Q127. What does this code print to the console?
+
+```js
+const x = [1, 2];
+const y = [5, 7];
+const z = [...x, ...y];
+console.log(z);
+```
+
+- [x] `[1,2,5,7]`
+- [ ] `[[1, 2], [5, 7]]`
+- [ ] `[2,7]`
+- [ ] `[2,1,7,5]`
+
+[Reference spread syntax (...)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+
+#### Q128. Given this code, which statement will evaluate to false?
+
+```js
+const a = { x: 1 };
+const b = { x: 1 };
+```
+
+- [ ] `a['x'] === b['x']`
+- [ ] `a != b`
+- [x] `a === b`
+- [ ] `a.x === b.x`
+
+[Reference](http://adripofjavascript.com/blog/drips/object-equality-in-javascript.html)
+
+#### Q129. What will this code log to the console?
+
+```js
+console.log(typeof 41.1);
+```
+
+- [ ] `Nothing. It resuults in a ReferenceError.`
+- [ ] `decimal`
+- [ ] `float`
+- [x] `number`
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#basic_usage)
+
+#### Q130. What is the output of this code?
+
+```js
+let scores = [];
+scores.push(1, 2);
+scores.pop();
+scores.push(3, 4);
+scores.pop();
+score = scores.reduce((a, b) => a + b);
+console.log(score);
+```
+
+- [ ] `3`
+- [x] `4`
+- [ ] `6`
+- [ ] `7`
+
+1. [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+2. [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+3. [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+
+#### Q131. What does this code print to the console?
+
+```js
+let bear = {
+  sound: 'roar',
+  roar() {
+    console.log(this.sound);
+  },
+};
+
+bear.sound = 'grunt';
+let bearSound = bear.roar;
+bearSound();
+```
+
+- [ ] `Nothing is printed to the console.`
+- [ ] `grunt`
+- [x] `undefined`
+- [ ] `roar`
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+
+#### Q132. What is the output of this code?
+
+```js
+var cat = { name: 'Athena' };
+
+function swap(feline) {
+  feline.name = 'Wild';
+  feline = { name: 'Tabby' };
+}
+
+swap(cat);
+console.log(cat.name);
+```
+
+- [ ] undefined
+- [x] Wild
+- [ ] Tabby
+- [ ] Athena
+
+#### Q133. What will this code output to the log?
+
+```js
+var thing;
+let func = (str = 'no arg') => {
+  console.log(str);
+};
+func(thing);
+func(null);
+```
+
+- [ ] null no arg
+- [ ] no arg no arg
+- [ ] null null
+- [x] no arg null
+
+#### Q134. What will this code print to the console?
+
+```js
+const myFunc = () => {
+  const a = 2;
+  return () => console.log('a is ' + a);
+};
+const a = 1;
+const test = myFunc();
+test();
+```
+
+- [ ] a is 1
+- [ ] a is undefined
+- [ ] It won't print anything.
+- [x] a is 2
+
+#### Q135. What will this code print to the console?
+
+```js
+const myFunc = (num1, num2 = 2, num3 = 2) => {
+  return num1 + num2 + num3;
+};
+let values = [1, 5];
+const test = myFunc(2, ...values);
+console.log(test);
+```
+
+- [x] 8
+- [ ] 6
+- [ ] 2
+- [ ] 12
