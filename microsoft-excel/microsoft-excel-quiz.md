@@ -167,10 +167,12 @@
 
 #### Q23. Which chart type can display two different data series as a different series type within the same chart?
 
-- [x] XY chart
+<img src="https://i.imgur.com/z2BfqIF.png" width="600" height="450"/>
+
+- [ ] XY chart
 - [ ] clustered column
 - [ ] bubble chart
-- [ ] combo chart
+- [x] combo chart
 
 #### Q24. In the image below, what does clicking the button indicated by the green arrow do?
 
@@ -364,7 +366,7 @@
 
 #### Q49. You want to add a column to the PivotTable below that shows a 5% bonus for each sales rep. That data does not exists in the original data table. How can you do this without adding more data to the table?
 
-![image](images/Q54.png)
+![image](images/Q54.png?raw=png)
 
 - [ ] Add a new PivotTable field.
 - [ ] Add a calculated item
@@ -373,7 +375,7 @@
 
 #### Q50. You need to determine the commission earned by each Sales rep, based on the Sales amount in B3:B50 and the Commission rate specified in cell A1. You want to enter a formula in C3 and copy it down to C50. Which formula should you use?
 
-![image](images/Q55.png)
+![image](images/Q55.png?raw=png)
 
 - [ ] =A1\*$B3
 - [ ] =A1\*B3
@@ -397,9 +399,9 @@
 #### Q53. In the formula `=VLOOKUP(A1,D1:H30,3,FALSE)`, the lookup value (A1) is being looked for in **\_**.
 
 - [ ] column D
-- [x] columns D through H
+- [ ] columns D through H
 - [ ] column H
-- [ ] column F
+- [x] column F
 
 #### Q54. An .xlsx workbook is saved into .csv format. What is preserved in the new .csv file?
 
@@ -410,7 +412,7 @@
 
 #### Q55. Which function, when entered into cell G7, allows you to determine the sum total of annual sles for market regions 18 and greater?
 
-![image](images/Q60.png)
+![image](images/Q60.png?raw=png)
 
 - [ ] `=SUMIF(G2:G6,">17",F2:F6)`
 - [ ] `=SUM(G2:G6,">=18,F2:F6)`
@@ -419,7 +421,7 @@
 
 #### Q56. Which function, when entered into cell F2 and then dragged to cell F6, returns the performance rating text (e.g., "Good", "Poor") for each representative?
 
-![image](images/Q61.png)
+![image](images/Q61.png?raw=png)
 
 - [x] `=RIGHT(E2,LEN(E2)-27)`
 - [ ] `=LEN(E2,MID(E2)-27)`
@@ -440,7 +442,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 #### Q58. Which VLOOKUP function, when entered into cell L2 and then dragged to cell L5, returns the average number of calls for the representative IDs listed in column J?
 
-![image](images/Q63.png)
+![image](images/Q63.png?raw=png)
 
 - [ ] `=VLOOKUP(A2,J2:L5,1,FALSE)`
 - [ ] `=VLOOKUP(J2,A$2:C$7,1,FALSE)`
@@ -460,7 +462,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 #### Q60. Which value is returned when you enter `=LEN(C3)` into cell F3?
 
-![image](images/Q65.png)
+![image](images/Q65.png?raw=png)
 
 - [ ] 4
 - [x] 5
@@ -469,7 +471,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 #### Q61. How can you create the lower table from the top one when the tables are `not` linked?
 
-![image](images/Q66.png)
+![image](images/Q66.png?raw=png)
 
 - [ ] Select `Paste Special > Values.`
 - [x] Select `Paste Special > Transpose.`
@@ -487,7 +489,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 #### Q63. Which formula, when entered into cell D2 and then dragged to cell D6, calculates the average total number of minutes spent on phone calls for each representative?
 
-![image](images/Q68.png)
+![image](images/Q68.png?raw=png)
 
 - [ ] `=B$2*C$2`
 - [ ] `=$C$2/$B$2`
@@ -496,7 +498,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 #### Q64. The PivotTable below has one row field and two column fields. How can you pivot this table to show the column fields as subtotals of each value in the row field?
 
-![image](images/Q69.png)
+![image](images/Q69.png?raw=png)
 
 - [ ] On the PivotTable itself, drag each `Average` field into the row fields area.
 - [ ] Right-click a cell in the PivotTable and select `PivotTable Options > Classic PivotTable layout`.
@@ -507,7 +509,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 #### Q65. Which Excel feature allows you to hide rows or columns with an easily visible expand/collapse?
 
-![image](images/Q70.png)
+![image](images/Q70.png?raw=png)
 
 - [x] grouping
 - [ ] filtering
@@ -516,7 +518,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 #### Q66. Monthly revenues of 2019 are entered in B2:M2, as shown below, To get year-to-date running total revenues, what formula should you enter in B3 and autofill through M3?
 
-![image](images/Q71.png)
+![image](images/Q71.png?raw=png)
 
 - [ ] `=SUMIF($B$2:$M$2,"COLUMN($B$2:$M$2)<=COLUMN())")`
 - [x] `=SUM($B2:B2)`
@@ -536,7 +538,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 #### Q68. In the worksheet shown below, cell C6 contains the `formula=VLOOKUP(A6,$F$2:$G$10,2,FALSE)`. What is the most likely reason that `#N/A` is returned in cell `C6` instead of mallory's `ID (2H54)`
 
-(missing screenshot)
+![image](https://user-images.githubusercontent.com/23659530/179216823-1ac09896-4807-4bd6-a352-637df79e7b36.png?raw=png)
 
 - [ ] The absolute/relative cell references in the formula are wrong
 - [ ] Cell A6 is not actualy text its a formula that need to be copied and pasted as a value
@@ -718,7 +720,7 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 
 #### Q86. What happens if you use the **AutoSum** button in cell H4?
 
-![image](images/Q94.png)
+![image](images/Q94.png?raw=png)
 
 - [ ] AutoSum shows the total in the bottom-right of the page
 - [ ] AutoSum will total the numbers in cells B4:G8
@@ -727,7 +729,7 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 
 #### Q87. To create this PivotTable, drag the _ field to the Rows area and the _ field to the Values area?
 
-![image](images/Q95.png)
+![image](images/Q95.png?raw=png)
 
 - [ ] Total Sales This Year; Total Sales This Year
 - [ ] Total Sales This Year; Market Region
@@ -744,7 +746,7 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 
 #### Q89. Which value is calculated when the formula **=AVERAGE(G2:G6)/AVERAGE(C2:C6)** is entered into cell H7?
 
-![image](images/Q97.png)
+![image](images/Q97.png?raw=png)
 
 - [ ] average number of minutes per call
 - [ ] average annual sales per minute
@@ -760,7 +762,7 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 
 #### Q91. How do you create a heatmap in a table, such as this one, which is responsive to the values?
 
-![image](images/Q99.png)
+![image](images/Q99.png?raw=png)
 
 - [ ] map chart
 - [x] color scales (within conditional formatting)
@@ -778,7 +780,7 @@ Alignment** tab, click**\_\*\*.
 
 #### Q93. In the worksheet below, what do the symbols in rows 4, 6, 7, and 11 indicate?
 
-![image](images/Q101.png)
+![image](images/Q101.png?raw=png)
 
 - [ ] The dates are erroneous, such as October 39, 2015.
 - [x] The columns aren't wide enough to show the full date.
@@ -787,7 +789,7 @@ Alignment** tab, click**\_\*\*.
 
 #### Q94. You are determining `%` growth by dividing Growth by Sales. Which Excel function would you use to avoid #DIV/0! errors?
 
-![image](images/Q102.png)
+![image](images/Q102.png?raw=png)
 
 - [x] IFERROR
 - [ ] ROUND
@@ -823,7 +825,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q98. In this worksheet, how are cells A2:D2 related to cell C4?
 
-![image](images/Q106.png)
+![image](images/Q106.png?raw=png)
 
 - [ ] Cells A2:D2 are comments relating to the formula in cell C4.
 - [ ] Cells A2:D2 are the source of an error in the formula in cell C4.
@@ -832,7 +834,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q99. What is the name given to the numbers in or above each bar in a column chart, as shown?
 
-![image](images/Q107.png)
+![image](images/Q107.png?raw=png)
 
 - [ ] data table
 - [ ] data numbers
@@ -885,50 +887,41 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [reference](https://www.extendoffice.com/documents/excel/3830-excel-only-allow-certain-values.html)
 
-#### Q106. Given the image below, what happens if you type "P" in cell A6?
-
-![image](images/Q110.png)
-
-- [ ] The letter "P" appears.
-- [x] The word "Perez" appears and the active cell remains in Edit mode.
-- [ ] A pop-up list appears with the previous four names.
-- [ ] The word "Perez" appears and immediately the active cell moves down.
-
-#### Q107. You want to find the second-largest invoice in a column containing all the invoices in a given month. What function would you use?
+#### Q106. You want to find the second-largest invoice in a column containing all the invoices in a given month. What function would you use?
 
 - [ ] NEXT
 - [ ] MAX
 - [x] LARGE
 - [ ] MATCH
 
-#### Q108. How can you see the data in column E?
+#### Q107. How can you see the data in column E?
 
-![image](images/Q112.png)
+![image](images/Q112.png?raw=png)
 
 - [ ] Close the workbook without saving and reopen it.
 - [ ] Turn off conditional formatting.
 - [x] On the Home tab of the ribbon, select Fit to Column.
 - [ ] Expand the width of its column.
 
-#### Q109. In the worksheet below, a table called Projects extends from cell A1 to D10. Cell D1 contains the text Status. Cell E12 contains the formula =Projects[@Status]. What does this formula return?
+#### Q108. In the worksheet below, a table called Projects extends from cell A1 to D10. Cell D1 contains the text Status. Cell E12 contains the formula =Projects[@Status]. What does this formula return?
 
-![image](images/Q113.png)
+![image](images/Q113.png?raw=png)
 
 - [ ] #VALUE!
 - [ ] a blank cell
 - [x] #REF!
 - [ ] 0
 
-#### Q110. Which Excel feature allows you to select all cells in the column with inconsistent formulas compared to the rest of the column?
+#### Q109. Which Excel feature allows you to select all cells in the column with inconsistent formulas compared to the rest of the column?
 
-![image](images/Q114.png)
+![image](images/Q114.png?raw=png)
 
 - [x] On the Home tab, click Go To > Special > Column differences.
 - [ ] On the Formulas tab, click Trace precedents.
 - [ ] On the Formulas tab, click Trace errors.
 - [ ] On the Formulas tab, click show formulas
 
-#### Q111. What is one way to center text in a cell?
+#### Q110. What is one way to center text in a cell?
 
 - [ ] Right-click the cell and select **Center** (Windows) or **Center Text** (Mac).
 - [ ] Select the cell and, on the **View** tab in the **Cells** section, click **Alignment** and select **Center** (Windows) or **Center Text** (Mac).
@@ -937,7 +930,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [Reference](https://support.microsoft.com/en-us/office/align-text-in-a-cell-b2489a1f-6c89-45b7-9562-bbc287aa71ea)
 
-#### Q112. Cell D1 contains the value 7.877. You want cell D1 to display the value as 7.9 but keep the original number in calculations. How can you accomplish this?
+#### Q111. Cell D1 contains the value 7.877. You want cell D1 to display this value as 7.9 but keep the original number in calculations. How can you accomplish this?
 
 - [ ] Click the **Decrease Decimal** button once.
 - [x] Click the **Decrease Decimal** button twice.
@@ -946,16 +939,16 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [Reference](https://support.microsoft.com/en-us/office/round-a-number-to-the-decimal-places-i-want-49b936f9-6904-425d-aa98-02ffb7f9a17b)
 
-#### Q113. Given the image below, what happens if you type "P" in cell A6?
+#### Q112. Given the image below, what happens if you type "P" in cell A6?
 
-![image](images/Q117.png)
+![image](images/Q117.png?raw=png)
 
 - [ ] The word "Perez" appears and immediately the active cell moves down.
 - [x] The word "Perez" appears and the active cell remains in Edit mode.
 - [ ] A pop-up list appears with the previous four names.
 - [ ] The letter "P" appears.
 
-#### Q114. To insert a new column to the left of a specific column, right-click the header containing the column's letter and select **\_**.
+#### Q113. To insert a new column to the left of a specific column, right-click the header containing the column's letter and select **\_**.
 
 - [ ] Insert Column
 - [ ] Paste Special
@@ -964,16 +957,16 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [Reference](https://support.microsoft.com/en-us/office/insert-or-delete-rows-and-columns-6f40e6e4-85af-45e0-b39d-65dd504a3246#:~:text=To%20insert%20a%20single%20column,and%20then%20select%20Insert%20Columns.)
 
-#### Q115. Your transactions data set contains more than 10,000 rows. Some rows contain the same transaction. How would you remove the rows containing the identical transactions?
+#### Q114. Your transactions data set contains more than 10,000 rows. Some rows contain the same transaction. How would you remove the rows containing the identical transactions?
 
 - [ ] Filter the relevant column, right-click the column head, and select **Remove Duplicates**.
 - [ ] This is possible only with Power Query.
-- [x] With your cursors in the data range, on **Data** tab click **Remove Duplicates**.
+- [x] With the data selected, on the **Data** tab click **Remove Duplicates**.
 - [ ] This is possible only using formulas.
 
 [Reference](https://support.microsoft.com/en-us/office/filter-for-unique-values-or-remove-duplicate-values-ccf664b0-81d6-449b-bbe1-8daaec1e83c2)
 
-#### Q116. A colleague shared an excel file with you, and you want to display a worksheet that is hidden in it. How you can do that?
+#### Q115. A colleague shared an excel file with you, and you want to display a worksheet that is hidden in it. How you can do that?
 
 - [ ] On the **Home** tab, click **Unhide**.
 - [ ] On the **Review** tab, click **Unhide Sheet**.
@@ -982,34 +975,34 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [Reference](https://support.microsoft.com/en-us/office/hide-or-unhide-worksheets-69f2701a-21f5-4186-87d7-341a8cf53344)
 
-#### Q117. You have a column of dog breeds that are in all capital letters. What function would you use to convert those dog breeds so that only the first letter of each word is capitalized?
+#### Q116. You have a column of dog breeds that are in all capital letters. What function would you use to convert those dog breeds so that only the first letter of each word is capitalized?
 
 - [ ] Sentence
 - [ ] Upper
 - [ ] Titlecase
 - [x] Proper
 
-#### Q118. In cell C2, how would you limit the user to choosing one of the company's five regions(East, Central, North, South, West)?
+#### Q117. In cell C2, how would you limit the user to choosing one of the company's five regions(East, Central, North, South, West)?
 
-![image](images/Q122.png)
+![image](images/Q122.png?raw=png)
 
 - [ ] Use reference tabs to create a drop-down list
 - [ ] Use a PivotTable slicer to create a drop-down list
 - [ ] Insert a table in the data to create a drop-down list
 - [x] Use data validation to create a drop-down list
 
-#### Q119. To calculate gross pay, hours are multiplied by the hourly rate. What formula would you put in cell C4 to then able to copy that cell down to the rest of the column
+#### Q118. To calculate gross pay, hours are multiplied by the hourly rate. What formula would you put in cell C4 to then able to copy that cell down to the rest of the column
 
-![image](images/Q123.png)
+![image](images/Q123.png?raw=png)
 
 - [ ] `=B1*$B$4`
 - [ ] `=$B1*B4`
 - [ ] `=B1*B4`
 - [x] `=$B$1*B4`
 
-#### Q120. What do blue row numbers indicate?
+#### Q119. What do blue row numbers indicate?
 
-![image](images/Q124.png)
+![image](images/Q124.png?raw=png)
 
 - [ ] The cells are selected/highlighted
 - [ ] Excel's options have been changed
@@ -1018,11 +1011,229 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [Reference](https://answers.microsoft.com/en-us/msoffice/forum/all/blue-row-numbers-in-excel-2010-even-though-there/d11519c0-5c94-4ec9-b659-f7bd8c2494f3)
 
-#### Q125. Based on the data in columns D,G,H, and K below, what formula will calculate the average compensation for full-time employees who have a job rating of 5?
+#### Q120. Based on the data in columns D,G,H, and K below, what formula will calculate the average compensation for full-time employees who have a job rating of 5?
 
-![image](images/Q125.png)
+![image](images/Q125.png?raw=png)
 
 - [ ] `=AVERAGEIF(D:D,K2,H:H,5,G:G)`
 - [ ] `=AVERAGEIF(G:G,D:D,K2,H:H,5)`
 - [ ] `=AVERAGEIFS(K2,H:H,5,G:G)`
 - [x] `=AVERAGEIFS(G:G,D:D,K2,H:H,5)`
+
+#### Q121. Which feature enables you to quickly sort and reduce data to a subset?
+
+- [ ] data validation
+- [ ] conditional formatting
+- [ ] advanced sort
+- [x] filters
+
+#### Q122. You have a formula in cell A1. You want to display that formula in cell B1. What function can you use in cell B1?
+
+- [ ] TEXT
+- [x] FORMULATEXT
+- [ ] ISFORMULA
+- [ ] ISTEXT
+
+#### Q123. You want to remove the unprintable characters and unnecessary spaces from column A. What formula would you put into cell B2 to copy down to the rest of the column?
+
+![image](images/Q1233.png?raw=png)
+
+- [ ] `=ERROR.TYPE(A2)`
+- [x] `=CLEAN(TRIM(A2))`
+- [ ] `=CHOOSE(A2)`
+- [ ] `=TRIM(A2)`
+
+##### Q114. What is the output of the formula `=(8+2*3)/7`?
+
+- [ ] 13
+- [x] 2
+- [ ] 11
+- [ ] 15
+
+#### Q115. The amount of sales tax on each sale is calculated as the selling price times the quantity sold times the sales tax rate. What formula would you use in celle E4 to then be able ro copy that cell to the rest of the column?
+
+(missing screenshot)
+
+- [x] =C4*D4*$B$1
+- [ ] =(C4*D4)*B1
+- [ ] =C4*D4*B1
+- [ ] =C4*D4(*B1)
+
+#### Q116. Which is not a way to edit a formula in a cell?
+
+- [ ] Press F2.
+- [ ] Select the cell and then click in the formula bar.
+- [ ] Double-click the cell
+- [x] Right-click the cell and select **Edit**
+
+#### Q117. What dows this formula do?
+
+```
+=SUM(Sheet1:Sheet4!D18)
+```
+
+- [x] It adds data form all D18 cells in Sheet1, Sheet2, Sheet3, Sheet4
+- [ ] It adds data from cell D18 of Sheet1 and cell D18 of Sheet4
+- [ ] It adds alla data in the range A1:D18 in Sheet1,Shee2, Shee3, and Sheet4
+- [ ] It adds data from cell A1 of Sheet1 and cell D18 of Sheet4
+
+#### Q118. You realize that you named a table Quraters and you want to correct it to be Quarters. How could you accomplish this ?
+
+- [x] On the Table Design tab (Windows) or Table tab (Mac), rename the table in the Table Name box.
+- [ ] Copy the table to another worksheet and rename it Quarters.
+- [ ] Right click in the table and select Rename.
+- [ ] On the Table Design tab (Windows) or Table tab (Mac), click Name Manager.
+
+#### Q119. Which function is best used to look up and retrieve data from a specific row in a table?
+
+- [ ] HLOOKUP
+- [ ] MATCH
+- [x] VLOOKUP
+- [ ] ADDRESS
+
+#### Q120. When you provide alt text for an image, what type of control are you including?
+
+- [ ] password protection
+- [ ] presentation
+- [ ] layout
+- [x] accessibility
+
+[Reference](https://support.microsoft.com/en-us/office/add-alternative-text-to-a-shape-picture-chart-smartart-graphic-or-other-object-44989b2a-903c-4d9a-b742-6a75b451c669)
+
+### Q121. Which tool provides the easiest way to create and insert an organizational chart into a presentation?
+
+- [ ] Charts
+- [ ] 3D Models
+- [ ] Shapes
+- [x] SmartArt
+
+[Reference](https://support.microsoft.com/en-us/office/create-an-organization-chart-in-office-by-using-smartart-9b51f667-11b7-4971-a757-a08a36684ee6#:~:text=On%20the%20Insert%20tab%2C%20in%20the%20Illustrations%20group%2C%20click%20SmartArt.&text=In%20the%20Choose%20a%20SmartArt,)%2C%20and%20then%20click%20OK.)
+
+#### Q122. You are creating a slide that shows annual rainfall in different regions of Europe. What chart type would most effectively communicate that relationship?
+
+- [ ] line chart
+- [ ] scatter chart
+- [ ] pie chart
+- [x] map chart
+
+#### Q123. Column A contains a list of book titles. To ensure that no book title appears more than once, first you select column A. What should you do next?
+
+- [ ] Right-click the column head and select Unique
+- [ ] On the **Home** ribbon, click **Clear > Duplicates**
+- [x] On the **Data** ribbon, click **Remove Duplicates**
+- [ ] On the **Data** ribbon, click \*\*Data Validation
+
+#### Q124. You want to copy only the cells that are displayed here - not the hidden cells - into another worksheet. After selecting the cells in the worksheet, how do you accomplish this?
+
+- [ ] On the View tab, select Visible cells only, Paste into the destination worksheet
+- [ ] On the Home tab, clear the Hidden cells check box. Paste into the destination worksheet
+- [ ] Copy the cells. Then in the destination worksheet, click Paste special > Paste only visible cells
+- [x] On the Home tab, click Find & Select > Go to special > Visible cells only. Paste into the destination worksheet
+
+#### Q125. You want to define a reusable process to reshape data (removing blank rows, merging columns, etc.). What toold can you use to accomplush this?
+
+- [x] Power Query
+- [ ] Data Analysis
+- [ ] Power Pivot
+- [ ] Data Modeler
+
+#### Q126. You want to be able restrict values allowed in a cell and need to create a drop-down list of values from which users can choose. Which feature should you use?
+
+- [ ] Project Worksheet
+- [x] Data validation
+- [ ] Conditional Formatting
+- [ ] Allow Users to Edit Ranges
+
+#### Q127. Which situation will result in a #REF! error?
+
+- [x] The cell referenced in the error message has been deleted
+- [ ] A nonnumeric agument is used in a function when a numeric value is expected
+- [ ] A required operator is omitted in a formula
+- [ ] The formula contains an undefined range
+
+#### Q128. Which feature allows formatting to be automatically added to new columns and rows?
+
+- [ ] AutoFormat
+- [ ] conditional formatting
+- [x] Format as Table
+- [ ] PivotTable
+
+#### Q129. What Excel feature can you use to automatically format cells that are greater than a specified value with designated fill and text colors?
+
+- [ ] Flash Fill
+- [x] Conditional Formatting
+- [ ] Format as Table
+- [ ] Theme Colors
+
+#### Q130. Which formula could _not_ have been entered in cell C5?
+
+![60d22a3a498ede33588680f8-1624476186391](https://user-images.githubusercontent.com/6527493/184480550-f12346e9-79ae-4dbc-ad4f-b5365a50236f.png?raw=png)
+
+- [x] =SUBTOTAL(9, C2:C4)
+- [ ] =C2+C3+C4
+- [ ] =SUBTOTAL(C2:C4)
+- [ ] =SUM(C2:C4)
+
+#### Q131. The last two digits of the Representative ID Number is the Office ID. Which function, when entered into cell B2 and then dragged to cell B6, returns the Office ID for each representative?
+
+![WhatsApp Image 2022-08-15 at 00 08 22](https://user-images.githubusercontent.com/80069786/184557060-2164d8b6-37ae-41d3-9525-31e88065fbdc.jpeg)
+
+- [ ] =TRIM(A2,2)
+- [ ] =LEFT(A2,2)
+- [x] =RIGHT(A2,2)
+- [ ] =MID(A2,2)
+
+#### Q132. What is the fastest way to see the data in column E
+
+![Excel sheet](https://user-images.githubusercontent.com/48485675/185646309-02d17622-4021-4f2a-b7c0-144b63193902.png?raw=png)
+
+- [x] Double-click between column headers E and F
+- [ ] Double-click between column headers F and G
+- [ ] On the **Home** tab of the ribbon, select **Fit to Column**
+- [ ] Drag to resize the column
+
+#### Q133. Excel's default view contains the Quick Access Toolbar and the ribbon. Which can you customize?
+
+![QAT and Ribbon](https://user-images.githubusercontent.com/48485675/185646537-a53cab9e-027f-4783-8b29-56a0e12576f5.png?raw=png)
+
+- [ ] You cannot customize either.
+- [ ] only the ribbon
+- [x] both the Quick Access Toolbar and the ribbon
+- [ ] only the Quick Access Toolbar
+
+#### Q134. Other than pasting an image, how can you insert an image file from your computer into a worksheet?
+
+- [x] On the **Insert** tab, click **Pictures > This Device** (Windows) or **Pictures > Picture from file** (Mac)
+- [ ] On the **Insert** tab, click **SmartArt > Copy Image from Device** (Windows) or **SmartArt > Copy** (Mac)
+- [ ] On the **Insert** tab, click **Illustrations > Insert Illustration from This Device**
+- [ ] On the **Insert** tab, click **Icons > Insert > Picture from This Device**
+
+#### Q135. You want to restrict a user from entering any amount greater than $100 or less than $20 in a row. Which Excel feature would you use?
+
+- [ ] There is not a feature in Excel that will do this.
+- [ ] Data Limiting
+- [x] Data Parameters
+- [ ] Data Validation
+
+#### Q136. What is the output of the formula `=(8+2*3)/2`?
+
+- [ ] 13
+- [ ] 15
+- [ ] 11
+- [x] 7
+
+#### Q137. How many columns in Excel sheet by default ?
+
+- [ ] 16000
+- [ ] 1,048,576
+- [x] 16384
+- [ ] 1,048,000
+
+#### Q138. What feature can you use to populate B2:B7 with the number from each sectence in A2:A7?
+
+![excel_sheet_b2b7_a2a7](https://user-images.githubusercontent.com/93790398/199109832-18774a59-e00b-4fc1-b798-57a28af96668.png)
+
+- [ ] No Excel feature can accomplish this; this is possible only using formulas.
+- [x] Flash Fill
+- [ ] Merge cells
+- [ ] Text to columns

@@ -23,16 +23,12 @@
 
 #### Q4. How many holes were used in the making of this object?
 
-![image](https://user-images.githubusercontent.com/31204774/130909206-ca109121-ea9b-451c-9099-57cb7724e5b8.png)
+![image](images/question_4.png?raw=true)
 
 - [x] 1
 - [ ] 2
 - [ ] 3
 - [ ] 4
-- [ ] 5
-- [ ] 6
-- [ ] 7
-- [ ] 8
 
 #### Q5. In simulation, which constraint prevents movement in a specific direction?
 
@@ -198,9 +194,72 @@
 
 #### Q28. How many sketches are required to create this object?
 
-![image](https://github.com/101br03k/linkedin-skill-assessments-quizzes/blob/patch-4/autodesk-fusion-360/images/001.png)
+![image](images/question_28.png?raw=png)
 
-- [x] two
-- [ ] three
-- [ ] none
-- [ ] one
+- [x] Two
+- [ ] Three
+- [ ] None
+- [ ] One
+
+#### Q29. Which option changes the onscreen appearance of a freeform body to a box, control point, or smooth display?
+
+- [ ] Uniform
+- [ ] Repair Body
+- [x] Display Mode
+- [ ] Enable Better Performance
+
+#### Q30. Which command splits a body using surfaces generated from its outline curves?
+
+- [x] Split Body
+- [ ] Split Component
+- [ ] Silhouette Split
+- [ ] Split Face
+
+#### Q31. What controls the position and motion between components?
+
+- [ ] Assembly constraints
+- [ ] Motion Link
+- [ ] Motion Control
+- [x] Joints
+
+#### Q32. Which command merges surfaces to make a single surface body?
+
+- [ ] Combine
+- [ ] Unite
+- [x] Join
+- [ ] Stitch
+
+#### Q33. Which command uses an open sketch curve to create a thin feature?
+
+- [ ] Thread
+- [x] Rib
+- [ ] Loft
+- [ ] sweep
+
+#### Q34. Which joint type allows components to rotate and translate along the same axis?
+
+- [ ] Rigid
+- [ ] Cylindrical
+- [ ] Revolute
+- [ ] Ball
+
+#### Q35. Which tool hollows out a solid model and removes one or more faces?
+
+- [ ] Thicken
+- [ ] Open
+- [ ] Offset
+- [x] Shell
+
+#### Q36. Which analysis tool generates a cutaway view of the model at a single plane?
+
+- [ ] Segment
+- [x] Section
+- [ ] Detail
+- [ ] Projection
+
+#### Q36. Which is not an appearance type available in the Render workspace?
+
+- [x] Bodies
+- [ ] Plastic
+- [ ] Wood
+- [ ] Metal

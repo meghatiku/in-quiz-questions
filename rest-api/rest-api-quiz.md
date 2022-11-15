@@ -9,10 +9,10 @@
 
 #### Q2. Which URL pattern is recommended when working with one resource and a collection of resources?
 
-- [ ] `/companies/{id} and/company`
-- [ ] `/company/{id} and/companies`
-- [x] `/companies/{id} and/companies`
-- [ ] `/company/{id} and/company`
+- [ ] `/companies/{id} and /company`
+- [ ] `/company/{id} and /companies`
+- [x] `/companies/{id} and /companies`
+- [ ] `/company/{id} and /company`
 
 #### Q3. When dealing with JSON web Tokens (JWTs), what is a claim?
 
@@ -346,9 +346,9 @@
 
 #### Q47. When a user attempts to access a record that is not their own, which HTTP response code is the most appropriate?
 
-- [ ] `403`
+- [x] `403`
 - [ ] `404`
-- [x] `401`
+- [ ] `401`
 - [ ] `405`
 
 [Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
@@ -390,9 +390,9 @@
 - [ ] `parsing`
 - [ ] `browsing`
 
-#### Q53. Which HTTP response code describes a new resource as created successfully?
+#### Q53. To create a new resource, what HTTP response code should you receive?
 
-- [ ] `200`
+- [ ] `405`
 - [x] `201`
 - [ ] `204`
 - [ ] `202`
@@ -449,11 +449,11 @@
 
 [REST Architectural Constraints](https://restfulapi.net/rest-architectural-constraints/)
 
-#### Q60. When you get a 429 code, what should you do next?
+#### Q60. When you get a 429 response code, what should you do next?
 
 - [ ] Check you JSON structure.
-- [ ] Check the API uptime status.
 - [x] Slow down your requests.
+- [ ] Check the API uptime status.
 - [ ] Check you API key.
 
 #### Q61. When exploring record sets, what is the best approach for pagination?
@@ -492,3 +492,42 @@
 - [ ] B,C,F,G
 - [ ] A,D,G,H
 - [ ] A,C,E,G
+
+#### Q65. API traffic that enters and leaves your organization is normally called **\_**?
+
+- [ ] `east-west traffic`
+- [ ] `inbound traffic`
+- [x] `north-south traffic`
+- [ ] `external traffic`
+
+[North-South vs East-West Traffic](https://www.snapt.net/glossary/north-south-vs-east-west-traffic)
+
+#### Q66. Which OAuth grant type is appropriate for mobile apps?
+
+- [x] Authorization Code with PKCE
+- [ ] Client Credentials
+- [ ] Device
+- [ ] Resource Owner Password
+
+[OAuth 2.0 for Native and Mobile Apps](https://developer.okta.com/blog/2018/12/13/oauth-2-for-native-and-mobile-apps)
+
+#### Q67. Which datetime format is the easiest or most predictable to parse and process?
+
+- [ ] `YY-M-D hh:mm:ss+TZ`
+- [ ] `YY-M-D h:mm:ss`
+- [x] `YYYY-MM-DDThh:mm:ssZ`
+- [ ] `YYYY-M-D hh:mm:ss`
+
+[The 5 laws of API dates and times](https://apiux.com/2013/03/20/5-laws-api-dates-and-times/)
+
+#### Q68. Which header is _not_ used in cache management?
+
+- [x] Rate-Limit
+- [ ] Expires
+- [ ] Etag
+- [ ] Cache-Control
+
+[Cache-Control](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)
+[Expires](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expires)
+[Etag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag)
+[Rate limiting your RESTful API](https://medium.com/@guillaume.viguierjust/rate-limiting-your-restful-api-3148f8e77248)

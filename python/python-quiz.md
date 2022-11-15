@@ -31,6 +31,8 @@ if any([True, False, False, False]) == True:
 - [ ] set
 - [ ] OrderedDict
 
+[reference](https://www.scaler.com/topics/linked-list/)
+
 #### Q4. What statement about static methods is true?
 
 - [ ] Static methods are called static because they always return `None`.
@@ -47,8 +49,7 @@ if any([True, False, False, False]) == True:
 - [ ] Attributes are strings that describe characteristics of a class.
 - [ ] Function arguments are called "attributes" in the context of class methods and instance methods.
 
-**Explanation**
-Attributes defined under the class, arguments goes under the functions. arguments usually refer as parameter, whereas attributes are the constructor of the class or an instance of a class.
+**Explanation** `Attributes defined under the class, arguments goes under the functions. arguments usually refer as parameter, whereas attributes are the constructor of the class or an instance of a class.`
 
 #### Q6. What is the term to describe this code?
 
@@ -220,12 +221,16 @@ instance.password
 - [ ] It keeps data and the methods that can manipulate that data in one place.
 - [x] It only allows the data to be changed by methods.
 
+[Reference](https://www.scaler.com/topics/python/encapsulation-in-python/)
+
 #### Q18. What is the purpose of an if/else statement?
 
 - [ ] It tells the computer which chunk of code to run if the instructions you coded are incorrect.
 - [ ] It runs one chunk of code if all the imports were successful, and another chunk of code if the imports were not successful.
 - [x] It executes one chunk of code if a condition is true, but a different chunk of code if the condition is false.
 - [ ] It tells the computer which chunk of code to run if the is enough memory to handle it, and which chunk of code to run if there is not enough memory to handle it.
+
+[Reference](https://www.scaler.com/topics/python/python-if-else-statement/)
 
 #### Q19. What built-in Python data type is best suited for implementing a queue?
 
@@ -313,7 +318,7 @@ prices = [1.50, 2.25, 0.89]
 ('Bananas', 4, 0.89)]
 ```
 
-- [ ] <br>
+- [ ] A
 
 ```python
 output = []
@@ -330,7 +335,7 @@ output.append(fruit_tuple)
 return output
 ```
 
-- [x] <br>
+- [x] B
 
 ```python
 i = 0
@@ -343,7 +348,7 @@ for fruit in fruits:
 return output
 ```
 
-- [ ] <br>
+- [ ] C
 
 ```python
 groceries = zip(fruits, quantities, prices)
@@ -356,7 +361,7 @@ return groceries
 ]
 ```
 
-- [ ]  <br>
+- [ ] D
 
 ```python
 i = 0
@@ -391,28 +396,28 @@ else:
 
 _(Answer format may vary. Game and roll (or dice_roll) should each be called with no parameters.)_
 
-- [x] <br>
+- [x] A
 
 ```python
 >>> dice = Game()
 >>> dice.roll()
 ```
 
-- [ ] <br>
+- [ ] B
 
 ```python
 >>> dice = Game(self)
 >>> dice.roll(self)
 ```
 
-- [ ] <br>
+- [ ] C
 
 ```python
 >>> dice = Game()
 >>> dice.roll(self)
 ```
 
-- [ ] <br>
+- [ ] D
 
 ```python
 >>> dice = Game(self)
@@ -459,7 +464,7 @@ def print_alpha_nums(abc_list, num_list):
 print_alpha_nums(['a', 'b', 'c'], [1, 2, 3])
 ```
 
-- [x] <br>
+- [x] A
 
 ```python
 a 1
@@ -473,13 +478,13 @@ c 2
 c 3
 ```
 
-- [ ] <br>
+- [ ] B
 
 ```python
 ['a', 'b', 'c'], [1, 2, 3]
 ```
 
-- [ ] <br>
+- [ ] C
 
 ```python
 aaa
@@ -490,7 +495,7 @@ ccc
 333
 ```
 
-- [ ] <br>
+- [ ] D
 
 ```python
 a 1 2 3
@@ -500,7 +505,7 @@ c 1 2 3
 
 #### Q36. Pick correct representation of doctest for function in Python.
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def sum(a, b):
@@ -511,7 +516,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def sum(a, b):
@@ -524,7 +529,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 def sum(a, b):
@@ -538,7 +543,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def sum(a, b):
@@ -569,12 +574,24 @@ def sum(a, b):
 **Example**
 
 ```python
-import math
-radius = [1,2,3]
-area = list(map(lambda x: round(math.pi*(x**2), 2), radius))
-area
->>> [3.14, 12.57, 28.27]
+# namedtuple function accepts the following arguments to generate a class
+from collections import namedtuple
+>>> Point = namedtuple('Point',['x','y'])
+>>> point = Point(100, 200)
+>>> point
+    Point(x=100, y=200)
+
+# Which let you use both unpacking and iteration to access
+>>> x, y = point
+>>> print(f'({x}, {y})')
+    (100, 200)
+>>> for coordinate in point:
+        print(coordinate)
+    100
+    200
 ```
+
+[Reference](https://www.geeksforgeeks.org/namedtuple-in-python/?ref=lbp)
 
 #### Q39. What symbol(s) do you use to assess equality between two elements?
 
@@ -707,37 +724,37 @@ t1 = test()
 
 #### Q53. What is the correct syntax for defining an `__init__()` method that takes no parameters?
 
-- [ ] <br>
+- [ ] :
 
 ```python
 class __init__(self):
     pass
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def __init__():
     pass
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 class __init__():
     pass
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 def __init__(self):
     pass
 ```
 
-#### Q54. Which of the following is TRUE About how numeric data would be organised in a binary Search tree?
+#### Q54. Which of the following is TRUE About how numeric data would be organised in a Binary Search Tree?
 
-- [x] For any given Node in a binary Search Tree, the child node to the left is less than the value of the given node and the child node to its right is greater than the given node.
+- [x] For any given node in a binary search tree, the value of the node is greater than all the values in the node's left subtree and less than the ones in its right subtree.
 - [ ] Binary Search Tree cannot be used to organize and search through numeric data, given the complication that arise with very deep trees.
 - [ ] The top node of the binary search tree would be an arbitrary number. All the nodes to the left of the top node need to be less than the top node's number, but they don't need to ordered in any particular way.
 - [ ] The smallest numeric value would go in the top most node. The next highest number would go in its left child node, the the next highest number after that would go in its right child node. This pattern would continue until all numeric values were in their own node.
@@ -758,7 +775,7 @@ def __init__(self):
 
 #### Q57. What is the most self-descriptive way to define a function that calculates sales tax on a purchase?
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def tax(my_float):
@@ -766,21 +783,21 @@ def tax(my_float):
     pass
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def tx(amt):
     '''Gets the tax on an amount.'''
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def sales_tax(amount):
     '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 def calculate_sales_tax(subtotal):
@@ -898,28 +915,28 @@ def calculate_sales_tax(subtotal):
 
 #### Q71. What is the correct syntax of creating an instance method?
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def get_next_card():
   # method body goes here
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 def get_next_card(self):
   # method body goes here
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def self.get_next_card():
   # method body goes here
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def self.get_next_card(self):
@@ -967,7 +984,7 @@ my_list = ['kiwi', 'apple', 'banana']
 
 #### Q77. Which choice is the most syntactically correct example of the conditional branching?
 
-- [x] <br>
+- [x] :
 
 ```python
 num_people = 5
@@ -980,7 +997,7 @@ else:
     print("There is no one in the pool.")
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 num_people = 5
@@ -993,7 +1010,7 @@ else:
     print("There is no one in the pool.")
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 num_people = 5
@@ -1006,7 +1023,7 @@ else;
     print("There is no one in the pool.")
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 if num_people > 10;
@@ -1049,7 +1066,7 @@ while i<6:
 
 #### Q81. What is the correct syntax for defining an `__init__()` method that sets instance-specific attributes upon creation of a new class instance?
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1057,7 +1074,7 @@ def __init__(self, attr1, attr2):
     attr2 = attr2
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def __init__(attr1, attr2):
@@ -1065,7 +1082,7 @@ def __init__(attr1, attr2):
     attr2 = attr2
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1073,7 +1090,7 @@ def __init__(self, attr1, attr2):
     self.attr2 = attr2
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def __init__(attr1, attr2):
@@ -1094,7 +1111,7 @@ def count_recursive(n=1):
     count_recursive(n + 1)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 1
@@ -1105,7 +1122,7 @@ def count_recursive(n=1):
 3
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 3
@@ -1113,7 +1130,7 @@ def count_recursive(n=1):
 1
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 3
@@ -1124,7 +1141,7 @@ def count_recursive(n=1):
 1
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 1
@@ -1213,10 +1230,10 @@ print(a[[False, True, False, False]])
 - [ ] `{2}`
 - [ ] `[0,2,0,0]`
 
-#### Q92. Suppose you have a string variable defined as y=”stuff;thing;junk;”. What would be the output from this code?
+#### Q92. Suppose you have a string variable defined as y="stuff;thing;junk;". What would be the output from this code?
 
 ```python
-z = y.split(‘;’)
+z = y.split(';')
 len(z)
 ```
 
@@ -1227,11 +1244,11 @@ len(z)
 
 **Explanation**:
 
-```
-y=”stuff;thing;junk”
+```python
+y="stuff;thing;junk"
 	len(z) ==> 3
 
-y=”stuff;thing;junk;”
+y="stuff;thing;junk;"
 	len(z) ==> 4
 ```
 
@@ -1278,26 +1295,26 @@ import math
 print(math.pow(2,10)) # prints 2 elevated to the 10th power
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 print(2^10)
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 print(2**10)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 y = [x*2 for x in range(1,10)]
 print(y)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 y = 1
@@ -1363,9 +1380,8 @@ print (f"The number is {number}")
 - [ ] `append('a')`
 - [ ] `read('r')`
 
-[Reference](https://docs.python.org/3/library/functions.html#open)
-
-[Reference](https://www.w3schools.com/python/ref_list_append.asp)
+1. [Reference](https://docs.python.org/3/library/functions.html#open)
+2. [Reference](https://www.w3schools.com/python/ref_list_append.asp)
 
 #### Q101. NumPy allows you to multiply two arrays without a for loop. This is an example of \_.
 
@@ -1413,7 +1429,7 @@ for letter in my_dictionary.values():
 - [ ] `letters = [letter for (letter, number) in my_dictionary.items()]`
 - [ ] `letters4 = list(my_dictionary)`
 
-**Explanation:** The first one (the correct option) returns the list of the values (the letters). The rest of the options return a list of the keys.
+**Explanation:** The first one (the correct option) returns the list of the values (the numbers). The rest of the options return a list of the keys.
 
 #### Q105. When an array is large, NumPy will not print the entire array when given the built-in `print` function. What function can you use within NumPy to force it to print the entire array?
 
@@ -1489,7 +1505,7 @@ def be_friendly(greet = "How are you!", name):
 
 #### Q112. Given that NumPy is imported as `np`, which choice will return `True`?
 
-- [x] <br>
+- [x] :
 
 ```python
 a = np.zeros([3,4])
@@ -1497,7 +1513,7 @@ b = a.copy()
 np.array_equal(a,b)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 a = np.empty([3,4])
@@ -1505,7 +1521,7 @@ b = np.empty([3,4])
 np.array_equal(a,b)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 a = np.zeros([3,4])
@@ -1513,7 +1529,7 @@ b = np.zeros([4,3])
 np.array_equal(a,b)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 a = np.array([1, np.nan])
@@ -1575,7 +1591,7 @@ d = sum(c)
 - [ ] `linalg.det() and .dot()`
 - [ ] `linalg.inv() and .eye()`
 
-#### Q116. What is the correct syntax for creating a vaiable that is bound to a list?
+#### Q116. What is the correct syntax for creating a variable that is bound to a list?
 
 - [ ] `my_list = (2, 'apple', 3.5)`
 - [x] `my_list = [2, 'apple', 3.5]`
@@ -1608,7 +1624,7 @@ num_list[len(num_list) // 2]
 
 [Reference](https://pandas.pydata.org/docs/user_guide/dsintro.html)
 
-#### Q119. Suppose you have a variale named `vector` of type np.array with 10,000 elements. How can you turn `vector` into a variable named `matrix` with dimensions 100x100?
+#### Q119. Suppose you have a variable named `vector` of type np.array with 10,000 elements. How can you turn `vector` into a variable named `matrix` with dimensions 100x100?
 
 - [ ] `matrix = (vector.shape = (100,100))`
 - [ ] `matrix = vector.to_matrix(100,100)`
@@ -1637,33 +1653,33 @@ myFunction("")
 myFunction()
 ```
 
-- [ ] <br>
+- [ ] :
 
-```
+```python
 Hello, I am from Spain
 Hello, I am from
 Hello, I am from
 ```
 
-- [ ] <br>
+- [ ] :
 
-```
+```python
 Hello, I am from France
 Hello, I am from France
 Hello, I am from France
 ```
 
-- [x] <br>
+- [x] :
 
-```
+```python
 Hello, I am from Spain
 Hello, I am from
 Hello, I am from France
 ```
 
-- [ ] <br>
+- [ ] :
 
-```
+```python
 Hello, I am from Spain
 Hello, I am from France
 Hello, I am from France
@@ -1680,7 +1696,7 @@ Hello, I am from France
 
 #### Q123. Using Pandas, we load a data set from Kaggle, as structured in the image below. Which command will return the total number of survivors?
 
-![Q129](images/Q129.png)
+![Q129](images/Q129.png?raw=png)
 
 - [x] `sum(titanic['Survived'])`
 - [ ] `[x for x in titanic['Survived'] if x == 1]`
@@ -1700,8 +1716,8 @@ actors = ["Downey", "Holland", "Evans"]
 ```
 
 - [ ] `[(x,y)] for x in characters for y in actors]`
-- [x] `list(zip(characters, actors))`
-- [ ] <br>
+- [x] `zip(characters, actors)`
+- [ ]
 
 ```python
 d = {}
@@ -1725,7 +1741,7 @@ for x in range(1, len(characters)):
 
 #### Q126. Jaccard Similarity is a formula that tells you how similar two sets are. It is defined as the cardinality of the intersection divided by the cardinality of the union. Which choice is an accurate implementation in Python?
 
-![Q132](images/Q132.png)
+![Q132](images/Q132.png?raw=png)
 
 - [ ] `def jaccard(a, b): return len (a | b) / len (a & b)`
 - [x] `def jaccard(a, b): return len (a & b) / len (a | b)`
@@ -1784,3 +1800,583 @@ _init_() -always executed when the class is being initiated
 - [ ] `import math.sin`
 - [x] `from math import sin`
 - [ ] `import sin from math`
+
+#### Q133. What do you get if you apply numpy.sum() to a list that contains only Boolean values?
+
+- [ ] `0`
+- [x] `the count of all True values`
+- [ ] `a type error`
+- [ ] `None`
+
+#### Q134. What will this code print?
+
+```python
+print ("foo" if (256).bit_length() > 8 else "bar")
+```
+
+- [ ] True
+- [x] foo
+- [ ] You will get an error message because constant integer values are not classes.
+- [ ] bar
+
+#### Q135. If you do not explicitly return a value from a function, what happens?
+
+- [ ] If the return keyword is absent, the function will return True.
+- [ ] The function will enter an infinite loop because it will not know when to stop executing its code.
+- [ ] The function will return a RuntimeError if you do not return a value.
+- [x] If the return keyword is absent the function will return None.
+
+#### Q136. it is often the case that the pandas library is used for **_ data and NumPy for _** data.
+
+- [x] string; numerical
+- [ ] unstructured; structured
+- [ ] numerical; tabular
+- [ ] tabular; numerical
+
+[Reference](https://www.interviewbit.com/blog/pandas-vs-numpy/)
+
+#### Q137. What do you need to do to install additional packages into Python?
+
+- [ ] Use a C compiler like gcc or clang.
+- [x] Use a package manager like pip or conda.
+- [ ] Use an IDE like Notepad++ or Idle.
+- [ ] Use a package manager like NPM or NuGet.
+
+#### Q138. The image below was created using Matplotlib. It is a distribution plot of a list of integers filled with numbers using the function **\_** and plotted with **\_**.
+
+![Q132](images/Q138.png?raw=png)
+
+- [ ] `random.uniform(0,50);plt.hist`
+- [x] `random.gauss(50,20);plt.hist`
+- [ ] `random();plt.scatter`
+- [ ] `random.triangular(0,50);plt.bar`
+
+[Reference](https://www.geeksforgeeks.org/random-gauss-function-in-python/)
+
+#### Q139. In this code fragment, what will be the values of a and b ?
+
+```python
+import numpy as np
+
+a = np.arange(100)
+b = a[50:60:2]
+```
+
+- [x] a: all integers from 0 to 99 (inclusive) b: all even integers from 50 to 58 (inclusive)
+- [ ] a: all integers from 0 to 100 (inclusive) b: all even integers from 50 to 60 (inclusive)
+- [ ] a: all integers from 0 to 99 (inclusive) b: all even integers from 50 to 60 (inclusive)
+- [ ] a: all integers from 0 to 99 (inclusive) b: all odd integers from 49 to 59 (inclusive)
+
+#### Q140. When using NumPy in Python, how do you check the dimensionality (number and length of dimensions) of an object called my_object?
+
+- [ ] `my_object.get_shape()`
+- [x] `my_object.shape`
+- [ ] `my_object.dim()`
+- [ ] `len(my_object)`
+
+#### Q141. Assume you have a non-empty list named _mylist_ and you want to search for a specific value. The minimum number of comparison will be \_**_ and the maximum number of comparison will be _**?
+
+- [ ] `len(mylist); len(mylist)`
+- [x] `1; len(mylist)`
+- [ ] `2; len(mylist)`
+- [ ] `0; len(mylist)`
+
+**Explanation:** Can use a break statement and the value being searched can be the first element of the list, given that it is non-empty.
+
+#### Q142. If a function does not have a return statement, what does it really return?
+
+- [ ] 0
+- [ ] True
+- [x] None
+- [ ] False
+
+#### Q143. What is a common use of python's sys library?
+
+- [x] to capture command-line arguments given at a file's runtime
+- [ ] to take a snapshot of all the packages and libraries in your virtual environment
+- [ ] to connect various systems, such as connecting a web front end, an API service, a database, and a mobile app
+- [ ] to scan the health of your Python ecosystem while inside a virtual environment
+
+[Reference](https://docs.python.org/3/library/sys.html)
+
+#### Q144. Suppose you want to double-check if two matrices can be multipled using NumPy for debugging purposes. How would you complete this code fragment by filling in the blanks with the appropiate variables?
+
+```python
+import numpy as np
+
+def can_matrices_be_multiplied (matrix1, matrix2):
+    rowsMat1, columnsMat1 = matrix1.shape
+    rowsMat2, columnsMat2 = matrix2.shape
+
+    if _____ == ______ :
+        print('The matrices can be multipled!')
+        return True
+    else:
+        return False
+```
+
+- [ ] columnsMat1; rowsMat1;
+- [ ] columnsMat1; rowsMat2;
+- [ ] columnsMat1; columnsMat2;
+- [x] columnsMat2; rowsMat1;
+
+#### Q145. What is the output of this comprehension?
+
+`[(x, x+1) for x in range(1,5)] `
+
+- [ ] [(1, 2), (2, 3), (3, 4), (4, 5), (5, 6)]
+- [ ] [1,2,3,4,5]
+- [ ] [(1, 2), (2, 3), (3, 4)]
+- [x] [(1, 2), (2, 3), (3, 4), (4, 5)]
+
+#### Q146. In Python, a class method must have \_**\_ as a function decorator, and the first parameter of the method will be a reference to \_\_**.
+
+- [x] @classmethod; the class
+- [ ] inline; the class
+- [ ] static; self
+- [ ] @static; self
+
+[Reference](https://docs.python.org/3/library/functions.html#classmethod)
+
+#### Q147. Which snippet of code will print My name is Joffrey, son of Robert?
+
+- [ ] :
+
+```python
+class Father():
+    name = 'Robert'
+
+class Person(Father):
+    def __init__(self, name):
+        self.fathername = super.name
+        self.name = name
+
+    def introduce(self):
+        print("My name is", self.name, "son of", self.fathername)
+
+king = Person("Joffrey")
+king.introduce()
+
+```
+
+- [x] :
+
+```python
+class Father():
+    name = 'Robert'
+
+
+class Person(Father):
+    def __init__(self, name):
+        self.fathername = self.name
+        self.name = name
+
+    def introduce(self):
+        print("My name is", self.name, "son of", self.fathername)
+
+
+king = Person("Joffrey")
+king.introduce()
+
+```
+
+- [ ] :
+
+```python
+class Father():
+    name = 'Robert'
+
+
+class Person(Father):
+    def __init__(self, name):
+        self.name = name
+
+    def introduce(self):
+        print("My name is", self.name, "son of", super.name)
+
+king = Person("Joffrey")
+king.introduce()
+```
+
+- [ ] :
+
+```python
+class Father():
+    name = 'Robert'
+
+class Person(Father):
+    def __init__(self, name):
+        self.name = name
+
+    def introduce(self):
+        print("My name is", self.name, "son of", base.name)
+
+king = Person("Joffrey")
+king.introduce()
+
+```
+
+**Explanation:** In the first, super does not have .name (should be self.name), The third drops Robert, and base is not defined in the 4th.
+
+#### Q148.
+
+```python
+animals = {
+    'a': ['ant', 'antelope', 'armadillo'],
+    'b': ['beetle', 'bear', 'bat'],
+    'c': ['cat', 'cougar', 'camel']
+}
+
+animals = defaultdict(list, animals)
+
+print(animals['b'])
+print(animals['d'])
+```
+
+- [x] A
+
+```python
+      ['beetle', 'bear', 'bat']
+      []
+```
+
+- [ ] B
+
+```python
+      ['beetle', 'bear', 'bat']
+      # an exception will be thrown
+```
+
+- [ ] C
+
+```python
+      ['beetle', 'bear', 'bat']
+      None
+```
+
+- [ ] D
+
+```python
+      ['bat', 'bear', 'beetle']
+      []
+```
+
+**Explanation:** Dictionaries usually result in an exception when using the square bracket syntax. Defaultdict here returns a default value dedicated by the first parameter so instead of throwing an exception, they return the default. Note that this needs to be imported as follows: `from collections import defaultdict`
+
+[Reference](https://www.geeksforgeeks.org/defaultdict-in-python/)
+
+#### Q149. What will this line of code return? (Assume n is already defined as any positive integer value.)
+
+```python
+[x*2 for x in range(1,n)]
+```
+
+- [x] a list with all the even numbers less than 2\*n
+- [ ] a dictionary with all the even numbers less than 2\*n
+- [ ] a list with all the odd numbers less than 2\*n
+- [ ] a list with all the even numbers less than or equal to 2\*n
+
+[Reference](https://www.w3schools.com/python/ref_func_range.asp)
+
+#### Q150. What does this code print in the console?
+
+```python
+x = 18
+
+if x > 10:
+	if x > 15:
+		print('A')
+	else:
+		print('B')
+else:
+	print('C')
+
+```
+
+- [ ] C
+- [ ] A B
+- [ ] B
+- [x] A
+
+#### Q151. Suppose you have a variable named vector of type np.array with 10.000 elements. How can you turn vector into a variable named matrix with dimensions 100x100?
+
+- [ ] matrix = matrix(vector,100,100)
+- [ ] matrix = vector.to_matrix(100,100)
+- [ ] matrix = (vector.shape = (100,100))
+- [x] matrix = vector.reshape(100,100)
+      Exa
+
+#### Q152. What is the maximum length of a Python identifier?
+
+- [ ] 32
+- [ ] 16
+- [ ] 128
+- [x] No fixed length is specified
+
+#### Q153. What will the value of the i variable be when the following loop finishes its execution?
+
+for i in range(5): pass
+
+- [ ] 5
+- [ ] the variable becomes unavailable
+- [ ] 6
+- [x] 4
+
+#### Q154. f-strings are also called:
+
+- [ ] Formatted string expressions
+- [ ] Functional strings
+- [ ] Modulo formatted strings
+- [x] Formatted string literals
+
+#### Q155. How many CPUs (or cores) will the Python threading library take advantage of simultaneously?
+
+- [x] One
+- [ ] All of the available CPUs
+- [ ] Two
+- [ ] Three
+
+**Explanation**: Python threading is restricted to a single CPU at one time. The multiprocessing library will allow you to run code on different processors.
+
+#### Q156 What will be the value of y in this code?
+
+```python
+x = 5
+y = 1 + (20 if x < 5 else 30)
+```
+
+- [ ] False
+- [ ] 21
+- [ ] 2
+- [x] 31
+
+**Explanation:**
+If x < 5 ==> y = 1 + 20
+Else y = 1 + 30
+
+#### Q157.The process of pickling in Python includes?
+
+- [x] conversion of a Python object hierarchy into byte stream
+- [ ] conversion of a datatable into a list
+- [ ] conversion of a byte stream into Python object hierarchy
+- [ ] conversion of a list into a datatable
+
+**Explanation:** Pickling is the process of sterilizing a Python object, that is, conversion of a byte stream into Python object hierarchy. The reverse of this process is known as unpickling.
+
+#### Q158. What is the output of the following program ?
+
+```
+print("codescracker".endswith("er"))
+```
+
+- [x] True
+- [ ] 1
+- [ ] 2
+- [ ] False
+
+#### Q159. Is list mutable in python ?
+
+- [x] True
+- [ ] False
+
+#### Q160. What is the output of the following program ?
+
+print("programming".center())
+
+- [ ] cr
+- [ ] programming
+- [x] Error says TypeError: center expected at least 1 argument, got 0
+- [ ] None of the Above
+
+#### Q161. Who created the Python programming language?
+
+- [ ] Tim Berners-Lee
+- [ ] Ada Lovelace
+- [x] Guido van Rossum
+- [ ] Alan Turing
+
+#### Q162. Which collection is ordered, changeable, and allows duplicate members?
+
+- [ ] SET
+- [ ] TUPLE
+- [ ] DICTIONARY
+- [x] LIST
+
+#### Q163. What will be printed in the console if you run this code?
+
+```python
+x = 1j
+print(x**2 == -1)
+```
+
+- [ ] a run-time error telling you that the variable `j` has not been initialized
+- [x] True
+- [ ] 1j
+- [ ] False
+
+**Explanation:** The letter `j` acts as the imaginary unit in Python, therefore `x**2` means `j**2` which is equal to `-1`. The statement `x**2 == -1` is evaluated as `True`.
+
+#### Q164. What will be printed in the console if you run this code?
+
+```python
+print(0xA + 0xB + 0xC)
+```
+
+- [x] 33
+- [ ] 63
+- [ ] 0xA + 0xB + 0xC
+- [ ] None
+
+**Explanation:** A, B and C are hexadecimal integers with values 10, 11 and 12 respectively, so the sum
+of A, B and C is 33.
+
+#### Q165. What will this code output to the screen?
+
+```python
+for i in range(5):
+    print(i)
+else:
+    print("Done!")
+```
+
+- [ ] 1 2 3 4 5 Done!
+- [ ] 0 1 2 3 4 5 Done!
+- [x] 0 1 2 3 4 Done!
+- [ ] You will get a syntax error.
+
+#### Q166. Which comparison of lists and tuples in Python is correct?
+
+- [ ] Use lists instead of tuples when you have a collection of related but dissimilar objects.
+- [ ] Use tuples instead of lists when you have a common collection of similar objects.
+- [x] Use tuples instead of lists for functions that need to return multiple values.
+- [ ] Use lists instead of tuples when the position of elements is important.
+
+#### Q167. Consider the following code snippet that uses decorators to calculate the execution time of execution_fn function:
+
+```python
+import functools
+import time
+
+def timer(MISSING_ARG_1):
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs):
+        start_time = time.perf_counter()
+        rval = func(*args, **kwargs)
+        end_time = time.perf_counter()
+        duration = end_time - start_time
+        print(f"Executed in {duration:.4f} seconds")
+        return MISSING_ARG_2
+    return MISSING_ARG_3
+
+@timer
+def execution_fn():
+    for i in range(3):
+        time.sleep(1)
+
+execution_fn()
+```
+
+**Which of the following choices are the missing arguments?**
+
+- [ ] :
+
+```
+MISSING_ARG_1 = wrapper
+
+MISSING_ARG_2 = rval
+
+MISSING_ARG_3 = func
+```
+
+- [x] :
+
+```
+MISSING_ARG_1 = func
+
+MISSING_ARG_2 = rval
+
+MISSING_ARG_3 = wrapper
+```
+
+- [ ] :
+
+```
+MISSING_ARG_1 is empty
+
+MISSING_ARG_2 = rval
+
+MISSING_ARG_3 = wrapper
+```
+
+- [ ] :
+
+```
+MISSING_ARG_1 is empty
+
+MISSING_ARG_2 = rval
+
+MISSING_ARG_3 = func
+```
+
+#### Q168. Which of the following statements defines a new object type named "Dog" in Python?
+
+- [x] class Dog:
+- [ ] Dog class:
+- [ ] Dog:
+- [ ] class Dog
+
+#### Q169. To use pipelines in scikit-learn, import from the scikit-learn.**\_** submodule.
+
+- [ ] preprocessing
+- [x] pipeline
+- [ ] filters
+- [ ] pipe_filter
+
+#### Q170. You should pass in a value of **\_** for the axis argument to the Pandas apply method to apply the function to each row.
+
+- [ ] row
+- [ ] col
+- [x] 1
+- [ ] 0
+
+#### Q171. Data points in pyplot are called
+
+- [ ] pointers
+- [ ] points
+- [x] markers
+- [ ] none of these
+
+#### Q172. What does this code print?
+
+```python
+a = np.array([[1, 2], [3, 4], [5, 6]])
+c = a[(a > 3) & (a < 11)]
+print(c)
+```
+
+- [ ] `[[3, 4], [5, 6]]`
+- [ ] `[False, False, False, True, True, True]`
+- [ ] `[[0,0], [3, 4], [5, 6]]`
+- [x] `[4 5 6]`
+
+#### Q173. What is the correct syntax for replacing the string `apple` in the list with the string `orange`?
+
+```python
+my_list = [2, 'apple', 3.5]
+```
+
+- [ ] `orange = my_list[1]`
+- [x] `my_list[1] = 'orange'`
+- [ ] `my_list['orange'] = 1`
+- [ ] `my_list[1] == orange`
+
+#### Q174. Assume m, n and p are positive integers. In the following comprehension, how many times will the function `randint` be called?
+
+```python
+[ [ [ randint(1,100) for i in range(m) ] for j in range(n) ] for k in range(p) ]
+```
+
+- [x] m _ n _ p
+- [ ] the greater value of (m,n,p)
+- [ ] 1 million
+- [ ] m + n + p

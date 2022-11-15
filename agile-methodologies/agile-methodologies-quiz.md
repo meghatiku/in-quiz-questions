@@ -56,7 +56,7 @@
 - [ ] to visualize queue length
 - [ ] to fulfill a commitment to quality
 
-[Source](https://www.scaledagileframework.com/wsjf/) `Weighted Shortest Job First (WSJF) is a prioritization model used to sequence jobs (eg., Features, Capabilities, and Epics) to produce the maximum economic benefit. In a flow-based system, priorities are updated continuously to provide the best economic outcomes. Job sequencing, rather than individual job return on investment, produces the best result. To that end, WSJF is used to prioritize backlogs by calculating the relative CoD and job size (a proxy for the duration).`
+[Reference](https://www.scaledagileframework.com/wsjf/) `Weighted Shortest Job First (WSJF) is a prioritization model used to sequence jobs (eg., Features, Capabilities, and Epics) to produce the maximum economic benefit. In a flow-based system, priorities are updated continuously to provide the best economic outcomes. Job sequencing, rather than individual job return on investment, produces the best result. To that end, WSJF is used to prioritize backlogs by calculating the relative CoD and job size (a proxy for the duration).`
 
 #### Q9. You have classified the features in your backlog according to risk and value. Which features should the development team work on first?
 
@@ -65,7 +65,7 @@
 - [ ] high-value and low-risk
 - [ ] low-value and low-risk
 
-[Source](https://agilescrumguide.com/blog/files/tag-product-backlog---business-value-and-risk.html) `It is suggested that high business value, high-risk items are worked on first. While that may seem counterintuitive, the earlier this work is done, the sooner the team will move to mitigate the issues and unknowns—leading to a higher quality product. If there's a failure, it will occur early and relatively inexpensively.`
+[Reference](https://agilescrumguide.com/blog/files/tag-product-backlog---business-value-and-risk.html) `It is suggested that high business value, high-risk items are worked on first. While that may seem counterintuitive, the earlier this work is done, the sooner the team will move to mitigate the issues and unknowns—leading to a higher quality product. If there's a failure, it will occur early and relatively inexpensively.`
 
 #### Q10. In the Scaled Agile Framework, what is the role of Enablers?
 
@@ -79,7 +79,7 @@
 - [ ] The team demonstrates its completed work.
 - [x] The team reflects on how to improve its performance.
 - [ ] Items in the backlog may be reprioritized.
-- [ ] Stakeholders give feedback about the work completed.
+- [ ] Stakeholders ask questions about the completed and upcoming backlog items.
 
 #### Q12. What is not a technique used for splitting user stories?
 
@@ -137,7 +137,7 @@
 - [ ] A Kanban does not use a Definition of Done.
 - [ ] A Kanban shows the status of the work items.
 
-[Source](https://www.lucidchart.com/blog/kanban-vs-scrum#:~:text=Kanban%20vs%20scrum) `Explicit rule applies to scrum team's task board: tasks cannot be added to the scrum board in the middle of a sprint.`
+[Reference](https://www.lucidchart.com/blog/kanban-vs-scrum#:~:text=Kanban%20vs%20scrum) `Explicit rule applies to scrum team's task board: tasks cannot be added to the scrum board in the middle of a sprint.`
 
 #### Q20. The team complains that "things have been falling through the cracks lately." What should you do?
 
@@ -216,7 +216,7 @@
 - [x] Maximize outcome while minimizing output.
 - [ ] Optimize for resource utilization.
 
-`“…your job is to minimize output, and maximize outcome and impact.” - Jeff Patton`
+`"…your job is to minimize output, and maximize outcome and impact." - Jeff Patton`
 
 #### Q31. Which statement is true about the actor in a user story?
 
@@ -260,7 +260,7 @@
 - [ ] Celebrate successes.
 - [ ] Remove impediments
 
-#### Q37. A team needs to do research, design, prototyping. What is this type of story called?
+#### Q37. A team needs to do research, design, or prototyping. What is this type of story called?
 
 - [x] Exploratory spike
 - [ ] Backlog refinement
@@ -478,7 +478,7 @@
 - [ ] Velocity Confirmation
 
 `Sprint Retrospective: Reflect on the previous sprint, discuss what’s working well, what could be improved, and how to improve it to be more productive.`
-[Source](https://startinfinity.com/product-management-framework/scrum-sprint/sprint-review-vs-sprint-retrospective) `Sprint Review: Discuss what has been accomplished during the sprint and whether the sprint goal has been met.`
+[Reference](https://startinfinity.com/product-management-framework/scrum-sprint/sprint-review-vs-sprint-retrospective) `Sprint Review: Discuss what has been accomplished during the sprint and whether the sprint goal has been met.`
 
 #### Q68. Which choice best describes an Agile Release Train (ART)?
 
@@ -515,7 +515,7 @@
 - [ ] The stakeholders are ready to discuss their requirements for story.
 - [ ] The team has completed sprint 0 and is ready to work.
 
-[Source](https://www.scruminc.com/definition-of-ready/) `Definition of Ready means that stories must be immediately actionable. The Team must be able to determine what needs to be done and the amount of work required to complete the User Story.`
+[Reference](https://www.scruminc.com/definition-of-ready/) `Definition of Ready means that stories must be immediately actionable. The Team must be able to determine what needs to be done and the amount of work required to complete the User Story.`
 
 #### Q73. Which is NOT a principle of the Scaled Agile Framework?
 
@@ -530,7 +530,7 @@
 
 - [ ] It is an inventory of the team's knowledge and skills that is used to plan the work that they do.
 - [ ] It is the number of teams that a Team Facilitator can support concurrently.
-- [ ] It is an adjustment to velocity, used in Spring Planning, to account for reduced availability of team members during the upcoming sprint.
+- [ ] It means the team determines their avalaibility for the next sprint.
 - [x] It is the maximum number of stories that will be allowed in a sprint.
 
 #### Q75. The team is complaining that they send request for clarification to the Product Owner, but these requests go unanswered. What action should you take?
@@ -547,14 +547,18 @@
 - [ ] Courage
 - [ ] Sustainable pace
 
-[Source](https://www.planview.com/resources/guide/lean-principles-101/what-is-lean/#:~:text=The%20Pillars%20of%20Lean) `Two pillars are (1) Continuous Improvement, and (2) Respect for People.`
+[Reference](https://www.planview.com/resources/guide/lean-principles-101/what-is-lean/#:~:text=The%20Pillars%20of%20Lean) `Two pillars are (1) Continuous Improvement, and (2) Respect for People.`
 
 #### Q77. Which statement best describes Agile, Lean, and Six Sigma?
 
-- [ ] They are strategies for delivering customer value.
+- [x] They are strategies for delivering customer value.
 - [ ] They were pioneered by Toyota.
 - [ ] They are strategies for discovering what the customer wants.
 - [ ] They are derived from statistical process control.
+
+1. [Reference](https://agilemanifesto.org/principles) - First paragraph clearly points out that Agile is about delivering value to the customer.
+2. [Lean](https://en.wikipedia.org/wiki/Lean_software_development) is a subset of the Agile community and
+3. [Six Sigma](https://en.wikipedia.org/wiki/Six_Sigma) is Agile applied to manufacturing.
 
 #### Q78. What is a user story?
 
@@ -584,7 +588,7 @@
 - [ ] The development team's strengths and weaknesses.
 - [x] The business context for the product.
 
-[Source](https://premieragile.com/how-does-a-product-owner-measure-value) `A Scrum Team has 3 roles - Product Owner, Scrum Master and Developers. All 3 roles generate Value in their own contexts; however, it is the Product Owner who maximizes the Value from a product or business context.`
+[Reference](https://premieragile.com/how-does-a-product-owner-measure-value) `A Scrum Team has 3 roles - Product Owner, Scrum Master and Developers. All 3 roles generate Value in their own contexts; however, it is the Product Owner who maximizes the Value from a product or business context.`
 
 #### Q82. Which statement about the Agile Manifesto is true?
 
@@ -593,12 +597,14 @@
 - [ ] It was written in 2001 and is obsolete.
 - [ ] It was first published as part of Jim Highsmith's doctoral thesis.
 
-#### Q83. The team is not going to complete its Spring Commitment. As the Team Facilitator, what should you do?
+#### Q83. The team is not going to complete its Sprint Commitment. As the Team Facilitator, what should you do?
 
 - [ ] Ask the PO to extend the sprint.
 - [ ] Advise the PO as soon as possible.
 - [ ] Report this at the Sprint Review.
-- [ ] Point out the reasons why and collaborate on solutions.
+- [x] Point out the reasons why and collaborate on solutions.
+
+[Reference](https://agilemanifesto.org/principles), the last paragraph perfectly informs what an agile developer would do in this situation.
 
 #### Q84. When a user story is further decomposed, what are the elements called?
 
@@ -630,19 +636,19 @@
 
 #### Q88. What is the term for a team member who is "T-skilled"?
 
-- [ ] cross-functional
+- [x] cross-functional
 - [ ] jack-of-all-trades
 - [ ] apprentice developer
 - [ ] generalizing specialist
 
-#### Q89. Which statement is _not_ true about pair programming?
+#### Q89. Which statement is not true about pair programming?
 
-- [ ] It has been discredited because it is too expensive.
-- [x] In pair programming, two developers share one computer and take turns at the keyboard.
+- [x] It has been discredited because it is too expensive.
+- [ ] In pair programming, two developers share one computer and take turns at the keyboard.
 - [ ] It is a great way to teach someone who is new to the team.
 - [ ] The code produced by two developers who are collaborating is typically higher quality than if they were working alone.
 
-#### Q90. People with fixed mindset \_ .
+#### Q90. People with a fixed mindset \_ .
 
 - [x] have better focus and longer attention spans
 - [ ] are more goal oriented
@@ -659,16 +665,18 @@
 #### Q92. What is the expected outcome of the daily stand-up meeting?
 
 - [ ] updated status on all of the work
-- [ ] team alignment on its plan for the day
+- [x] team alignment on its plan for the day
 - [ ] a list of impediments and priorities
 - [ ] a report to the Product Owner of stories ready to be accepted
 
-#### Q93. What is the name of the technique in which a story includes an input, a translation of input to output, and an output?
+#### Q93. What is the name of the technique in which a story is broken down, input splits the data, and it results in a new output?
 
-- [ ] input-output processing
+- [x] input-output processing
 - [ ] ITIOO story format
 - [ ] thin vertical slice
 - [ ] structured coding
+
+ITIOO isn't a thing, thin verticle slicing is refering to what work you prioritise, and structured code has nothing to so with stories.
 
 #### Q94. What is the term for a team member who is "T-shaped"?
 
@@ -677,16 +685,16 @@
 - [ ] generalizing specialist
 - [ ] apprentice developer
 
-[Source](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of “T-shaped” people. This can also be described as a cross-functionality.`
+[Reference](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of "T-shaped" people. This can also be described as a cross-functionality.`
 
 #### Q95. What is a lean canvas?
 
-- [ ] decompose solution into epics, features, and stories
-- [x] template for lightweight business plans that makes your assumptions explicit
-- [ ] tool to plan future project releases
-- [ ] technique for projecting growth in market share.
+- [ ] It is used to decompose solution into epics, features, and stories
+- [x] It is a template for lightweight business plans that makes your assumptions explicit
+- [ ] It is a tool to plan future project releases
+- [ ] It is a technique for projecting growth in market share.
 
-[Source](http://ask.leanstack.com/en/articles/901274-what-is-a-lean-canvas) `1-page business plan template that helps you deconstruct your idea into its key assumptions using 9 basic building blocks.`
+[Reference](http://ask.leanstack.com/en/articles/901274-what-is-a-lean-canvas) `1-page business plan template that helps you deconstruct your idea into its key assumptions using 9 basic building blocks.`
 
 #### Q96. The team is not going to complete its Sprint Commitment. As Team Facilitator, what should you do?
 
@@ -695,7 +703,7 @@
 - [ ] report this at the Sprint Review
 - [x] Ask the PO to extend the sprint
 
-[Source](https://mcqpoint.com/question/what-happens-when-all-the-sprint-items-cannot-be-completed/) `non verified answer - extend, otherwise goes to backlog`
+[Reference](https://mcqpoint.com/question/what-happens-when-all-the-sprint-items-cannot-be-completed/) `non verified answer - extend, otherwise goes to backlog`
 
 #### Q97. Which of these traits is most important for being an effective Team Facilitator?
 
@@ -704,4 +712,273 @@
 - [ ] having type A personality (def not this :P)
 - [ ] being someone who takes charge
 
-[Source](https://www.globalknowledge.com/us-en/course/87262/agile-team-facilitation-icp-atf/) `non verified answer - A facilitator is someone who helps a group identify common objectives and then offers group processes to achieve defined outcomes while maintaining neutrality. A skilled facilitator consciously embodies self-awareness, self-management, and bias management, while conveying openness and enthusiasm. `
+[Reference](https://www.globalknowledge.com/us-en/course/87262/agile-team-facilitation-icp-atf/) `non verified answer - A facilitator is someone who helps a group identify common objectives and then offers group processes to achieve defined outcomes while maintaining neutrality. A skilled facilitator consciously embodies self-awareness, self-management, and bias management, while conveying openness and enthusiasm. `
+
+#### Q98. When is the best time to update the team's burndown chart?
+
+- [ ] before the Sprint Retospective
+- [ ] after the daily stand-up
+- [x] before the daily Scrum
+- [ ] before quarterly planning
+
+#### Q99. What is an Empathy Map?
+
+- [ ] It is a team-building technique used to increase productivity.
+- [ ] It is a tool used by organizations for competitive intelligence.
+- [ ] It is a retrospective technique used to improve team morale.
+- [x] It is a collaborative tool used to gain deeper insights into customers.
+
+#### Q100. Which work descriptions are not written in the language of users?
+
+- [ ] tasks
+- [ ] epics
+- [x] stories
+- [ ] features
+
+#### Q101. The team has an incomplete story at the end of the sprint and wants to claim partial credit for the work completed. What should you do?
+
+- [ ] Ask the Product Owner to accept the storyy with the promise that the team will complete it in the next sprint
+- [ ] Ask them to slice the story to reflect the work done and the work to be donef
+- [x] Ask the product owner to revise the acceptance criteria so it can be accepted and counted
+- [ ] explain that, in Agile, working software is the primary measure of progress. Then help...
+
+#### Q102. When planning a meeting, which action is most important?
+
+- [x] clariying the expected outcome
+- [ ] taking notes
+- [ ] inviting the Project Manager
+- [ ] making sure everyone speaks
+
+#### Q103. You are facilitating a meeting and, unexpectedly, a key person doesn't attend. What should you do?
+
+- [ ] Hold the meeting and update the person who could not attend later.
+- [ ] Ask the person who could not attend to reschedule the meeting based on their availability.
+- [x] Ask all meeting partecipants what they want to do about the one person's absence
+- [ ] Reschedule the meeting for when all necessary people can attend
+
+#### Q104. What is Open Space?
+
+- [ ] a design concept for team rooms
+- [ ] a room for teams to demo their work
+- [ ] a placeholder in the code body for the future functionality
+- [x] a meeting format where participants create and manage the agenda
+
+#### Q105. Which choice is not an expected benefit of refactoring?
+
+- [ ] Refactoring can reduce the effort for future development
+- [x] Refactoring is used to fix bugs
+- [ ] Refactoring improves the design of the system
+- [ ] Refactoring improves the maintainability of the code
+
+#### Q106. In the Scaled Agile Framework, consecutive iterations are grouped together into a PI. What is a PI?
+
+- [ ] Project Increment
+- [ ] Portfolio Increment
+- [ ] Product Increment
+- [x] Program Increment
+
+[Reference](https://www.scaledagileframework.com/program-increment/) `A Program Increment (PI) is a timebox during which an Agile Release Train (ART) delivers incremental value in the form of working, tested software and systems. PIs are typically 8 – 12 weeks long.`
+
+#### Q107. How an you improve interaction between team members?
+
+- [ ] Move people's workstation around in the team room to create new social possibilites
+- [ ] Since no one has come to you with a compliant, assume that the limited interaction works for everyone
+- [x] Ask the team if they would like to do something recreational together and offer to organize it
+- [ ] Tell the team that you see this as a problem and ask them to solve it
+
+#### Q108. Which scale is typically used for Planning Poker?
+
+- [ ] less than 1 hour, 1 to 4 hours, 4 to 8 hours, 8 to 24 hours, more than 24 hours
+- [ ] 2, 4, 6, 8, 10
+- [ ] XS, S, M, L, XL
+- [x] 1, 2, 3, 4, 5, 8, 13, 20
+
+#### Q109. You are the Scrum Master and, having just facilitated a meeting, you're reflecting on ways to improve. What skill are you displaying?
+
+- [x] being self-aware
+- [ ] being extroverted
+- [ ] having type A personality
+- [ ] being someone who takes charge
+
+#### Q110. What background information is most important for a successful Product Owner to understand?
+
+- [ ] The budget for the product.
+- [ ] The underlying technology of the product.
+- [ ] The development team's strengths and weaknesses.
+- [x] The business context for the product.
+
+#### Q111. You are facilitating a meeting to decompose user stories and, unexpectedly, a development team member cannot attend. What should you do?
+
+- [ ] Hold the meeting and update the person who could not attend later.
+- [ ] Ask the person who could not attend to reschedule the meeting based on their availability.
+- [x] Ask all meeting participants what they want to do about the one person's absence
+- [ ] Reschedule the meeting for when all necessary people can attend
+
+#### Q112. As the Scrum Master, you've observed that team members are more comforatble communicating via instant messaging than through direct conversions. How can you encourage conversation between team members?
+
+- [ ] Move people's workstation around in the team room to create new social possibilities.
+- [x] Since no one has come to you with a complaint, assume that the limited conversation works for everyone.
+- [ ] Tell the team that you see this as a problem and ask them to solve it.
+- [ ] Ask the team if they can think of ways to increase direct converstaion.
+
+#### Q113. What is the expected outcome of the Daily Scrum meeting?
+
+- [ ] updated status on all of the work
+- [x] team alignment on its plan for the day
+- [ ] a list of impediments and priorities
+- [ ] a report to the Product Owner of stories ready to be accepted
+
+#### Q114. Which statement about the actor in a user story can be true?
+
+- [ ] There must be multiple personas for each actor.
+- [ ] The actor does not have to be a specified role in the solution.
+- [ ] The system cannot be the actor.
+- [x] The actor can be the system itself.
+
+[Reference](https://tcagley.wordpress.com/2015/03/31/the-difference-between-a-persona-and-an-actor/) Actors can be a person, group, or system(s).
+
+#### Q115. In Agile, which of the following options is a high priority?
+
+- [ ] Comprehensive documentation
+- [ ] Processes and tools
+- [ ] Contract negotiation
+- [x] Working software
+
+[Reference](https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/) `Agile projects are characterized by a series of tasks that are conceived, executed and adapted as the situation demands and one of the priorities is working software.`
+
+#### Q116. What types of environments work best for Agile principles?
+
+- [ ] It works great in static environments.
+- [x] It works great in dynamic environments.
+- [ ] It works great in customer environments.
+- [ ] Agile has been proven to not work in any good environment.
+
+[Reference](https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/) `The Agile environment appeals to quick actions, discussions, evaluations, and considerations for different approaches. It works great in dynamic environments where there is a potential for changing or evolving requirements.`
+
+#### Q117. What does being a Cross-Functional team mean?
+
+- [ ] That every team in the organization has a particular specialism
+- [ ] That each team member has their own specialism
+- [x] That all the skills necessary exist within the team
+- [ ] That teams can communicate effectively
+
+#### Q118. What is a PBI?
+
+- [ ] Product Before Increment
+- [ ] Project Billing Information
+- [ ] Productive Backlog Increment
+- [x] Product Backlog Item
+
+#### Q119. Which of the following scrum events is dedicated to process improvement?
+
+- [ ] The sprint planning
+- [ ] The daily scrum
+- [x] The sprint retrospective
+- [ ] The sprint review
+
+#### Q120. For a month-long sprint, the time-box for a sprint retrospective is **\_**.
+
+- [x] 3 hours
+- [ ] 6 hours
+- [ ] 8 hours
+- [ ] 1 hour
+
+#### Q121. Which type of Kanban diagram shows the number of issues in each of the states?
+
+- [x] burn down chart
+- [ ] control chart
+- [ ] burn up chart
+- [ ] cumulative flow
+
+#### Q122. Which of the following statements about a Kanban control chart is false?
+
+- [ ] The light blue shaded area is the standard deviation.
+- [ ] The green dots are the issues themselves.
+- [x] The control chart works best when the tasks that you're tracking are of different sizes.
+- [ ] The blue line is the rolling average cycle time.
+
+#### Q123. What does EBM consider in Managerial Decisions?
+
+- [ ] Productivity and ethical concerns
+- [x] Circumstance and ethical concerns
+- [ ] Circumstances and financial concerns
+- [ ] Moral and ethical concerns
+
+#### Q124. Stacey's process complexity model shows us that agile thinking is best **\*\***\_\_\_**\*\***.
+
+- [ ] When there is high complexity
+- [ ] When there is high certainty
+- [x] Regardless of complexity or certainty
+- [ ] When there is low certainty and complexity
+
+#### Q125. What is a DEEP product backlog?
+
+- [ ] Detailed Appropriately, Emergent, Elegant & Prioritized
+- [ ] Detailed Adequately, Emergent, Estimated & Prioritized
+- [ ] Detailed Appropriately, Emanant, Estimated & Prioritized
+- [x] Detailed Appropriately, Emergent, Estimated & Prioritized
+
+#### Q126. Which Jira feature provides an overview of multiple projects?
+
+- [x] roll-up boards
+- [ ] code integration
+- [ ] task automation
+- [ ] reporting
+
+#### Q127. Which of the following elements is not a pillar of Scrum?
+
+- [ ] adaptation
+- [ ] transparency
+- [x] sustainability
+- [ ] inspection
+
+#### Q128. What aspects of the product is the Product Owner responsible for?
+
+- [ ] Guiding the Development Team on the product
+- [ ] Managing and owning the backlog
+- [x] All of the choices are correct
+- [ ] The product itself
+
+#### Q129. In Scrum, at the end of each sprint, there is a **\_** meeting in which the team receives and gives feedback on their processes and their performance.
+
+- [x] retrospective
+- [ ] review
+- [ ] reflection
+- [ ] sprint
+
+#### Q130. In the INVEST acronym for user stories, what does the "V" stand for?
+
+- [x] valuable
+- [ ] verifiable
+- [ ] veracity
+- [ ] voluminous
+
+#### Q131. Having a mindset focused on growth and opportunity is healty for Agile team members. How can you display a growth mindset?
+
+- [x] See challenges as opportunities
+- [ ] Point out the failures of others
+- [ ] Quit while you're ahed
+- [ ] Celebrate only when you succeed
+
+#### Q132. The Scaled Agile Framework advocates that, if you measure only one thing, what should you measure?
+
+- [x] cost of delay
+- [ ] return on investment
+- [ ] quality
+- [ ] predictability of delivery
+
+#### Q133. Which statement about the Agile Manifesto is true?
+
+- [ ] It was written via crowdsourcing and its authors are unknown
+- [ ] It was written in 2001 and is obsolete.
+- [x] It was written in response to documentation-heavy software development project practices.
+- [ ] It was first published as part of Jim Highsmith's doctoral thesis.
+
+[Reference](https://agilemanifesto.org/history.html) `"(...)others sympathetic to the need for an alternative to documentation driven, heavyweight software development processes convened." [First paragraph]`
+
+#### Q134. Progress toward a sprint goal is in jeopardy becauseyou have not received sales data. What should you do?
+
+- [ ] Be sure to mention the issue in the next Scrum
+- [x] Share the problem with your team to see if they can create a solution
+- [ ] Work around the issue until the last responsible moment to solve it
+- [ ] Check the Product Owner's schedule and book time for a meeting
