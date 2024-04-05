@@ -113,7 +113,7 @@ Source: This is in practice mode
 
 [Source](https://musictech.com/tutorials/logic-pro/using-bus-sends-and-aux-channels-in-logic-pro-x/#:~:text=If%20you%20intend%20to%20have,all%20the%20respective%20bus%20sends.)
 
-#### Q13. When you load up a patch, what happens?
+#### Q14. When you load up a patch, what happens?
 
 - [ ] The session automatically saves
 - [x] The channel strip is loaded with any of the following: plug-ins, aux sends, MIDI FX, and/or software instruments
@@ -122,7 +122,7 @@ Source: This is in practice mode
 
 [Source](https://support.apple.com/en-us/HT202738)
 
-#### Q14. You want to set a range of playback in the main windows and have the playhead stop. What tool can you make a selection with to make this happen?
+#### Q15. You want to set a range of playback in the main windows and have the playhead stop. What tool can you make a selection with to make this happen?
 
 - [ ] The pointer tool
 - [x] The marquee tool
@@ -131,7 +131,7 @@ Source: This is in practice mode
 
 [Source](https://www.shortcutfoo.com/app/dojos/logic-pro-x-mac/cheatsheet)
 
-#### Q15. What dows this image show?
+#### Q16. What dows this image show?
 
 ![img](./img/3.jpg)
 
@@ -140,7 +140,7 @@ Source: This is in practice mode
 - [ ] external MIDI track
 - [ ] software instrument track
 
-#### Q16. When opening Logic Pro X, you are presented by default with the Choose a project dialog box, how do you change this default behavior?
+#### Q17. When opening Logic Pro X, you are presented by default with the Choose a project dialog box, how do you change this default behavior?
 
 - [ ] Click Window > Open Project Audio
 - [ ] Press Shift+Command+4
@@ -149,7 +149,7 @@ Source: This is in practice mode
 
 [Source](https://support.apple.com/guide/logicpro/project-handling-preferences-lgcp43defb63/mac)
 
-#### Q17. When you open and work in a stock project template, such as Electronic what happens when you click Save?
+#### Q18. When you open and work in a stock project template, such as Electronic what happens when you click Save?
 
 - [ ] You will lose your changes
 - [ ] You are focred to use a new project name, since you cannot save over a template.
@@ -158,7 +158,7 @@ Source: This is in practice mode
 
 [Source](https://support.apple.com/guide/logicpro/save-projects-lgcpce128e82/mac)
 
-#### Q18. How do you split a region in the location where your playhead is?
+#### Q19. How do you split a region in the location where your play head is?
 
 - [ ] Press Command+T
 - [x] Select Window > Split Region
@@ -166,3 +166,73 @@ Source: This is in practice mode
 - [ ] all of these answers
 
 [Source](https://logicpro.skydocu.com/en/create-a-song-arrangement/arrange-regions-in-the-tracks-area/split-regions/)
+
+#### Q20. In Logic Pro, which of the following is NOT a MIDI event type?
+
+- [ ] Note On
+- [ ] Program Change
+- [x] Audio Bounce
+- [ ] Control Change
+
+#### Q21. What is the primary purpose of the Environment window in Logic Pro?
+
+- [ ] To record audio tracks
+- [x] To create custom MIDI processing and routing setups
+- [ ] To apply audio effects
+- [ ] To edit audio waveforms
+
+#### Q22. Which tool in Logic Pro is used for time-stretching and pitch-shifting audio regions?
+
+- [ ] Scissors tool
+- [ ] Pencil tool
+- [ ] Eraser tool
+- [x] Flex tool
+
+#### Q23. Which feature in Logic Pro is used to group tracks together for simultaneous editing or processing?
+
+- [ ] Solo
+- [ ] Mute
+- [ ] Bounce
+- [x] Track Stacks
+
+#### Q24. What is the purpose of the Score Editor in Logic Pro?
+
+- [ ] To mix audio tracks
+- [ ] To edit MIDI note events
+- [x] To create and edit music notation
+- [ ] To record automation
+
+#### Q25. In Logic Pro, which feature is used for automating changes in a track's volume, pan, or other parameters over time?
+
+- [ ] Cycle region
+- [ ] Step Sequencer
+- [x] Automation
+- [ ] Audio Units
+
+#### Q26. Which Logic Pro feature is used for creating and organizing different versions of a project for experimentation or collaboration?
+
+- [ ] Marker track
+- [ ] Track Header
+- [x] Alternatives
+- [ ] Smart Controls
+
+#### Q27. What type of audio file format is commonly used for exporting and sharing audio projects in Logic Pro?
+
+- [ ] DOCX
+- [ ] MP4
+- [ ] WAV
+- [x] AIFF
+
+#### Q28. Which Logic Pro feature is used to quantize the timing of MIDI note events to a specific grid or musical time division?
+
+- [ ] Take folders
+- [ ] Arrangement markers
+- [x] MIDI Quantize
+- [ ] Project alternatives
+
+#### Q29 Which tool is used for slicing and editing audio regions in Logic Pro?
+
+- [ ] Brush tool
+- [ ] Text tool
+- [ ] Move tool
+- [x] Marquee tool

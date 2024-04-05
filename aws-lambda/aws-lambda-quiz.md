@@ -296,9 +296,9 @@
 
 #### Q43. What is the relationship between SAM template and CloudFormation template files?
 
-- [ ] SAM templates are a superset of CloudFormation templates. SAM templates include additional resource types.
 - [ ] SAM templates have some overlap with CloudFormation templates. Both SAM and CloudFormation templates include resource types that are not in the other type of template.
-- [x] CloudFormation templates are a superset of SAM templates. CloudFormation templates include additional resource types.
+- [x] SAM templates are a superset of CloudFormation templates. SAM templates include additional resource types.
+- [ ] CloudFormation templates are a superset of SAM templates. CloudFormation templates include additional resource types.
 - [ ] SAM templates are a different name for CloudFormation templates. Both template types include the same resource types.
 
 #### Q44. What service deploys Lambdas regionally?
@@ -324,7 +324,7 @@
 
 #### Q47. You want to minimize cold start time for your Lambda. What do you do?
 
-- [ ] Add extra code to check if the transient cache, or the /tmp directory, has the data that you stored.
+- [x] Add extra code to check if the transient cache, or the /tmp directory, has the data that you stored.
 - [ ] Add extra code to check if the permanent cache, or the /cache directory, has the data that you stored.
 - [ ] Do nothing. AWS minimizes cols start time by default.
 - [ ] Create a warm-up Lambda that calls your Lambda every minute
@@ -344,8 +344,10 @@
 
 - [ ] at the function level
 - [ ] at the alias or function level
-- [ ] at the version, alias, or function level
+- [x] at the version, alias, or function level
 - [ ] at the version or function level
+
+[Reference](https://docs.aws.amazon.com/lambda/latest/dg/access-control-resource-based.html)
 
 #### Q50. Lambda can read events from which other AWS services? (ref-https://docs.aws.amazon.com/lambda/latest/dg/lambda-services.html)
 
@@ -412,3 +414,180 @@
 - [ ] Send the Lambda failures to a Dead Letter Queue
 - [x] Use AWS X-Ray to step through the function
 - [ ] Use Kinesis to write their own custom logging tool
+
+#### Q58. Lambdas can be created **\_**.
+
+- [x] All of these answers
+- [ ] From scratch
+- [ ] From the app repository
+- [ ] Using a blueprint
+
+#### Q59. You need to quickly understand execution times for two different Lambda functions with different invocation types: asynchronous and synchronous. What do you do?
+
+- [x] Enable tracing, rerun the lambdas, and view in the lambda console
+- [ ] View the logs in CloudTrail
+- [ ] View the logs in CloudWatch
+- [ ] Enable tracing, rerun the Lambdas, and view in the X-Ray console
+
+#### Q60. Which tool would you use to test a Lambda locally?
+
+- [ ] AWS SAM
+- [ ] AWS CLI
+- [ ] AWS CloudFormation
+- [x] AWS SAM CLI
+
+#### Q61. Your function failed to execute due to a timeout. What type of error is this?
+
+- [ ] Caller
+- [x] Runtime
+- [ ] Request
+- [ ] Account
+
+#### Q62. A company will be modernizing their application which is currently running on Amazon Elastic Cloud Compute (EC2) instances. They have experience with scaling this infrastructure using Amazon EC2 Autoscaling. They want to move to serverless infrastructure consisting of an Amazon API Gateway that triggers Lambda functions. They are consulting you about scaling this new infrastructure. What should the company consider in order to make sure the serverless infrastructure scales to their needs?
+
+- [ ] Enable Auto Scaling Groups for AWS Lambda to ensure that enough Lambda functions are ready to handle the incoming requests
+- [ ] Throttle Lambda functions by configuring reserved concurrency, sending the excess traffic to Dead Letter Queues (DLQ) that will be handled when the request volume reduces.
+- [x] Look at service limits for Amazon API Gateway and Lambda functions used in order to identify potential bottlenecks and balance performance requirements, costs, and business impact
+- [ ] Do nothing. API Gateway and AWS Lambda are managed services that have built-in horizontal scaling, security, and high availability to handle unlimited amount of requests
+
+**Explanation**
+
+- `In serverless it is important to understand the service limits of all the services used end to end to understand the level of requests that can be handled.`
+
+#### Q63. Can we use pakages with AWS Lambda?
+
+- [ ] No, AWS Lambda does not support the use of external packages.
+- [x] Yes, AWS Lambda supports the use of custom and NPM packages
+- [ ] AWS Lambda only supports built-in packages.
+- [ ] Packages can be used but require additional fees.
+
+#### Q64. Are AWS Lambda functions available and to what extent?
+
+- [ ] AWS Lambda functions are available 24/7 without any limitations.
+- [ ] AWS Lambda functions are available but may experience scheduled downtimes.
+- [x] AWS Lambda functions are highly available with redundancy and replications.
+- [ ] AWS Lambda functions are available only during business hours.
+
+#### Q65. Is there any default limit to be applied at a functional level?
+
+- [ ] Yes, there is a default limit to be applied at a functional level.
+- [x] No, there is no default limit to be applied at a functional level.
+- [ ] The default limit depends on the AWS Lambda service plan.
+- [ ] Functional limits are set by users during configuration.
+
+#### Q66. How long can an AWS Lambda function execute?
+
+- [ ] 60 seconds
+- [x] 300 seconds
+- [ ] 600 seconds
+- [ ] 30 seconds
+
+#### Q67. How does AWS Lambda secure my code?
+
+- [ ] AWS Lambda stores code in plaintext without encryption
+- [x] AWS Lambda encrypts and stores it in Amazon S3.
+- [ ] AWS Lambda does not provide any security measures for code.
+- [ ] AWS Lambda relies on third-party security tools for code protection.
+
+#### Q68. Which languages are supported by AWS Lambda?
+
+- [x] Python, C#, JavaScript and Java
+- [ ] Ruby, PHP, Swift
+- [ ] C++ and Rust
+- [ ] # HTML and CSS
+  In serverless it is important to understand the service limits of all the services used end to end to understand the level of requests that can be handled.
+
+#### Q63. What does AWS Lambda mean?
+
+- [ ] a) AWS Lambda is a database service offered by AWS.
+- [x] b) AWS Lambda is a serverless computing service provided by AWS.
+- [ ] c) AWS Lambda is a machine learning framework developed by AWS.
+- [ ] d) AWS Lambda is an IoT platform developed by AWS.
+
+#### Q64. What restrictions apply to AWS Lambda function code?
+
+- [x] a) Lambda imposes restrictions on the use of outbound network connections.
+- [ ] b) Lambda imposes restrictions on trace calls for debugging.
+- [ ] c) Lambda allows unlimited TCP port 25 traffic.
+- [ ] d) Lambda imposes restrictions on the execution time of functions.
+
+#### Q65. How long can an AWS Lambda function execute?
+
+- [ ] a) 60 seconds
+- [x] b) 300 seconds
+- [ ] c) 600 seconds
+- [ ] d) 30 seconds
+
+#### Q66. How does AWS Lambda secure my code?
+
+- [ ] a) AWS Lambda stores code in plaintext without encryption.
+- [x] b) AWS Lambda encrypts code and stores it in Amazon S3.
+- [ ] c) AWS Lambda does not provide any security measures for code.
+- [ ] d) AWS Lambda relies on third-party security tools for code protection.
+
+#### Q67. Which languages are supported by AWS Lambda?
+
+- [x] a) Python, C#, JavaScript, and Java
+- [ ] b) Ruby, PHP, and Swift
+- [ ] c) C++ and Rust
+- [ ] d) HTML and CSS
+
+#### Q68. What is the definition of Auto-Scaling?
+
+- [ ] a) Auto-Scaling is a feature that automatically scales AWS Lambda functions.
+- [x] b) Auto-Scaling is a feature that automatically scales AWS EC2 instances.
+- [ ] c) Auto-Scaling is a feature that automatically scales AWS S3 storage.
+- [ ] d) Auto-Scaling is a feature that automatically scales AWS RDS databases.
+
+#### Q69. Is the infrastructure accessible on which the AWS Lambda runs?
+
+- [ ] a) Yes, users have full access to the underlying infrastructure.
+- [x] b) No, AWS Lambda abstracts the underlying infrastructure and does not provide access.
+- [ ] c) Users have access to infrastructure but with limited permissions.
+- [ ] d) Users can request access to infrastructure from AWS support.
+
+#### Q70. Can I use packages with AWS Lambda?
+
+- [ ] a) No, AWS Lambda does not support the use of external packages.
+- [x] b) Yes, AWS Lambda supports the use of custom and NPM packages.
+- [ ] c) AWS Lambda only supports built-in AWS packages.
+- [ ] d) Packages can be used but require additional fees.
+
+#### Q71. Are AWS Lambda functions available and to what extent?
+
+- [ ] a) AWS Lambda functions are available 24/7 without any limitations.
+- [ ] b) AWS Lambda functions are available but may experience scheduled downtimes.
+- [x] c) AWS Lambda functions are highly available with redundancy and replication.
+- [ ] d) AWS Lambda functions are available only during business hours.
+
+#### Q72. Is there any default limit to be applied at a functional level?
+
+- [ ] a) Yes, there is a default limit applied at a functional level.
+- [x] b) No, there is no default limit applied at a functional level.
+- [ ] c) The default limit depends on the AWS Lambda service plan.
+- [ ] d) Functional limits are set by users during configuration.
+
+#### Q73. You are using lambda (with large ram allocations) to process videos uploaded to S3 and to convert from their video format to H264. However the operation fails when dealing with particularly large video files. What is the cause of this?
+
+- [x] The default 5 mintutes timeout.
+- [ ] Lambda does not allow vedio encoding.
+- [ ] s3 transfer bottlenecks
+- [ ] s3 cannot talk to Lambda
+
+#### Q74. What is an AWS service or application that triggers a Lambda to run?
+
+- [ ] an input trigger
+- [ ] an input event
+- [x] an event source
+- [ ] an event trigger
+
+**Explanation**
+
+- `An event source is an AWS service or developer-created application that produces events that trigger an AWS Lambda function to run. Some services publish these events to Lambda by invoking the cloud function directly (for example, Amazon S3).` https://aws.amazon.com/lambda/faqs/#:~:text=An%20event%20source%20is%20an,for%20example%2C%20Amazon%20S3
+
+#### Q75. What does a Lambda need to access DynamoDB tables?
+
+- [ ] HTTPS certificate
+- [x] IAM role permissions
+- [ ] DynamoDB SDK
+- [ ] admin role
